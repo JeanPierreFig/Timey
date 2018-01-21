@@ -9,11 +9,16 @@
 import UIKit
 
 class ImageCollectionViewController: UIViewController {
-
+    @IBOutlet var cameraButton: UIButton!
+    var inProgress: inprogress!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //Draw camera button on screen.
+        cameraButton.layer.masksToBounds = true
+        cameraButton.layer.cornerRadius = cameraButton.frame.width/2
+        cameraButton.layer.borderWidth = 10
+        cameraButton.layer.borderColor = (UIColor.white).cgColor
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +26,10 @@ class ImageCollectionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func dismiss(){
+        self.dismiss(animated: true, completion: nil)
     }
-    */
+    
+
 
 }

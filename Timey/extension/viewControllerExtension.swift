@@ -1,8 +1,8 @@
 //
-//  stringExtension.swift
+//  viewControllerExtension.swift
 //  Timey
 //
-//  Created by Jean Pierre on 1/18/18.
+//  Created by Jean Pierre on 1/20/18.
 //  Copyright © 2018 Jean Pierre Figaredo. All rights reserved.
 //
 
