@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class inprogress {
+class Inprogress {
     var title:String
     var createdAt:Date
     var images:[UIImage]!
@@ -27,7 +27,6 @@ class inprogress {
                 let fileURL = dir.appendingPathComponent(name)
                 do {
                     let imageData = try Data(contentsOf: fileURL)
-                    print(fileURL)
                     self.images.append(UIImage(data: imageData)!)
                 }
                 catch{
@@ -37,4 +36,6 @@ class inprogress {
             }
         }
     }
+    
+   
 }
