@@ -1,5 +1,5 @@
 //
-//  Timelapse+CoreDataProperties.swift
+//  Done+CoreDataProperties.swift
 //  
 //
 //  Created by Jean Pierre on 1/25/18.
@@ -11,14 +11,14 @@ import Foundation
 import CoreData
 
 
-extension Timelapse {
+extension Done {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Timelapse> {
-        return NSFetchRequest<Timelapse>(entityName: "Timelapse")
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Done> {
+        return NSFetchRequest<Done>(entityName: "Done")
     }
 
     @NSManaged public var createdAt: Date?
-    @NSManaged public var imagesPath: NSObject?
     @NSManaged public var title: String?
+    @NSManaged public var videoPath: String?
 
 }

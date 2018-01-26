@@ -1,5 +1,5 @@
 //
-//  Model+CoreDataModel.swift
+//  Done+CoreDataClass.swift
 //  
 //
 //  Created by Jean Pierre on 1/25/18.
@@ -10,4 +10,7 @@
 import Foundation
 import CoreData
 
+@objc(Done)
+public class Done: NSManagedObject {
 
+}

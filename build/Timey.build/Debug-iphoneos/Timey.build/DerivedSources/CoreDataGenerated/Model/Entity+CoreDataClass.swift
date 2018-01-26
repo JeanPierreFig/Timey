@@ -1,5 +1,5 @@
 //
-//  Model+CoreDataModel.swift
+//  Entity+CoreDataClass.swift
 //  
 //
 //  Created by Jean Pierre on 1/25/18.
@@ -10,4 +10,7 @@
 import Foundation
 import CoreData
 
+@objc(Entity)
+public class Entity: NSManagedObject {
 
+}
