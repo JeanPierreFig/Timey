@@ -1,0 +1,11 @@
+framework module AASegmentedControl {
+  umbrella header "AASegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AASegmentedControl.Swift {
+    header "AASegmentedControl-Swift.h"
+    requires objc
+}

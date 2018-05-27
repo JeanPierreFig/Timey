@@ -1,0 +1,325 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlayerView"
+provides-nominal:
+- "5Timey10PlayerViewC"
+provides-member:
+- ["5Timey10PlayerViewC", ""]
+provides-dynamic-lookup:
+- "layerClass"
+depends-top-level:
+- "AVPlayer"
+- "AVPlayerLayer"
+- "AnyClass"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "PlayerView"
+- "UIView"
+depends-member:
+- !private ["So13AVPlayerLayerC", "player"]
+- !private ["So7CALayerC", "player"]
+- !private ["So15CALayerDelegateP", "AVPlayerLayer"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "playerLayer"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So13CAMediaTimingP", "player"]
+- !private ["s7CVarArgP", "AVPlayerLayer"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "playerLayer"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayerLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "playerLayer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "AVPlayerLayer"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "playerLayer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "AVPlayerLayer"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "player"]
+- !private ["s9EquatableP", "playerLayer"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "AVPlayerLayer"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "playerLayer"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "AVPlayerLayer"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "playerLayer"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "AVPlayer"]
+- ["So8NSObjectC", "AVPlayerLayer"]
+- ["So8NSObjectC", "AnyClass"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "layerClass"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "playerLayer"]
+- !private ["So16NSObjectProtocolP", "AVPlayerLayer"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "playerLayer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "player"]
+- ["5Timey10PlayerViewC", "AVPlayer"]
+- ["5Timey10PlayerViewC", "AVPlayerLayer"]
+- ["5Timey10PlayerViewC", "AnyClass"]
+- ["5Timey10PlayerViewC", "deinit"]
+- ["5Timey10PlayerViewC", "init"]
+- !private ["5Timey10PlayerViewC", "layer"]
+- ["5Timey10PlayerViewC", "layerClass"]
+- ["5Timey10PlayerViewC", "player"]
+- ["5Timey10PlayerViewC", "playerLayer"]
+- !private ["So29UIAccessibilityIdentificationP", "AVPlayerLayer"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "playerLayer"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "AVPlayerLayer"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "playerLayer"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "AVPlayerLayer"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "playerLayer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "AVPlayerLayer"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "playerLayer"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "AVPlayerLayer"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "playerLayer"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "AVPlayerLayer"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "playerLayer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "AVPlayerLayer"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "playerLayer"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "AVPlayerLayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "playerLayer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AVPlayer"]
+- ["So11UIResponderC", "AVPlayerLayer"]
+- ["So11UIResponderC", "AnyClass"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "layerClass"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "playerLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "AVPlayerLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "playerLayer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "AVPlayerLayer"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "playerLayer"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "AVPlayer"]
+- ["So6UIViewC", "AVPlayerLayer"]
+- ["So6UIViewC", "AnyClass"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "layerClass"]
+- ["So6UIViewC", "player"]
+- ["So6UIViewC", "playerLayer"]
+- ["So6UIViewC", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AVPlayerLayer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "playerLayer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playerLayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- !private "So13AVPlayerLayerC"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "5Timey10PlayerViewC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Modules/AASegmentedControl.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-umbrella.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TwitterCore.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRSessionStore.h"
+- "/Users/jeanpierre/Timey/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDelegate.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoPlaybackState.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMediaEntitySize.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAuthConfig.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTROAuthSigning.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetTableViewCell.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRSession.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAuthSession.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRGuestSession.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubAdConfiguration.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRLogInButton.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineViewController.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposerViewController.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUser.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposer.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineFilter.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTwitter.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineCursor.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRDefines.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
+- "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRKit.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetCashtagEntity.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetHashtagEntity.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetUrlEntity.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetUserMentionEntity.h"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
+- "/Users/jeanpierre/Timey/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
+- "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap"
+interface-hash: "f516b5e157504533118df901746e82ae"

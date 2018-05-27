@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+import Foundation
+
+class DoneModel {
+    var title:String
+    var createdAt:Date
+    var videoURL: URL!
+    
+    init(title:String,createdAt:Date, videoName:String) {
+        self.title = title
+        self.createdAt = createdAt
+        if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
+            let fileURL = dir.appendingPathComponent(videoName)
+            print(fileURL)
+            self.videoURL = fileURL
+        }
+    }
+    
+}

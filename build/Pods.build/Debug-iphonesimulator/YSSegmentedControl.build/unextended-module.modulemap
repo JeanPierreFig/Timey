@@ -1,0 +1,10 @@
+framework module YSSegmentedControl {
+  umbrella header "YSSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module YSSegmentedControl.__Swift {
+    exclude header "YSSegmentedControl-Swift.h"
+}

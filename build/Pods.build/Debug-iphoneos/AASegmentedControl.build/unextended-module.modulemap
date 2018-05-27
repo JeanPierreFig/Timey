@@ -1,0 +1,10 @@
+framework module AASegmentedControl {
+  umbrella header "AASegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AASegmentedControl.__Swift {
+    exclude header "AASegmentedControl-Swift.h"
+}

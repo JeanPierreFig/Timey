@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "157d217e9f0afb27c6fbe6905316b8c3"
+build_time: [1515743091, 403607000]
+inputs:
+  "/Users/jeanpierre/Timey/Pods/YSSegmentedControl/YSSegmentedControl/YSSegmentedControl/YSSegmentedControl.swift": !dirty [1515743055, 0]

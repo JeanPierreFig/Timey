@@ -9,109 +9,60 @@
 import UIKit
 import CoreData
 import AASegmentedControl
+import AVKit
+import AVFoundation
 
-class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSource, CreateTimeLapseDelegate{
+public let IMAGE_CELL = "Image_cell"
+public let CoreData_Entity_Name = "Timelapse"
+
+class ViewController: UIViewController{
     
-    private  let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    private let appDelegate = UIApplication.shared.delegate as! AppDelegate
     private var manageContext:NSManagedObjectContext!
     private var entityDescription: NSEntityDescription!
-    @IBOutlet var tableView: UITableView!
-    @IBOutlet var segmentedControl: AASegmentedControl!
-    var timelapesInprogress = [inprogress]()
-
+    private var collectionData: [Content] = []
+    @IBOutlet var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        collectionView.layer.cornerRadius = 10
+        collectionView.layer.masksToBounds = true
+        
+        if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
+            layout.delegate = self
+        }
+       // collectionView?.backgroundColor = UIColor.clear
+        collectionView?.contentInset = UIEdgeInsets(top: 23, left: 10, bottom: 10, right: 10)
         manageContext = appDelegate.managedObjectContext
-        entityDescription = NSEntityDescription.entity(forEntityName: "Timelapse", in: manageContext)
-        segmentedControl.itemNames = ["In progress","Done"]
-        segmentedControl.font = UIFont(name: "Helvetica Neue", size: 12.0)!
-        segmentedControl.selectedIndex = 0
-        segmentedControl.addTarget(self,
-                                 action: #selector(ViewController.segmentValueChanged(_:)),
-                                 for: .valueChanged)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        loadInProgress()
-        tableView.reloadData()
-    }
-    
-    func loadInProgress(){
-        timelapesInprogress.removeAll()
+        entityDescription = NSEntityDescription.entity(forEntityName: CoreData_Entity_Name, in: manageContext)
         
-        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Timelapse")
-        
-//        let sectionSortDescriptor = NSSortDescriptor(key: "createdAt", ascending: true)
-//        let sortDescriptors = [sectionSortDescriptor]
-//        fetchRequest.sortDescriptors = sortDescriptors
-        
-        do{
-            let results = try manageContext.fetch(fetchRequest)
-            
-            print(results)
-            for obj in results{
-                let title = obj.value(forKey: "title") as! String
-                let imagePath = obj.value(forKey: "imagesPath") as! [String]
-                let createdAt = obj.value(forKey: "createdAt") as! Date
-                timelapesInprogress.append(inprogress(title: title, createdAt: createdAt, imagesName: imagePath))
-                self.tableView.reloadData()
-                print(imagePath)
-            }
-        }
-        catch{
-            print("error retrieving data.")
-        }
+        //Retrive data from core data
+        collectionData = CoreDataHelper.LoadData(manageContext: manageContext)
+        collectionView.reloadData()
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if  let navVC = segue.destination as? UINavigationController ,
-            let dest = navVC.viewControllers.first as? ImageCollectionViewController{
-            dest.inProgress = timelapesInprogress[(tableView.indexPathForSelectedRow?.row)!]
-        }
-    }
-    
-    
-    //MARK: CreateTimeLapseDelegate
-    
-    func didCreateNewTimeLapse() {
-        loadInProgress()
-    }
-    
-    //MARK: TableViewDataSource Methods
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return timelapesInprogress.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "InProgressCell", for: indexPath)
-        cell.textLabel?.textColor = .white
-        cell.textLabel?.backgroundColor = UIColor(white: 1, alpha: 0)
-        cell.textLabel?.text = timelapesInprogress[indexPath.row].title
-        cell.imageView?.image = timelapesInprogress[indexPath.row].images[0]
-        
-      
-        return cell
-    }
-    
-    //MARK: TableViewDataSource Methods
+}
 
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 70
+extension ViewController: UICollectionViewDataSource,UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return collectionData.count
     }
     
-    //chnage between in progress and done.
-    @objc func segmentValueChanged(_ sender: AASegmentedControl) {
-        segmentedControl.reloadInputViews()
-    
-        tableView.reloadData()
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: IMAGE_CELL, for: indexPath) as? ImageCollectionViewCell
+        cell?.photo = collectionData[indexPath.row].firstImage
+        cell?.title = collectionData[indexPath.row].title
+        return cell!
     }
+}
 
+extension ViewController : PinterestLayoutDelegate {
+    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat {
+        if indexPath.row % 2 == 0 {
+            return 250
+        }
+        return 300
+    }
 }
 
