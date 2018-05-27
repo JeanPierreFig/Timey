@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7933ce252c2c98d7c035d47613b8e6e3"
+build_time: [1516635062, 873404000]
+inputs:
+  "/Users/jeanpierre/Timey/Timey/Controllers/ImageCollectionViewController.swift": [1516565335, 0]
+  "/Users/jeanpierre/Timey/Timey/TableViewCell.swift": [1515787547, 0]
+  "/Users/jeanpierre/Timey/Timey/Controllers/CameraViewController.swift": [1516500035, 0]
+  "/Users/jeanpierre/Timey/Timey/Controllers/CreateTimeLapseViewController.swift": [1516498563, 0]
+  "/Users/jeanpierre/Timey/Timey/Controllers/ViewController.swift": [1516520431, 0]
+  "/Users/jeanpierre/Timey/Timey/View/ImageCollectionViewCell.swift": [1516509976, 0]
+  "/Users/jeanpierre/Timey/Timey/AppDelegate.swift": [1516234552, 0]
+  "/Users/jeanpierre/Timey/Timey/extension/stringExtension.swift": [1516307062, 0]
+  "/Users/jeanpierre/Timey/Timey/extension/viewControllerExtension.swift": [1516497592, 0]
+  "/Users/jeanpierre/Timey/Timey/Model/InProgress.swift": [1516520378, 0]
+  "/Users/jeanpierre/Timey/build/Timey.build/Debug-iphonesimulator/Timey.build/DerivedSources/CoreDataGenerated/Model/Timelapse+CoreDataClass.swift": [1516635062, 0]
+  "/Users/jeanpierre/Timey/build/Timey.build/Debug-iphonesimulator/Timey.build/DerivedSources/CoreDataGenerated/Model/Timelapse+CoreDataProperties.swift": [1516635062, 0]
+  "/Users/jeanpierre/Timey/build/Timey.build/Debug-iphonesimulator/Timey.build/DerivedSources/CoreDataGenerated/Model/Model+CoreDataModel.swift": [1516635062, 0]

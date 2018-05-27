@@ -1,0 +1,11 @@
+framework module YSSegmentedControl {
+  umbrella header "YSSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module YSSegmentedControl.Swift {
+    header "YSSegmentedControl-Swift.h"
+    requires objc
+}

@@ -1,0 +1,296 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShareError"
+provides-nominal:
+- "13FacebookShare0B5ErrorO"
+provides-member:
+- ["13FacebookShare0B5ErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- "Error"
+- !private "FBSDKShareErrorCode"
+- !private "FBSDKShareErrorDomain"
+- "NSError"
+- "ShareError"
+depends-member:
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "hashValue"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "domain"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "domain"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "domain"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EquatableP", "FBSDKShareErrorCode"]
+- !private ["s9EquatableP", "FBSDKShareErrorDomain"]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- !private ["s9EquatableP", "code"]
+- !private ["s9EquatableP", "dialogNotAvailable"]
+- ["s9EquatableP", "dialogNotAvailableErrorCode"]
+- !private ["s9EquatableP", "domain"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "openGraph"]
+- ["s9EquatableP", "openGraphErrorCode"]
+- !private ["s9EquatableP", "reserved"]
+- ["s9EquatableP", "reservedErrorCode"]
+- !private ["s9EquatableP", "unknown"]
+- ["s9EquatableP", "unknownErrorCode"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "FBSDKShareErrorCode"]
+- !private ["s5ErrorP", "FBSDKShareErrorDomain"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "dialogNotAvailable"]
+- !private ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "openGraph"]
+- !private ["s5ErrorP", "reserved"]
+- !private ["s5ErrorP", "unknown"]
+- ["s5ErrorP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["SC19FBSDKShareErrorCodeO", "dialogNotAvailableErrorCode"]
+- !private ["SC19FBSDKShareErrorCodeO", "init"]
+- ["SC19FBSDKShareErrorCodeO", "openGraphErrorCode"]
+- ["SC19FBSDKShareErrorCodeO", "reservedErrorCode"]
+- ["SC19FBSDKShareErrorCodeO", "unknownErrorCode"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "FBSDKShareErrorCode"]
+- !private ["s8HashableP", "FBSDKShareErrorDomain"]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_userInfo"]
+- !private ["s8HashableP", "code"]
+- !private ["s8HashableP", "dialogNotAvailable"]
+- ["s8HashableP", "dialogNotAvailableErrorCode"]
+- !private ["s8HashableP", "domain"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "openGraph"]
+- ["s8HashableP", "openGraphErrorCode"]
+- !private ["s8HashableP", "reserved"]
+- ["s8HashableP", "reservedErrorCode"]
+- !private ["s8HashableP", "unknown"]
+- ["s8HashableP", "unknownErrorCode"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "domain"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "domain"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "domain"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "domain"]
+- !private ["So16NSObjectProtocolP", "code"]
+- !private ["So16NSObjectProtocolP", "domain"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "domain"]
+- !private ["s7NumericP", "hashValue"]
+- ["s16RawRepresentableP", "dialogNotAvailableErrorCode"]
+- !private ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "openGraphErrorCode"]
+- ["s16RawRepresentableP", "reservedErrorCode"]
+- ["s16RawRepresentableP", "unknownErrorCode"]
+- !private ["13FacebookShare0B5ErrorO", "FBSDKShareErrorCode"]
+- !private ["13FacebookShare0B5ErrorO", "FBSDKShareErrorDomain"]
+- ["13FacebookShare0B5ErrorO", "NSError"]
+- ["13FacebookShare0B5ErrorO", "__derived_enum_equals"]
+- ["13FacebookShare0B5ErrorO", "_code"]
+- ["13FacebookShare0B5ErrorO", "_domain"]
+- ["13FacebookShare0B5ErrorO", "_getEmbeddedNSError"]
+- ["13FacebookShare0B5ErrorO", "_userInfo"]
+- ["13FacebookShare0B5ErrorO", "deinit"]
+- ["13FacebookShare0B5ErrorO", "dialogNotAvailable"]
+- ["13FacebookShare0B5ErrorO", "hashValue"]
+- ["13FacebookShare0B5ErrorO", "init"]
+- ["13FacebookShare0B5ErrorO", "openGraph"]
+- ["13FacebookShare0B5ErrorO", "reserved"]
+- ["13FacebookShare0B5ErrorO", "unknown"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "domain"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SC19FBSDKShareErrorCodeO"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- "s16RawRepresentableP"
+- "13FacebookShare0B5ErrorO"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Users/jeanpierre/Timey/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/jeanpierre/Timey/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
+- "/Users/jeanpierre/Timey/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/jeanpierre/Timey/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/jeanpierre/Timey/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+- "/Users/jeanpierre/Timey/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFGeneric.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectTextures.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectArguments.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/jeanpierre/Timey/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareCameraEffectContent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/jeanpierre/Timey/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/jeanpierre/Timey/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/FacebookShare.build/unextended-module.modulemap"
+- "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/FacebookCore.build/module.modulemap"
+- "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+- "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/FBSDKShareKit.build/module.modulemap"
+- "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/FBSDKCoreKit.build/module.modulemap"
+interface-hash: "89ca6c53d0c98a005f5937e4895cd40b"
