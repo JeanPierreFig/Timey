@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/nanopb-dummy.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/pb_common.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/pb_decode.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/pb_encode.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/nanopb_vers.o
+=======
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/nanopb-dummy.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/pb_common.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/pb_decode.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/pb_encode.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/nanopb.build/Objects-normal/arm64/nanopb_vers.o
+>>>>>>> origin/master

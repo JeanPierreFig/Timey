@@ -14,7 +14,10 @@ provides-dynamic-lookup:
 - "create"
 - "createButton"
 - "datePickerChanged"
+<<<<<<< HEAD
 - "didReceiveMemoryWarning"
+=======
+>>>>>>> origin/master
 - "inputField"
 - "previewImageView"
 - "segmentValueChanged"
@@ -26,42 +29,66 @@ depends-top-level:
 - !private "+"
 - !private "=="
 - "AASegmentedControl"
+<<<<<<< HEAD
 - "AppDelegate"
+=======
+>>>>>>> origin/master
 - !private "Array"
 - "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+<<<<<<< HEAD
 - !private "CGPoint"
 - !private "CGRect"
 - "CastingPrecedence"
+=======
+>>>>>>> origin/master
 - "CreateTimeLapseDelegate"
 - "CreateTimeLapseViewController"
 - !private "Date"
 - !private "DateFormatter"
 - !private "Double"
 - !private "FileManager"
+<<<<<<< HEAD
 - "NSEntityDescription"
 - "NSManagedObject"
 - "NSManagedObjectContext"
 - "String"
 - !private "StringLiteralType"
 - "UIApplication"
+=======
+- !private "NSEntityDescription"
+- !private "NSManagedObject"
+- "String"
+- !private "StringLiteralType"
+>>>>>>> origin/master
 - "UIButton"
 - !private "UIColor"
 - "UIDatePicker"
 - !private "UIDatePickerMode"
 - !private "UIFont"
+<<<<<<< HEAD
 - !private "UIGraphicsBeginImageContextWithOptions"
 - !private "UIGraphicsEndImageContext"
 - !private "UIGraphicsGetImageFromCurrentImageContext"
 - "UIImage"
 - !private "UIImageJPEGRepresentation"
 - !private "UIImageOrientation"
+=======
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+>>>>>>> origin/master
 - "UIImageView"
 - "UITextField"
 - "UITextFieldDelegate"
 - "UIViewController"
+<<<<<<< HEAD
 - !private "ViewController"
+=======
+- !private "appDelegate"
+- !private "entityDescription"
+- !private "manageContext"
+>>>>>>> origin/master
 - !private "print"
 - !private "~="
 depends-member:
@@ -70,8 +97,11 @@ depends-member:
 - !private ["18AASegmentedControlAAC", "itemNames"]
 - !private ["18AASegmentedControlAAC", "reloadInputViews"]
 - !private ["18AASegmentedControlAAC", "selectedIndex"]
+<<<<<<< HEAD
 - !private ["5Timey11AppDelegateC", "managedObjectContext"]
 - !private ["5Timey11AppDelegateC", "saveContext"]
+=======
+>>>>>>> origin/master
 - !private ["Sa", "append"]
 - !private ["Sa", "count"]
 - !private ["Sa", "first"]
@@ -104,16 +134,22 @@ depends-member:
 - !private ["So15CALayerDelegateP", "selectedIndex"]
 - !private ["So15CALayerDelegateP", "setValue"]
 - !private ["So15CALayerDelegateP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So15CALayerDelegateP", "text"]
+=======
+>>>>>>> origin/master
 - !private ["So15CALayerDelegateP", "window"]
 - !private ["So13CAMediaTimingP", "borderColor"]
 - !private ["So13CAMediaTimingP", "borderWidth"]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - !private ["So13CAMediaTimingP", "masksToBounds"]
+<<<<<<< HEAD
 - !private ["SC7CGPointV", "init"]
 - !private ["SC6CGRectV", "init"]
 - !private ["s7CVarArgP", "CGPoint"]
 - !private ["s7CVarArgP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "DataPicker"]
 - !private ["s7CVarArgP", "Date"]
 - !private ["s7CVarArgP", "DateFormatter"]
@@ -122,6 +158,7 @@ depends-member:
 - !private ["s7CVarArgP", "NSEntityDescription"]
 - !private ["s7CVarArgP", "NSManagedObject"]
 - !private ["s7CVarArgP", "String"]
+<<<<<<< HEAD
 - ["s7CVarArgP", "UIApplication"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIDatePickerMode"]
@@ -133,6 +170,13 @@ depends-member:
 - !private ["s7CVarArgP", "UIImageJPEGRepresentation"]
 - !private ["s7CVarArgP", "UIImageOrientation"]
 - !private ["s7CVarArgP", "ViewController"]
+=======
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIDatePickerMode"]
+- !private ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "addTarget"]
 - !private ["s7CVarArgP", "animationDuration"]
 - !private ["s7CVarArgP", "animationImages"]
@@ -148,16 +192,24 @@ depends-member:
 - !private ["s7CVarArgP", "dateFormat"]
 - !private ["s7CVarArgP", "datePickerMode"]
 - !private ["s7CVarArgP", "default"]
+<<<<<<< HEAD
 - ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "draw"]
+=======
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "endEditing"]
 - !private ["s7CVarArgP", "entity"]
 - !private ["s7CVarArgP", "entityDescription"]
 - !private ["s7CVarArgP", "first"]
 - !private ["s7CVarArgP", "font"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "imagesTaken"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "inputField"]
@@ -165,13 +217,17 @@ depends-member:
 - !private ["s7CVarArgP", "itemNames"]
 - !private ["s7CVarArgP", "layer"]
 - !private ["s7CVarArgP", "manageContext"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "masksToBounds"]
 - !private ["s7CVarArgP", "previewImageView"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "reloadInputViews"]
 - !private ["s7CVarArgP", "removeRotationForImage"]
 - !private ["s7CVarArgP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "saveContext"]
 - !private ["s7CVarArgP", "saveToCoreData"]
 - !private ["s7CVarArgP", "saveToDisk"]
@@ -185,6 +241,15 @@ depends-member:
 - !private ["s7CVarArgP", "startAnimating"]
 - !private ["s7CVarArgP", "string"]
 - !private ["s7CVarArgP", "text"]
+=======
+- !private ["s7CVarArgP", "saveToCoreData"]
+- !private ["s7CVarArgP", "saveToDisk"]
+- !private ["s7CVarArgP", "segmentedControl"]
+- !private ["s7CVarArgP", "selectedIndex"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "string"]
+>>>>>>> origin/master
 - ["s7CVarArgP", "textField"]
 - ["s7CVarArgP", "textFieldDidBeginEditing"]
 - ["s7CVarArgP", "textFieldDidEndEditing"]
@@ -208,12 +273,17 @@ depends-member:
 - !private ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "uniqueFilename"]
 - ["5Timey23CreateTimeLapseDelegateP", "didCreateNewTimeLapse"]
+<<<<<<< HEAD
 - !private ["5Timey23CreateTimeLapseDelegateP", "segmentValueChanged"]
 - ["5Timey29CreateTimeLapseViewControllerC", "AASegmentedControl"]
 - ["5Timey29CreateTimeLapseViewControllerC", "AppDelegate"]
 - ["5Timey29CreateTimeLapseViewControllerC", "Bool"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "CGPoint"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "CGRect"]
+=======
+- ["5Timey29CreateTimeLapseViewControllerC", "AASegmentedControl"]
+- ["5Timey29CreateTimeLapseViewControllerC", "Bool"]
+>>>>>>> origin/master
 - ["5Timey29CreateTimeLapseViewControllerC", "CreateTimeLapseDelegate"]
 - ["5Timey29CreateTimeLapseViewControllerC", "DataPicker"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "Date"]
@@ -221,17 +291,24 @@ depends-member:
 - ["5Timey29CreateTimeLapseViewControllerC", "Dissmis"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "Double"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "FileManager"]
+<<<<<<< HEAD
 - !private ["5Timey29CreateTimeLapseViewControllerC", "HighScoreObject"]
 - ["5Timey29CreateTimeLapseViewControllerC", "NSEntityDescription"]
 - ["5Timey29CreateTimeLapseViewControllerC", "NSManagedObject"]
 - ["5Timey29CreateTimeLapseViewControllerC", "NSManagedObjectContext"]
 - ["5Timey29CreateTimeLapseViewControllerC", "String"]
 - ["5Timey29CreateTimeLapseViewControllerC", "UIApplication"]
+=======
+- !private ["5Timey29CreateTimeLapseViewControllerC", "NSEntityDescription"]
+- !private ["5Timey29CreateTimeLapseViewControllerC", "NSManagedObject"]
+- ["5Timey29CreateTimeLapseViewControllerC", "String"]
+>>>>>>> origin/master
 - ["5Timey29CreateTimeLapseViewControllerC", "UIButton"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "UIColor"]
 - ["5Timey29CreateTimeLapseViewControllerC", "UIDatePicker"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "UIDatePickerMode"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "UIFont"]
+<<<<<<< HEAD
 - !private ["5Timey29CreateTimeLapseViewControllerC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "UIGraphicsEndImageContext"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "UIGraphicsGetImageFromCurrentImageContext"]
@@ -241,13 +318,22 @@ depends-member:
 - ["5Timey29CreateTimeLapseViewControllerC", "UIImageView"]
 - ["5Timey29CreateTimeLapseViewControllerC", "UITextField"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "ViewController"]
+=======
+- ["5Timey29CreateTimeLapseViewControllerC", "UIImage"]
+- !private ["5Timey29CreateTimeLapseViewControllerC", "UIImageJPEGRepresentation"]
+- ["5Timey29CreateTimeLapseViewControllerC", "UIImageView"]
+- ["5Timey29CreateTimeLapseViewControllerC", "UITextField"]
+>>>>>>> origin/master
 - !private ["5Timey29CreateTimeLapseViewControllerC", "appDelegate"]
 - ["5Timey29CreateTimeLapseViewControllerC", "create"]
 - ["5Timey29CreateTimeLapseViewControllerC", "createButton"]
 - ["5Timey29CreateTimeLapseViewControllerC", "datePickerChanged"]
 - ["5Timey29CreateTimeLapseViewControllerC", "deinit"]
 - ["5Timey29CreateTimeLapseViewControllerC", "delegate"]
+<<<<<<< HEAD
 - ["5Timey29CreateTimeLapseViewControllerC", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["5Timey29CreateTimeLapseViewControllerC", "dismiss"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "entityDescription"]
 - ["5Timey29CreateTimeLapseViewControllerC", "imagesTaken"]
@@ -256,7 +342,10 @@ depends-member:
 - !private ["5Timey29CreateTimeLapseViewControllerC", "manageContext"]
 - ["5Timey29CreateTimeLapseViewControllerC", "previewImageView"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "print"]
+<<<<<<< HEAD
 - ["5Timey29CreateTimeLapseViewControllerC", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - ["5Timey29CreateTimeLapseViewControllerC", "saveToCoreData"]
 - ["5Timey29CreateTimeLapseViewControllerC", "saveToDisk"]
 - ["5Timey29CreateTimeLapseViewControllerC", "segmentValueChanged"]
@@ -270,8 +359,11 @@ depends-member:
 - ["5Timey29CreateTimeLapseViewControllerC", "textFieldShouldReturn"]
 - !private ["5Timey29CreateTimeLapseViewControllerC", "view"]
 - ["5Timey29CreateTimeLapseViewControllerC", "viewDidLoad"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
 - !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "DataPicker"]
 - !private ["s28CustomDebugStringConvertibleP", "Date"]
 - !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
@@ -280,6 +372,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "NSManagedObject"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
+<<<<<<< HEAD
 - ["s28CustomDebugStringConvertibleP", "UIApplication"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIDatePickerMode"]
@@ -291,6 +384,13 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UIImageJPEGRepresentation"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImageOrientation"]
 - !private ["s28CustomDebugStringConvertibleP", "ViewController"]
+=======
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDatePickerMode"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "addTarget"]
 - !private ["s28CustomDebugStringConvertibleP", "animationDuration"]
 - !private ["s28CustomDebugStringConvertibleP", "animationImages"]
@@ -307,16 +407,24 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
 - !private ["s28CustomDebugStringConvertibleP", "datePickerMode"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
+<<<<<<< HEAD
 - ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "draw"]
+=======
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "endEditing"]
 - !private ["s28CustomDebugStringConvertibleP", "entity"]
 - !private ["s28CustomDebugStringConvertibleP", "entityDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "first"]
 - !private ["s28CustomDebugStringConvertibleP", "font"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "imagesTaken"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "inputField"]
@@ -324,13 +432,17 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "itemNames"]
 - !private ["s28CustomDebugStringConvertibleP", "layer"]
 - !private ["s28CustomDebugStringConvertibleP", "manageContext"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
 - !private ["s28CustomDebugStringConvertibleP", "previewImageView"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "reloadInputViews"]
 - !private ["s28CustomDebugStringConvertibleP", "removeRotationForImage"]
 - !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "saveContext"]
 - !private ["s28CustomDebugStringConvertibleP", "saveToCoreData"]
 - !private ["s28CustomDebugStringConvertibleP", "saveToDisk"]
@@ -344,6 +456,15 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
 - !private ["s28CustomDebugStringConvertibleP", "string"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
+=======
+- !private ["s28CustomDebugStringConvertibleP", "saveToCoreData"]
+- !private ["s28CustomDebugStringConvertibleP", "saveToDisk"]
+- !private ["s28CustomDebugStringConvertibleP", "segmentedControl"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+>>>>>>> origin/master
 - ["s28CustomDebugStringConvertibleP", "textField"]
 - ["s28CustomDebugStringConvertibleP", "textFieldDidBeginEditing"]
 - ["s28CustomDebugStringConvertibleP", "textFieldDidEndEditing"]
@@ -370,8 +491,11 @@ depends-member:
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "uniqueFilename"]
 - !private ["s17CustomReflectableP", "write"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "CGPoint"]
 - !private ["s23CustomStringConvertibleP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "DataPicker"]
 - !private ["s23CustomStringConvertibleP", "Date"]
 - !private ["s23CustomStringConvertibleP", "DateFormatter"]
@@ -380,6 +504,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
 - !private ["s23CustomStringConvertibleP", "NSManagedObject"]
 - !private ["s23CustomStringConvertibleP", "String"]
+<<<<<<< HEAD
 - ["s23CustomStringConvertibleP", "UIApplication"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIDatePickerMode"]
@@ -391,6 +516,13 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIImageJPEGRepresentation"]
 - !private ["s23CustomStringConvertibleP", "UIImageOrientation"]
 - !private ["s23CustomStringConvertibleP", "ViewController"]
+=======
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIDatePickerMode"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addTarget"]
 - !private ["s23CustomStringConvertibleP", "animationDuration"]
@@ -408,16 +540,24 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "dateFormat"]
 - !private ["s23CustomStringConvertibleP", "datePickerMode"]
 - !private ["s23CustomStringConvertibleP", "default"]
+<<<<<<< HEAD
 - ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "draw"]
+=======
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "endEditing"]
 - !private ["s23CustomStringConvertibleP", "entity"]
 - !private ["s23CustomStringConvertibleP", "entityDescription"]
 - !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "font"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "imagesTaken"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "inputField"]
@@ -425,13 +565,17 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "itemNames"]
 - !private ["s23CustomStringConvertibleP", "layer"]
 - !private ["s23CustomStringConvertibleP", "manageContext"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "masksToBounds"]
 - !private ["s23CustomStringConvertibleP", "previewImageView"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "reloadInputViews"]
 - !private ["s23CustomStringConvertibleP", "removeRotationForImage"]
 - !private ["s23CustomStringConvertibleP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "saveContext"]
 - !private ["s23CustomStringConvertibleP", "saveToCoreData"]
 - !private ["s23CustomStringConvertibleP", "saveToDisk"]
@@ -445,6 +589,15 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "startAnimating"]
 - !private ["s23CustomStringConvertibleP", "string"]
 - !private ["s23CustomStringConvertibleP", "text"]
+=======
+- !private ["s23CustomStringConvertibleP", "saveToCoreData"]
+- !private ["s23CustomStringConvertibleP", "saveToDisk"]
+- !private ["s23CustomStringConvertibleP", "segmentedControl"]
+- !private ["s23CustomStringConvertibleP", "selectedIndex"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "string"]
+>>>>>>> origin/master
 - ["s23CustomStringConvertibleP", "textField"]
 - ["s23CustomStringConvertibleP", "textFieldDidBeginEditing"]
 - ["s23CustomStringConvertibleP", "textFieldDidEndEditing"]
@@ -461,7 +614,10 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "write"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["10Foundation4DataV", "write"]
+<<<<<<< HEAD
 - !private ["10Foundation4DateV", "init"]
+=======
+>>>>>>> origin/master
 - !private ["So13DateFormatterC", "dateFormat"]
 - !private ["So13DateFormatterC", "init"]
 - !private ["So13DateFormatterC", "string"]
@@ -482,8 +638,11 @@ depends-member:
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "uniqueFilename"]
 - !private ["s9EncodableP", "write"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "CGPoint"]
 - !private ["s9EquatableP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "DataPicker"]
 - !private ["s9EquatableP", "Date"]
 - !private ["s9EquatableP", "DateFormatter"]
@@ -492,6 +651,7 @@ depends-member:
 - !private ["s9EquatableP", "NSEntityDescription"]
 - !private ["s9EquatableP", "NSManagedObject"]
 - !private ["s9EquatableP", "String"]
+<<<<<<< HEAD
 - ["s9EquatableP", "UIApplication"]
 - !private ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "UIDatePickerMode"]
@@ -503,6 +663,13 @@ depends-member:
 - !private ["s9EquatableP", "UIImageJPEGRepresentation"]
 - !private ["s9EquatableP", "UIImageOrientation"]
 - !private ["s9EquatableP", "ViewController"]
+=======
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIDatePickerMode"]
+- !private ["s9EquatableP", "UIFont"]
+- ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addTarget"]
 - !private ["s9EquatableP", "animationDuration"]
@@ -520,16 +687,25 @@ depends-member:
 - !private ["s9EquatableP", "dateFormat"]
 - !private ["s9EquatableP", "datePickerMode"]
 - !private ["s9EquatableP", "default"]
+<<<<<<< HEAD
 - ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "dismiss"]
 - !private ["s9EquatableP", "documentDirectory"]
 - !private ["s9EquatableP", "draw"]
+=======
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "documentDirectory"]
+>>>>>>> origin/master
 - !private ["s9EquatableP", "endEditing"]
 - !private ["s9EquatableP", "entity"]
 - !private ["s9EquatableP", "entityDescription"]
 - !private ["s9EquatableP", "font"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "imagesTaken"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "inputField"]
@@ -537,13 +713,17 @@ depends-member:
 - !private ["s9EquatableP", "itemNames"]
 - !private ["s9EquatableP", "layer"]
 - !private ["s9EquatableP", "manageContext"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "masksToBounds"]
 - !private ["s9EquatableP", "previewImageView"]
 - !private ["s9EquatableP", "print"]
 - !private ["s9EquatableP", "reloadInputViews"]
 - !private ["s9EquatableP", "removeRotationForImage"]
 - !private ["s9EquatableP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "saveContext"]
 - !private ["s9EquatableP", "saveToCoreData"]
 - !private ["s9EquatableP", "saveToDisk"]
@@ -557,6 +737,15 @@ depends-member:
 - !private ["s9EquatableP", "startAnimating"]
 - !private ["s9EquatableP", "string"]
 - !private ["s9EquatableP", "text"]
+=======
+- !private ["s9EquatableP", "saveToCoreData"]
+- !private ["s9EquatableP", "saveToDisk"]
+- !private ["s9EquatableP", "segmentedControl"]
+- !private ["s9EquatableP", "selectedIndex"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "startAnimating"]
+- !private ["s9EquatableP", "string"]
+>>>>>>> origin/master
 - ["s9EquatableP", "textField"]
 - ["s9EquatableP", "textFieldDidBeginEditing"]
 - ["s9EquatableP", "textFieldDidEndEditing"]
@@ -566,7 +755,10 @@ depends-member:
 - ["s9EquatableP", "textFieldShouldReturn"]
 - !private ["s9EquatableP", "time"]
 - !private ["s9EquatableP", "uniqueFilename"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "up"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "urls"]
 - !private ["s9EquatableP", "userDomainMask"]
 - !private ["s9EquatableP", "valueChanged"]
@@ -588,6 +780,10 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uniqueFilename"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
+<<<<<<< HEAD
+=======
+- !private ["s23ExpressibleByNilLiteralP", "addTarget"]
+>>>>>>> origin/master
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "uniqueFilename"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
@@ -598,8 +794,11 @@ depends-member:
 - !private ["So9FormatterC", "dateFormat"]
 - !private ["So9FormatterC", "init"]
 - !private ["So9FormatterC", "string"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "CGPoint"]
 - !private ["s8HashableP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "DataPicker"]
 - !private ["s8HashableP", "Date"]
 - !private ["s8HashableP", "DateFormatter"]
@@ -608,6 +807,7 @@ depends-member:
 - !private ["s8HashableP", "NSEntityDescription"]
 - !private ["s8HashableP", "NSManagedObject"]
 - !private ["s8HashableP", "String"]
+<<<<<<< HEAD
 - ["s8HashableP", "UIApplication"]
 - !private ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "UIDatePickerMode"]
@@ -619,6 +819,13 @@ depends-member:
 - !private ["s8HashableP", "UIImageJPEGRepresentation"]
 - !private ["s8HashableP", "UIImageOrientation"]
 - !private ["s8HashableP", "ViewController"]
+=======
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIDatePickerMode"]
+- !private ["s8HashableP", "UIFont"]
+- ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addTarget"]
 - !private ["s8HashableP", "animationDuration"]
@@ -635,16 +842,25 @@ depends-member:
 - !private ["s8HashableP", "dateFormat"]
 - !private ["s8HashableP", "datePickerMode"]
 - !private ["s8HashableP", "default"]
+<<<<<<< HEAD
 - ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "dismiss"]
 - !private ["s8HashableP", "documentDirectory"]
 - !private ["s8HashableP", "draw"]
+=======
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "documentDirectory"]
+>>>>>>> origin/master
 - !private ["s8HashableP", "endEditing"]
 - !private ["s8HashableP", "entity"]
 - !private ["s8HashableP", "entityDescription"]
 - !private ["s8HashableP", "font"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "imagesTaken"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "inputField"]
@@ -652,13 +868,17 @@ depends-member:
 - !private ["s8HashableP", "itemNames"]
 - !private ["s8HashableP", "layer"]
 - !private ["s8HashableP", "manageContext"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "masksToBounds"]
 - !private ["s8HashableP", "previewImageView"]
 - !private ["s8HashableP", "print"]
 - !private ["s8HashableP", "reloadInputViews"]
 - !private ["s8HashableP", "removeRotationForImage"]
 - !private ["s8HashableP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "saveContext"]
 - !private ["s8HashableP", "saveToCoreData"]
 - !private ["s8HashableP", "saveToDisk"]
@@ -672,6 +892,15 @@ depends-member:
 - !private ["s8HashableP", "startAnimating"]
 - !private ["s8HashableP", "string"]
 - !private ["s8HashableP", "text"]
+=======
+- !private ["s8HashableP", "saveToCoreData"]
+- !private ["s8HashableP", "saveToDisk"]
+- !private ["s8HashableP", "segmentedControl"]
+- !private ["s8HashableP", "selectedIndex"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "startAnimating"]
+- !private ["s8HashableP", "string"]
+>>>>>>> origin/master
 - ["s8HashableP", "textField"]
 - ["s8HashableP", "textFieldDidBeginEditing"]
 - ["s8HashableP", "textFieldDidEndEditing"]
@@ -681,7 +910,10 @@ depends-member:
 - ["s8HashableP", "textFieldShouldReturn"]
 - !private ["s8HashableP", "time"]
 - !private ["s8HashableP", "uniqueFilename"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "up"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "urls"]
 - !private ["s8HashableP", "view"]
 - !private ["s8HashableP", "viewDidLoad"]
@@ -689,6 +921,10 @@ depends-member:
 - !private ["s8HashableP", "window"]
 - !private ["s8HashableP", "write"]
 - ["s8HashableP", ""]
+<<<<<<< HEAD
+=======
+- !private ["SQ", "addTarget"]
+>>>>>>> origin/master
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "uniqueFilename"]
@@ -699,8 +935,11 @@ depends-member:
 - !private ["s17MutableCollectionP", "first"]
 - ["s17MutableCollectionP", "init"]
 - !private ["s17MutableCollectionP", "write"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "CGPoint"]
 - !private ["So8NSCodingP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "DataPicker"]
 - !private ["So8NSCodingP", "Date"]
 - !private ["So8NSCodingP", "DateFormatter"]
@@ -709,6 +948,7 @@ depends-member:
 - !private ["So8NSCodingP", "NSEntityDescription"]
 - !private ["So8NSCodingP", "NSManagedObject"]
 - !private ["So8NSCodingP", "String"]
+<<<<<<< HEAD
 - ["So8NSCodingP", "UIApplication"]
 - !private ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIDatePickerMode"]
@@ -720,6 +960,13 @@ depends-member:
 - !private ["So8NSCodingP", "UIImageJPEGRepresentation"]
 - !private ["So8NSCodingP", "UIImageOrientation"]
 - !private ["So8NSCodingP", "ViewController"]
+=======
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIDatePickerMode"]
+- !private ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "addTarget"]
 - !private ["So8NSCodingP", "animationDuration"]
 - !private ["So8NSCodingP", "animationImages"]
@@ -733,14 +980,21 @@ depends-member:
 - !private ["So8NSCodingP", "dateFormat"]
 - !private ["So8NSCodingP", "datePickerMode"]
 - !private ["So8NSCodingP", "delegate"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "dismiss"]
 - !private ["So8NSCodingP", "draw"]
+=======
+- !private ["So8NSCodingP", "dismiss"]
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "endEditing"]
 - !private ["So8NSCodingP", "entity"]
 - !private ["So8NSCodingP", "entityDescription"]
 - !private ["So8NSCodingP", "font"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "imagesTaken"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "inputField"]
@@ -756,6 +1010,7 @@ depends-member:
 - !private ["So8NSCodingP", "rootViewController"]
 - !private ["So8NSCodingP", "saveToCoreData"]
 - !private ["So8NSCodingP", "saveToDisk"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "scale"]
 - !private ["So8NSCodingP", "segmentValueChanged"]
 - !private ["So8NSCodingP", "segmentedControl"]
@@ -765,6 +1020,13 @@ depends-member:
 - !private ["So8NSCodingP", "startAnimating"]
 - !private ["So8NSCodingP", "string"]
 - !private ["So8NSCodingP", "text"]
+=======
+- !private ["So8NSCodingP", "segmentedControl"]
+- !private ["So8NSCodingP", "selectedIndex"]
+- !private ["So8NSCodingP", "setValue"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "string"]
+>>>>>>> origin/master
 - ["So8NSCodingP", "textField"]
 - ["So8NSCodingP", "textFieldDidBeginEditing"]
 - ["So8NSCodingP", "textFieldDidEndEditing"]
@@ -786,8 +1048,11 @@ depends-member:
 - !private ["So9NSCopyingP", "uniqueFilename"]
 - !private ["So9NSCopyingP", "white"]
 - !private ["So19NSEntityDescriptionC", "entity"]
+<<<<<<< HEAD
 - !private ["So26NSExtensionRequestHandlingP", "CGPoint"]
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "DataPicker"]
 - !private ["So26NSExtensionRequestHandlingP", "Date"]
 - !private ["So26NSExtensionRequestHandlingP", "DateFormatter"]
@@ -796,6 +1061,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "NSEntityDescription"]
 - !private ["So26NSExtensionRequestHandlingP", "NSManagedObject"]
 - !private ["So26NSExtensionRequestHandlingP", "String"]
+<<<<<<< HEAD
 - ["So26NSExtensionRequestHandlingP", "UIApplication"]
 - !private ["So26NSExtensionRequestHandlingP", "UIColor"]
 - !private ["So26NSExtensionRequestHandlingP", "UIDatePickerMode"]
@@ -810,6 +1076,15 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "appDelegate"]
 - !private ["So26NSExtensionRequestHandlingP", "createButton"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+=======
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIDatePickerMode"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImageJPEGRepresentation"]
+- !private ["So26NSExtensionRequestHandlingP", "appDelegate"]
+- !private ["So26NSExtensionRequestHandlingP", "createButton"]
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - !private ["So26NSExtensionRequestHandlingP", "entityDescription"]
 - !private ["So26NSExtensionRequestHandlingP", "imagesTaken"]
@@ -818,10 +1093,15 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "manageContext"]
 - !private ["So26NSExtensionRequestHandlingP", "previewImageView"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
+<<<<<<< HEAD
 - !private ["So26NSExtensionRequestHandlingP", "removeRotationForImage"]
 - !private ["So26NSExtensionRequestHandlingP", "saveToCoreData"]
 - !private ["So26NSExtensionRequestHandlingP", "saveToDisk"]
 - !private ["So26NSExtensionRequestHandlingP", "segmentValueChanged"]
+=======
+- !private ["So26NSExtensionRequestHandlingP", "saveToCoreData"]
+- !private ["So26NSExtensionRequestHandlingP", "saveToDisk"]
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "segmentedControl"]
 - ["So26NSExtensionRequestHandlingP", "textField"]
 - ["So26NSExtensionRequestHandlingP", "textFieldDidBeginEditing"]
@@ -834,6 +1114,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So17NSFastEnumerationP", "entity"]
+<<<<<<< HEAD
 - !private ["So20NSFetchRequestResultP", "init"]
 - !private ["So20NSFetchRequestResultP", "setValue"]
 - !private ["So21NSItemProviderReadingP", "cgColor"]
@@ -861,6 +1142,22 @@ depends-member:
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "CGPoint"]
 - !private ["So8NSObjectC", "CGRect"]
+=======
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "removeRotationForImage"]
+- !private ["So21NSItemProviderReadingP", "uniqueFilename"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "removeRotationForImage"]
+- !private ["So21NSItemProviderWritingP", "uniqueFilename"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "uniqueFilename"]
+- ["So8NSObjectC", "AASegmentedControl"]
+- ["So8NSObjectC", "Bool"]
+>>>>>>> origin/master
 - ["So8NSObjectC", "CreateTimeLapseDelegate"]
 - ["So8NSObjectC", "DataPicker"]
 - !private ["So8NSObjectC", "Date"]
@@ -868,17 +1165,24 @@ depends-member:
 - ["So8NSObjectC", "Dissmis"]
 - !private ["So8NSObjectC", "Double"]
 - !private ["So8NSObjectC", "FileManager"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "HighScoreObject"]
 - ["So8NSObjectC", "NSEntityDescription"]
 - ["So8NSObjectC", "NSManagedObject"]
 - ["So8NSObjectC", "NSManagedObjectContext"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIApplication"]
+=======
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- !private ["So8NSObjectC", "NSManagedObject"]
+- ["So8NSObjectC", "String"]
+>>>>>>> origin/master
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UIColor"]
 - ["So8NSObjectC", "UIDatePicker"]
 - !private ["So8NSObjectC", "UIDatePickerMode"]
 - !private ["So8NSObjectC", "UIFont"]
+<<<<<<< HEAD
 - !private ["So8NSObjectC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So8NSObjectC", "UIGraphicsEndImageContext"]
 - !private ["So8NSObjectC", "UIGraphicsGetImageFromCurrentImageContext"]
@@ -892,6 +1196,16 @@ depends-member:
 - !private ["So8NSObjectC", "animationDuration"]
 - !private ["So8NSObjectC", "animationImages"]
 - ["So8NSObjectC", "appDelegate"]
+=======
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImageJPEGRepresentation"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "animationDuration"]
+- !private ["So8NSObjectC", "animationImages"]
+- !private ["So8NSObjectC", "appDelegate"]
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "borderColor"]
 - !private ["So8NSObjectC", "borderWidth"]
 - !private ["So8NSObjectC", "cgColor"]
@@ -904,6 +1218,7 @@ depends-member:
 - !private ["So8NSObjectC", "datePickerMode"]
 - !private ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "delegate"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - !private ["So8NSObjectC", "dismiss"]
 - !private ["So8NSObjectC", "draw"]
@@ -912,33 +1227,56 @@ depends-member:
 - ["So8NSObjectC", "entityDescription"]
 - !private ["So8NSObjectC", "font"]
 - !private ["So8NSObjectC", "imageOrientation"]
+=======
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "endEditing"]
+- !private ["So8NSObjectC", "entity"]
+- !private ["So8NSObjectC", "entityDescription"]
+- !private ["So8NSObjectC", "font"]
+>>>>>>> origin/master
 - ["So8NSObjectC", "imagesTaken"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "inputField"]
 - !private ["So8NSObjectC", "isEnabled"]
 - !private ["So8NSObjectC", "itemNames"]
 - !private ["So8NSObjectC", "layer"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "manageContext"]
 - !private ["So8NSObjectC", "managedObjectContext"]
+=======
+- !private ["So8NSObjectC", "manageContext"]
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "masksToBounds"]
 - ["So8NSObjectC", "previewImageView"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "reloadInputViews"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "removeRotationForImage"]
 - !private ["So8NSObjectC", "rootViewController"]
 - !private ["So8NSObjectC", "saveContext"]
 - ["So8NSObjectC", "saveToCoreData"]
 - ["So8NSObjectC", "saveToDisk"]
 - !private ["So8NSObjectC", "scale"]
+=======
+- !private ["So8NSObjectC", "removeRotationForImage"]
+- !private ["So8NSObjectC", "rootViewController"]
+- ["So8NSObjectC", "saveToCoreData"]
+- ["So8NSObjectC", "saveToDisk"]
+>>>>>>> origin/master
 - ["So8NSObjectC", "segmentValueChanged"]
 - ["So8NSObjectC", "segmentedControl"]
 - !private ["So8NSObjectC", "selectedIndex"]
 - !private ["So8NSObjectC", "setValue"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectC", "size"]
 - !private ["So8NSObjectC", "startAnimating"]
 - !private ["So8NSObjectC", "string"]
 - !private ["So8NSObjectC", "text"]
+=======
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "string"]
+>>>>>>> origin/master
 - ["So8NSObjectC", "textField"]
 - ["So8NSObjectC", "textFieldDidBeginEditing"]
 - ["So8NSObjectC", "textFieldDidEndEditing"]
@@ -952,8 +1290,11 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectC", "white"]
 - !private ["So8NSObjectC", "window"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "CGPoint"]
 - !private ["So16NSObjectProtocolP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "DataPicker"]
 - !private ["So16NSObjectProtocolP", "Date"]
 - !private ["So16NSObjectProtocolP", "DateFormatter"]
@@ -962,6 +1303,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "NSEntityDescription"]
 - !private ["So16NSObjectProtocolP", "NSManagedObject"]
 - !private ["So16NSObjectProtocolP", "String"]
+<<<<<<< HEAD
 - ["So16NSObjectProtocolP", "UIApplication"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "UIDatePickerMode"]
@@ -973,6 +1315,13 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UIImageJPEGRepresentation"]
 - !private ["So16NSObjectProtocolP", "UIImageOrientation"]
 - !private ["So16NSObjectProtocolP", "ViewController"]
+=======
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIDatePickerMode"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "addTarget"]
 - !private ["So16NSObjectProtocolP", "animationDuration"]
 - !private ["So16NSObjectProtocolP", "animationImages"]
@@ -986,15 +1335,23 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "dateFormat"]
 - !private ["So16NSObjectProtocolP", "datePickerMode"]
 - !private ["So16NSObjectProtocolP", "default"]
+<<<<<<< HEAD
 - ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "dismiss"]
 - !private ["So16NSObjectProtocolP", "draw"]
+=======
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "endEditing"]
 - !private ["So16NSObjectProtocolP", "entity"]
 - !private ["So16NSObjectProtocolP", "entityDescription"]
 - !private ["So16NSObjectProtocolP", "font"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "imagesTaken"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "inputField"]
@@ -1002,13 +1359,17 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "itemNames"]
 - !private ["So16NSObjectProtocolP", "layer"]
 - !private ["So16NSObjectProtocolP", "manageContext"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "masksToBounds"]
 - !private ["So16NSObjectProtocolP", "previewImageView"]
 - !private ["So16NSObjectProtocolP", "print"]
 - !private ["So16NSObjectProtocolP", "reloadInputViews"]
 - !private ["So16NSObjectProtocolP", "removeRotationForImage"]
 - !private ["So16NSObjectProtocolP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "saveContext"]
 - !private ["So16NSObjectProtocolP", "saveToCoreData"]
 - !private ["So16NSObjectProtocolP", "saveToDisk"]
@@ -1022,6 +1383,15 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "startAnimating"]
 - !private ["So16NSObjectProtocolP", "string"]
 - !private ["So16NSObjectProtocolP", "text"]
+=======
+- !private ["So16NSObjectProtocolP", "saveToCoreData"]
+- !private ["So16NSObjectProtocolP", "saveToDisk"]
+- !private ["So16NSObjectProtocolP", "segmentedControl"]
+- !private ["So16NSObjectProtocolP", "selectedIndex"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- !private ["So16NSObjectProtocolP", "startAnimating"]
+- !private ["So16NSObjectProtocolP", "string"]
+>>>>>>> origin/master
 - ["So16NSObjectProtocolP", "textField"]
 - ["So16NSObjectProtocolP", "textFieldDidBeginEditing"]
 - ["So16NSObjectProtocolP", "textFieldDidEndEditing"]
@@ -1040,12 +1410,18 @@ depends-member:
 - !private ["So14NSSecureCodingP", "borderWidth"]
 - !private ["So14NSSecureCodingP", "cgColor"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
+<<<<<<< HEAD
 - !private ["So14NSSecureCodingP", "draw"]
 - !private ["So14NSSecureCodingP", "imageOrientation"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "masksToBounds"]
 - !private ["So14NSSecureCodingP", "scale"]
 - !private ["So14NSSecureCodingP", "size"]
+=======
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "removeRotationForImage"]
+>>>>>>> origin/master
 - !private ["So14NSSecureCodingP", "uniqueFilename"]
 - !private ["So14NSSecureCodingP", "white"]
 - !private ["So8NSStringC", "init"]
@@ -1069,11 +1445,17 @@ depends-member:
 - !private ["s16RawRepresentableP", "countDownTimer"]
 - !private ["s16RawRepresentableP", "documentDirectory"]
 - !private ["s16RawRepresentableP", "time"]
+<<<<<<< HEAD
 - !private ["s16RawRepresentableP", "up"]
 - !private ["s16RawRepresentableP", "userDomainMask"]
 - !private ["s16RawRepresentableP", "valueChanged"]
 - !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+=======
+- !private ["s16RawRepresentableP", "userDomainMask"]
+- !private ["s16RawRepresentableP", "valueChanged"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+>>>>>>> origin/master
 - !private ["10Foundation20ReferenceConvertibleP", "write"]
 - !private ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
 - !private ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
@@ -1106,14 +1488,20 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "date"]
 - !private ["So29UIAccessibilityIdentificationP", "datePickerMode"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
+<<<<<<< HEAD
 - !private ["So29UIAccessibilityIdentificationP", "draw"]
 - !private ["So29UIAccessibilityIdentificationP", "endEditing"]
 - !private ["So29UIAccessibilityIdentificationP", "font"]
 - !private ["So29UIAccessibilityIdentificationP", "imageOrientation"]
+=======
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+>>>>>>> origin/master
 - !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
 - !private ["So29UIAccessibilityIdentificationP", "itemNames"]
 - !private ["So29UIAccessibilityIdentificationP", "layer"]
 - !private ["So29UIAccessibilityIdentificationP", "reloadInputViews"]
+<<<<<<< HEAD
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
 - !private ["So29UIAccessibilityIdentificationP", "scale"]
 - !private ["So29UIAccessibilityIdentificationP", "selectedIndex"]
@@ -1121,6 +1509,13 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "size"]
 - !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
+=======
+- !private ["So29UIAccessibilityIdentificationP", "removeRotationForImage"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedIndex"]
+- !private ["So29UIAccessibilityIdentificationP", "setValue"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+>>>>>>> origin/master
 - !private ["So29UIAccessibilityIdentificationP", "window"]
 - !private ["So12UIAppearanceP", "addTarget"]
 - !private ["So12UIAppearanceP", "animationDuration"]
@@ -1138,10 +1533,14 @@ depends-member:
 - !private ["So12UIAppearanceP", "selectedIndex"]
 - !private ["So12UIAppearanceP", "setValue"]
 - !private ["So12UIAppearanceP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "window"]
 - !private ["So21UIAppearanceContainerP", "CGPoint"]
 - !private ["So21UIAppearanceContainerP", "CGRect"]
+=======
+- !private ["So12UIAppearanceP", "window"]
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "DataPicker"]
 - !private ["So21UIAppearanceContainerP", "Date"]
 - !private ["So21UIAppearanceContainerP", "DateFormatter"]
@@ -1150,6 +1549,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "NSEntityDescription"]
 - !private ["So21UIAppearanceContainerP", "NSManagedObject"]
 - !private ["So21UIAppearanceContainerP", "String"]
+<<<<<<< HEAD
 - ["So21UIAppearanceContainerP", "UIApplication"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
 - !private ["So21UIAppearanceContainerP", "UIDatePickerMode"]
@@ -1161,6 +1561,13 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIImageJPEGRepresentation"]
 - !private ["So21UIAppearanceContainerP", "UIImageOrientation"]
 - !private ["So21UIAppearanceContainerP", "ViewController"]
+=======
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIDatePickerMode"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "addTarget"]
 - !private ["So21UIAppearanceContainerP", "animationDuration"]
 - !private ["So21UIAppearanceContainerP", "animationImages"]
@@ -1169,7 +1576,10 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "date"]
 - !private ["So21UIAppearanceContainerP", "datePickerMode"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
+<<<<<<< HEAD
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "dismiss"]
 - !private ["So21UIAppearanceContainerP", "endEditing"]
 - !private ["So21UIAppearanceContainerP", "entityDescription"]
@@ -1184,16 +1594,25 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "previewImageView"]
 - !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "reloadInputViews"]
+<<<<<<< HEAD
 - !private ["So21UIAppearanceContainerP", "removeRotationForImage"]
 - !private ["So21UIAppearanceContainerP", "rootViewController"]
 - !private ["So21UIAppearanceContainerP", "saveToCoreData"]
 - !private ["So21UIAppearanceContainerP", "saveToDisk"]
 - !private ["So21UIAppearanceContainerP", "segmentValueChanged"]
+=======
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "saveToCoreData"]
+- !private ["So21UIAppearanceContainerP", "saveToDisk"]
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "segmentedControl"]
 - !private ["So21UIAppearanceContainerP", "selectedIndex"]
 - !private ["So21UIAppearanceContainerP", "setValue"]
 - !private ["So21UIAppearanceContainerP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So21UIAppearanceContainerP", "text"]
+=======
+>>>>>>> origin/master
 - ["So21UIAppearanceContainerP", "textField"]
 - ["So21UIAppearanceContainerP", "textFieldDidBeginEditing"]
 - ["So21UIAppearanceContainerP", "textFieldDidEndEditing"]
@@ -1205,6 +1624,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So21UIAppearanceContainerP", "window"]
 - ["So21UIAppearanceContainerP", ""]
+<<<<<<< HEAD
 - ["So13UIApplicationC", "delegate"]
 - ["So13UIApplicationC", "shared"]
 - !private ["So21UIApplicationDelegateP", "managedObjectContext"]
@@ -1214,6 +1634,11 @@ depends-member:
 - !private ["So7UIColorC", "white"]
 - !private ["So18UIContentContainerP", "CGPoint"]
 - !private ["So18UIContentContainerP", "CGRect"]
+=======
+- !private ["So8UIButtonC", "layer"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIColorC", "white"]
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "DataPicker"]
 - !private ["So18UIContentContainerP", "Date"]
 - !private ["So18UIContentContainerP", "DateFormatter"]
@@ -1222,6 +1647,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "NSEntityDescription"]
 - !private ["So18UIContentContainerP", "NSManagedObject"]
 - !private ["So18UIContentContainerP", "String"]
+<<<<<<< HEAD
 - ["So18UIContentContainerP", "UIApplication"]
 - !private ["So18UIContentContainerP", "UIColor"]
 - !private ["So18UIContentContainerP", "UIDatePickerMode"]
@@ -1236,6 +1662,15 @@ depends-member:
 - !private ["So18UIContentContainerP", "appDelegate"]
 - !private ["So18UIContentContainerP", "createButton"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+=======
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIDatePickerMode"]
+- !private ["So18UIContentContainerP", "UIFont"]
+- ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UIImageJPEGRepresentation"]
+- !private ["So18UIContentContainerP", "appDelegate"]
+- !private ["So18UIContentContainerP", "createButton"]
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "dismiss"]
 - !private ["So18UIContentContainerP", "entityDescription"]
 - !private ["So18UIContentContainerP", "imagesTaken"]
@@ -1244,10 +1679,15 @@ depends-member:
 - !private ["So18UIContentContainerP", "manageContext"]
 - !private ["So18UIContentContainerP", "previewImageView"]
 - !private ["So18UIContentContainerP", "print"]
+<<<<<<< HEAD
 - !private ["So18UIContentContainerP", "removeRotationForImage"]
 - !private ["So18UIContentContainerP", "saveToCoreData"]
 - !private ["So18UIContentContainerP", "saveToDisk"]
 - !private ["So18UIContentContainerP", "segmentValueChanged"]
+=======
+- !private ["So18UIContentContainerP", "saveToCoreData"]
+- !private ["So18UIContentContainerP", "saveToDisk"]
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "segmentedControl"]
 - ["So18UIContentContainerP", "textField"]
 - ["So18UIContentContainerP", "textFieldDidBeginEditing"]
@@ -1260,7 +1700,10 @@ depends-member:
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "delegate"]
+<<<<<<< HEAD
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+=======
+>>>>>>> origin/master
 - !private ["So9UIControlC", "addTarget"]
 - !private ["So9UIControlC", "date"]
 - !private ["So9UIControlC", "datePickerMode"]
@@ -1272,7 +1715,10 @@ depends-member:
 - !private ["So9UIControlC", "reloadInputViews"]
 - !private ["So9UIControlC", "selectedIndex"]
 - !private ["So9UIControlC", "setValue"]
+<<<<<<< HEAD
 - !private ["So9UIControlC", "text"]
+=======
+>>>>>>> origin/master
 - !private ["SC15UIControlEventsV", "valueChanged"]
 - !private ["So17UICoordinateSpaceP", "addTarget"]
 - !private ["So17UICoordinateSpaceP", "animationDuration"]
@@ -1290,7 +1736,10 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "selectedIndex"]
 - !private ["So17UICoordinateSpaceP", "setValue"]
 - !private ["So17UICoordinateSpaceP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So17UICoordinateSpaceP", "text"]
+=======
+>>>>>>> origin/master
 - !private ["So17UICoordinateSpaceP", "window"]
 - !private ["So12UIDatePickerC", "date"]
 - !private ["So12UIDatePickerC", "datePickerMode"]
@@ -1314,10 +1763,14 @@ depends-member:
 - !private ["So13UIDynamicItemP", "selectedIndex"]
 - !private ["So13UIDynamicItemP", "setValue"]
 - !private ["So13UIDynamicItemP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "window"]
 - !private ["So18UIFocusEnvironmentP", "CGPoint"]
 - !private ["So18UIFocusEnvironmentP", "CGRect"]
+=======
+- !private ["So13UIDynamicItemP", "window"]
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "DataPicker"]
 - !private ["So18UIFocusEnvironmentP", "Date"]
 - !private ["So18UIFocusEnvironmentP", "DateFormatter"]
@@ -1326,6 +1779,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "NSEntityDescription"]
 - !private ["So18UIFocusEnvironmentP", "NSManagedObject"]
 - !private ["So18UIFocusEnvironmentP", "String"]
+<<<<<<< HEAD
 - ["So18UIFocusEnvironmentP", "UIApplication"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
 - !private ["So18UIFocusEnvironmentP", "UIDatePickerMode"]
@@ -1337,6 +1791,13 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIImageJPEGRepresentation"]
 - !private ["So18UIFocusEnvironmentP", "UIImageOrientation"]
 - !private ["So18UIFocusEnvironmentP", "ViewController"]
+=======
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIDatePickerMode"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "addTarget"]
 - !private ["So18UIFocusEnvironmentP", "animationDuration"]
 - !private ["So18UIFocusEnvironmentP", "animationImages"]
@@ -1345,7 +1806,10 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "date"]
 - !private ["So18UIFocusEnvironmentP", "datePickerMode"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
+<<<<<<< HEAD
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "dismiss"]
 - !private ["So18UIFocusEnvironmentP", "endEditing"]
 - !private ["So18UIFocusEnvironmentP", "entityDescription"]
@@ -1360,16 +1824,25 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "previewImageView"]
 - !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "reloadInputViews"]
+<<<<<<< HEAD
 - !private ["So18UIFocusEnvironmentP", "removeRotationForImage"]
 - !private ["So18UIFocusEnvironmentP", "rootViewController"]
 - !private ["So18UIFocusEnvironmentP", "saveToCoreData"]
 - !private ["So18UIFocusEnvironmentP", "saveToDisk"]
 - !private ["So18UIFocusEnvironmentP", "segmentValueChanged"]
+=======
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "saveToCoreData"]
+- !private ["So18UIFocusEnvironmentP", "saveToDisk"]
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "segmentedControl"]
 - !private ["So18UIFocusEnvironmentP", "selectedIndex"]
 - !private ["So18UIFocusEnvironmentP", "setValue"]
 - !private ["So18UIFocusEnvironmentP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So18UIFocusEnvironmentP", "text"]
+=======
+>>>>>>> origin/master
 - ["So18UIFocusEnvironmentP", "textField"]
 - ["So18UIFocusEnvironmentP", "textFieldDidBeginEditing"]
 - ["So18UIFocusEnvironmentP", "textFieldDidEndEditing"]
@@ -1397,6 +1870,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "selectedIndex"]
 - !private ["So11UIFocusItemP", "setValue"]
 - !private ["So11UIFocusItemP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "window"]
 - !private ["So6UIFontC", "init"]
@@ -1416,6 +1890,16 @@ depends-member:
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+=======
+- !private ["So11UIFocusItemP", "window"]
+- !private ["So6UIFontC", "init"]
+- !private ["So7UIImageC", "removeRotationForImage"]
+- !private ["So11UIImageViewC", "animationDuration"]
+- !private ["So11UIImageViewC", "animationImages"]
+- !private ["So11UIImageViewC", "startAnimating"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "removeRotationForImage"]
+- !private ["So10UIKeyInputP", "delegate"]
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "DataPicker"]
 - !private ["So30UIPasteConfigurationSupportingP", "Date"]
 - !private ["So30UIPasteConfigurationSupportingP", "DateFormatter"]
@@ -1424,6 +1908,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "NSEntityDescription"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSManagedObject"]
 - !private ["So30UIPasteConfigurationSupportingP", "String"]
+<<<<<<< HEAD
 - ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIDatePickerMode"]
@@ -1435,6 +1920,13 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIImageJPEGRepresentation"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImageOrientation"]
 - !private ["So30UIPasteConfigurationSupportingP", "ViewController"]
+=======
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIDatePickerMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
 - !private ["So30UIPasteConfigurationSupportingP", "animationDuration"]
 - !private ["So30UIPasteConfigurationSupportingP", "animationImages"]
@@ -1442,8 +1934,12 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "createButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "date"]
 - !private ["So30UIPasteConfigurationSupportingP", "datePickerMode"]
+<<<<<<< HEAD
 - ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+=======
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
 - !private ["So30UIPasteConfigurationSupportingP", "entityDescription"]
@@ -1455,6 +1951,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "itemNames"]
 - !private ["So30UIPasteConfigurationSupportingP", "layer"]
 - !private ["So30UIPasteConfigurationSupportingP", "manageContext"]
+<<<<<<< HEAD
 - !private ["So30UIPasteConfigurationSupportingP", "managedObjectContext"]
 - !private ["So30UIPasteConfigurationSupportingP", "previewImageView"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
@@ -1471,6 +1968,18 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "shared"]
 - !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
+=======
+- !private ["So30UIPasteConfigurationSupportingP", "previewImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadInputViews"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "saveToCoreData"]
+- !private ["So30UIPasteConfigurationSupportingP", "saveToDisk"]
+- !private ["So30UIPasteConfigurationSupportingP", "segmentedControl"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "setValue"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+>>>>>>> origin/master
 - ["So30UIPasteConfigurationSupportingP", "textField"]
 - ["So30UIPasteConfigurationSupportingP", "textFieldDidBeginEditing"]
 - ["So30UIPasteConfigurationSupportingP", "textFieldDidEndEditing"]
@@ -1483,10 +1992,14 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "AASegmentedControl"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "AppDelegate"]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "CGPoint"]
 - !private ["So11UIResponderC", "CGRect"]
+=======
+- ["So11UIResponderC", "Bool"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "CreateTimeLapseDelegate"]
 - ["So11UIResponderC", "DataPicker"]
 - !private ["So11UIResponderC", "Date"]
@@ -1494,17 +2007,24 @@ depends-member:
 - ["So11UIResponderC", "Dissmis"]
 - !private ["So11UIResponderC", "Double"]
 - !private ["So11UIResponderC", "FileManager"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "HighScoreObject"]
 - ["So11UIResponderC", "NSEntityDescription"]
 - ["So11UIResponderC", "NSManagedObject"]
 - ["So11UIResponderC", "NSManagedObjectContext"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIApplication"]
+=======
+- !private ["So11UIResponderC", "NSEntityDescription"]
+- !private ["So11UIResponderC", "NSManagedObject"]
+- ["So11UIResponderC", "String"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UIColor"]
 - ["So11UIResponderC", "UIDatePicker"]
 - !private ["So11UIResponderC", "UIDatePickerMode"]
 - !private ["So11UIResponderC", "UIFont"]
+<<<<<<< HEAD
 - !private ["So11UIResponderC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So11UIResponderC", "UIGraphicsEndImageContext"]
 - !private ["So11UIResponderC", "UIGraphicsGetImageFromCurrentImageContext"]
@@ -1518,16 +2038,32 @@ depends-member:
 - !private ["So11UIResponderC", "animationDuration"]
 - !private ["So11UIResponderC", "animationImages"]
 - ["So11UIResponderC", "appDelegate"]
+=======
+- ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIImageJPEGRepresentation"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "animationDuration"]
+- !private ["So11UIResponderC", "animationImages"]
+- !private ["So11UIResponderC", "appDelegate"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "create"]
 - ["So11UIResponderC", "createButton"]
 - !private ["So11UIResponderC", "date"]
 - ["So11UIResponderC", "datePickerChanged"]
 - !private ["So11UIResponderC", "datePickerMode"]
 - ["So11UIResponderC", "delegate"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - !private ["So11UIResponderC", "dismiss"]
 - !private ["So11UIResponderC", "endEditing"]
 - ["So11UIResponderC", "entityDescription"]
+=======
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "endEditing"]
+- !private ["So11UIResponderC", "entityDescription"]
+>>>>>>> origin/master
 - !private ["So11UIResponderC", "font"]
 - ["So11UIResponderC", "imagesTaken"]
 - ["So11UIResponderC", "init"]
@@ -1535,6 +2071,7 @@ depends-member:
 - !private ["So11UIResponderC", "isEnabled"]
 - !private ["So11UIResponderC", "itemNames"]
 - !private ["So11UIResponderC", "layer"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "manageContext"]
 - !private ["So11UIResponderC", "managedObjectContext"]
 - ["So11UIResponderC", "previewImageView"]
@@ -1543,15 +2080,26 @@ depends-member:
 - ["So11UIResponderC", "removeRotationForImage"]
 - !private ["So11UIResponderC", "rootViewController"]
 - !private ["So11UIResponderC", "saveContext"]
+=======
+- !private ["So11UIResponderC", "manageContext"]
+- ["So11UIResponderC", "previewImageView"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "reloadInputViews"]
+- !private ["So11UIResponderC", "rootViewController"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "saveToCoreData"]
 - ["So11UIResponderC", "saveToDisk"]
 - ["So11UIResponderC", "segmentValueChanged"]
 - ["So11UIResponderC", "segmentedControl"]
 - !private ["So11UIResponderC", "selectedIndex"]
 - !private ["So11UIResponderC", "setValue"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "shared"]
 - !private ["So11UIResponderC", "startAnimating"]
 - !private ["So11UIResponderC", "text"]
+=======
+- !private ["So11UIResponderC", "startAnimating"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "textField"]
 - ["So11UIResponderC", "textFieldDidBeginEditing"]
 - ["So11UIResponderC", "textFieldDidEndEditing"]
@@ -1562,8 +2110,11 @@ depends-member:
 - !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So11UIResponderC", "window"]
+<<<<<<< HEAD
 - !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
 - !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "DataPicker"]
 - !private ["So30UIResponderStandardEditActionsP", "Date"]
 - !private ["So30UIResponderStandardEditActionsP", "DateFormatter"]
@@ -1572,6 +2123,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "NSEntityDescription"]
 - !private ["So30UIResponderStandardEditActionsP", "NSManagedObject"]
 - !private ["So30UIResponderStandardEditActionsP", "String"]
+<<<<<<< HEAD
 - ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIDatePickerMode"]
@@ -1583,6 +2135,13 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIImageJPEGRepresentation"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImageOrientation"]
 - !private ["So30UIResponderStandardEditActionsP", "ViewController"]
+=======
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIDatePickerMode"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "addTarget"]
 - !private ["So30UIResponderStandardEditActionsP", "animationDuration"]
 - !private ["So30UIResponderStandardEditActionsP", "animationImages"]
@@ -1590,8 +2149,12 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "createButton"]
 - !private ["So30UIResponderStandardEditActionsP", "date"]
 - !private ["So30UIResponderStandardEditActionsP", "datePickerMode"]
+<<<<<<< HEAD
 - ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+=======
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "dismiss"]
 - !private ["So30UIResponderStandardEditActionsP", "endEditing"]
 - !private ["So30UIResponderStandardEditActionsP", "entityDescription"]
@@ -1603,6 +2166,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "itemNames"]
 - !private ["So30UIResponderStandardEditActionsP", "layer"]
 - !private ["So30UIResponderStandardEditActionsP", "manageContext"]
+<<<<<<< HEAD
 - !private ["So30UIResponderStandardEditActionsP", "managedObjectContext"]
 - !private ["So30UIResponderStandardEditActionsP", "previewImageView"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
@@ -1619,6 +2183,18 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "shared"]
 - !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
+=======
+- !private ["So30UIResponderStandardEditActionsP", "previewImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadInputViews"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "saveToCoreData"]
+- !private ["So30UIResponderStandardEditActionsP", "saveToDisk"]
+- !private ["So30UIResponderStandardEditActionsP", "segmentedControl"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "setValue"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+>>>>>>> origin/master
 - ["So30UIResponderStandardEditActionsP", "textField"]
 - ["So30UIResponderStandardEditActionsP", "textFieldDidBeginEditing"]
 - ["So30UIResponderStandardEditActionsP", "textFieldDidEndEditing"]
@@ -1630,10 +2206,14 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", ""]
+<<<<<<< HEAD
 - !private ["So20UIScrollViewDelegateP", "segmentValueChanged"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
 - !private ["So16UIStateRestoringP", "CGPoint"]
 - !private ["So16UIStateRestoringP", "CGRect"]
+=======
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "DataPicker"]
 - !private ["So16UIStateRestoringP", "Date"]
 - !private ["So16UIStateRestoringP", "DateFormatter"]
@@ -1642,6 +2222,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "NSEntityDescription"]
 - !private ["So16UIStateRestoringP", "NSManagedObject"]
 - !private ["So16UIStateRestoringP", "String"]
+<<<<<<< HEAD
 - ["So16UIStateRestoringP", "UIApplication"]
 - !private ["So16UIStateRestoringP", "UIColor"]
 - !private ["So16UIStateRestoringP", "UIDatePickerMode"]
@@ -1656,6 +2237,15 @@ depends-member:
 - !private ["So16UIStateRestoringP", "appDelegate"]
 - !private ["So16UIStateRestoringP", "createButton"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+=======
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIDatePickerMode"]
+- !private ["So16UIStateRestoringP", "UIFont"]
+- ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UIImageJPEGRepresentation"]
+- !private ["So16UIStateRestoringP", "appDelegate"]
+- !private ["So16UIStateRestoringP", "createButton"]
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "dismiss"]
 - !private ["So16UIStateRestoringP", "entityDescription"]
 - !private ["So16UIStateRestoringP", "imagesTaken"]
@@ -1664,10 +2254,15 @@ depends-member:
 - !private ["So16UIStateRestoringP", "manageContext"]
 - !private ["So16UIStateRestoringP", "previewImageView"]
 - !private ["So16UIStateRestoringP", "print"]
+<<<<<<< HEAD
 - !private ["So16UIStateRestoringP", "removeRotationForImage"]
 - !private ["So16UIStateRestoringP", "saveToCoreData"]
 - !private ["So16UIStateRestoringP", "saveToDisk"]
 - !private ["So16UIStateRestoringP", "segmentValueChanged"]
+=======
+- !private ["So16UIStateRestoringP", "saveToCoreData"]
+- !private ["So16UIStateRestoringP", "saveToDisk"]
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "segmentedControl"]
 - ["So16UIStateRestoringP", "textField"]
 - ["So16UIStateRestoringP", "textFieldDidBeginEditing"]
@@ -1679,6 +2274,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
+<<<<<<< HEAD
 - !private ["So21UITableViewDataSourceP", "segmentValueChanged"]
 - !private ["So19UITableViewDelegateP", "segmentValueChanged"]
 - !private ["So15UITextDraggableP", "delegate"]
@@ -1689,6 +2285,11 @@ depends-member:
 - !private ["So11UITextFieldC", "text"]
 - !private ["So19UITextFieldDelegateP", "CGPoint"]
 - !private ["So19UITextFieldDelegateP", "CGRect"]
+=======
+- !private ["So15UITextDraggableP", "delegate"]
+- !private ["So15UITextDroppableP", "delegate"]
+- !private ["So11UITextFieldC", "delegate"]
+>>>>>>> origin/master
 - !private ["So19UITextFieldDelegateP", "DataPicker"]
 - !private ["So19UITextFieldDelegateP", "Date"]
 - !private ["So19UITextFieldDelegateP", "DateFormatter"]
@@ -1697,6 +2298,7 @@ depends-member:
 - !private ["So19UITextFieldDelegateP", "NSEntityDescription"]
 - !private ["So19UITextFieldDelegateP", "NSManagedObject"]
 - !private ["So19UITextFieldDelegateP", "String"]
+<<<<<<< HEAD
 - ["So19UITextFieldDelegateP", "UIApplication"]
 - !private ["So19UITextFieldDelegateP", "UIColor"]
 - !private ["So19UITextFieldDelegateP", "UIDatePickerMode"]
@@ -1708,6 +2310,13 @@ depends-member:
 - !private ["So19UITextFieldDelegateP", "UIImageJPEGRepresentation"]
 - !private ["So19UITextFieldDelegateP", "UIImageOrientation"]
 - !private ["So19UITextFieldDelegateP", "ViewController"]
+=======
+- !private ["So19UITextFieldDelegateP", "UIColor"]
+- !private ["So19UITextFieldDelegateP", "UIDatePickerMode"]
+- !private ["So19UITextFieldDelegateP", "UIFont"]
+- ["So19UITextFieldDelegateP", "UIImage"]
+- !private ["So19UITextFieldDelegateP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So19UITextFieldDelegateP", "appDelegate"]
 - !private ["So19UITextFieldDelegateP", "createButton"]
 - !private ["So19UITextFieldDelegateP", "dismiss"]
@@ -1717,7 +2326,10 @@ depends-member:
 - !private ["So19UITextFieldDelegateP", "manageContext"]
 - !private ["So19UITextFieldDelegateP", "previewImageView"]
 - !private ["So19UITextFieldDelegateP", "print"]
+<<<<<<< HEAD
 - !private ["So19UITextFieldDelegateP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So19UITextFieldDelegateP", "saveToCoreData"]
 - !private ["So19UITextFieldDelegateP", "saveToDisk"]
 - !private ["So19UITextFieldDelegateP", "segmentedControl"]
@@ -1731,6 +2343,7 @@ depends-member:
 - !private ["So19UITextFieldDelegateP", "view"]
 - ["So19UITextFieldDelegateP", ""]
 - !private ["So11UITextInputP", "delegate"]
+<<<<<<< HEAD
 - !private ["So11UITextInputP", "text"]
 - !private ["So17UITextInputTraitsP", "delegate"]
 - !private ["So17UITextInputTraitsP", "text"]
@@ -1738,6 +2351,10 @@ depends-member:
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - !private ["So18UITraitEnvironmentP", "CGPoint"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
+=======
+- !private ["So17UITextInputTraitsP", "delegate"]
+- !private ["So34UITextPasteConfigurationSupportingP", "delegate"]
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "DataPicker"]
 - !private ["So18UITraitEnvironmentP", "Date"]
 - !private ["So18UITraitEnvironmentP", "DateFormatter"]
@@ -1746,6 +2363,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "NSEntityDescription"]
 - !private ["So18UITraitEnvironmentP", "NSManagedObject"]
 - !private ["So18UITraitEnvironmentP", "String"]
+<<<<<<< HEAD
 - ["So18UITraitEnvironmentP", "UIApplication"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
 - !private ["So18UITraitEnvironmentP", "UIDatePickerMode"]
@@ -1757,6 +2375,13 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIImageJPEGRepresentation"]
 - !private ["So18UITraitEnvironmentP", "UIImageOrientation"]
 - !private ["So18UITraitEnvironmentP", "ViewController"]
+=======
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIDatePickerMode"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "addTarget"]
 - !private ["So18UITraitEnvironmentP", "animationDuration"]
 - !private ["So18UITraitEnvironmentP", "animationImages"]
@@ -1765,7 +2390,10 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "date"]
 - !private ["So18UITraitEnvironmentP", "datePickerMode"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
+<<<<<<< HEAD
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "dismiss"]
 - !private ["So18UITraitEnvironmentP", "endEditing"]
 - !private ["So18UITraitEnvironmentP", "entityDescription"]
@@ -1780,16 +2408,25 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "previewImageView"]
 - !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "reloadInputViews"]
+<<<<<<< HEAD
 - !private ["So18UITraitEnvironmentP", "removeRotationForImage"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
 - !private ["So18UITraitEnvironmentP", "saveToCoreData"]
 - !private ["So18UITraitEnvironmentP", "saveToDisk"]
 - !private ["So18UITraitEnvironmentP", "segmentValueChanged"]
+=======
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "saveToCoreData"]
+- !private ["So18UITraitEnvironmentP", "saveToDisk"]
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "segmentedControl"]
 - !private ["So18UITraitEnvironmentP", "selectedIndex"]
 - !private ["So18UITraitEnvironmentP", "setValue"]
 - !private ["So18UITraitEnvironmentP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So18UITraitEnvironmentP", "text"]
+=======
+>>>>>>> origin/master
 - ["So18UITraitEnvironmentP", "textField"]
 - ["So18UITraitEnvironmentP", "textFieldDidBeginEditing"]
 - ["So18UITraitEnvironmentP", "textFieldDidEndEditing"]
@@ -1817,6 +2454,7 @@ depends-member:
 - !private ["So6UIViewC", "selectedIndex"]
 - !private ["So6UIViewC", "setValue"]
 - !private ["So6UIViewC", "startAnimating"]
+<<<<<<< HEAD
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "window"]
 - ["So16UIViewControllerC", "AASegmentedControl"]
@@ -1824,6 +2462,11 @@ depends-member:
 - ["So16UIViewControllerC", "Bool"]
 - !private ["So16UIViewControllerC", "CGPoint"]
 - !private ["So16UIViewControllerC", "CGRect"]
+=======
+- !private ["So6UIViewC", "window"]
+- ["So16UIViewControllerC", "AASegmentedControl"]
+- ["So16UIViewControllerC", "Bool"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "CreateTimeLapseDelegate"]
 - ["So16UIViewControllerC", "DataPicker"]
 - !private ["So16UIViewControllerC", "Date"]
@@ -1831,17 +2474,24 @@ depends-member:
 - ["So16UIViewControllerC", "Dissmis"]
 - !private ["So16UIViewControllerC", "Double"]
 - !private ["So16UIViewControllerC", "FileManager"]
+<<<<<<< HEAD
 - ["So16UIViewControllerC", "HighScoreObject"]
 - ["So16UIViewControllerC", "NSEntityDescription"]
 - ["So16UIViewControllerC", "NSManagedObject"]
 - ["So16UIViewControllerC", "NSManagedObjectContext"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIApplication"]
+=======
+- !private ["So16UIViewControllerC", "NSEntityDescription"]
+- !private ["So16UIViewControllerC", "NSManagedObject"]
+- ["So16UIViewControllerC", "String"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "UIButton"]
 - !private ["So16UIViewControllerC", "UIColor"]
 - ["So16UIViewControllerC", "UIDatePicker"]
 - !private ["So16UIViewControllerC", "UIDatePickerMode"]
 - !private ["So16UIViewControllerC", "UIFont"]
+<<<<<<< HEAD
 - !private ["So16UIViewControllerC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So16UIViewControllerC", "UIGraphicsEndImageContext"]
 - !private ["So16UIViewControllerC", "UIGraphicsGetImageFromCurrentImageContext"]
@@ -1852,10 +2502,18 @@ depends-member:
 - ["So16UIViewControllerC", "UITextField"]
 - !private ["So16UIViewControllerC", "ViewController"]
 - ["So16UIViewControllerC", "appDelegate"]
+=======
+- ["So16UIViewControllerC", "UIImage"]
+- !private ["So16UIViewControllerC", "UIImageJPEGRepresentation"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "appDelegate"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "create"]
 - ["So16UIViewControllerC", "createButton"]
 - ["So16UIViewControllerC", "datePickerChanged"]
 - ["So16UIViewControllerC", "delegate"]
+<<<<<<< HEAD
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "entityDescription"]
@@ -1866,6 +2524,16 @@ depends-member:
 - ["So16UIViewControllerC", "previewImageView"]
 - !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "removeRotationForImage"]
+=======
+- !private ["So16UIViewControllerC", "dismiss"]
+- !private ["So16UIViewControllerC", "entityDescription"]
+- ["So16UIViewControllerC", "imagesTaken"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "inputField"]
+- !private ["So16UIViewControllerC", "manageContext"]
+- ["So16UIViewControllerC", "previewImageView"]
+- !private ["So16UIViewControllerC", "print"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "saveToCoreData"]
 - ["So16UIViewControllerC", "saveToDisk"]
 - ["So16UIViewControllerC", "segmentValueChanged"]
@@ -1882,7 +2550,10 @@ depends-member:
 - ["So16UIViewControllerC", ""]
 - !private ["So8UIWindowC", "rootViewController"]
 - !private ["10Foundation3URLV", "appendingPathComponent"]
+<<<<<<< HEAD
 - !private ["5Timey14ViewControllerC", "segmentValueChanged"]
+=======
+>>>>>>> origin/master
 - !private ["So6NSDataC14WritingOptionsV", "atomic"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "count"]
@@ -1912,7 +2583,10 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedIndex"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setValue"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+<<<<<<< HEAD
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+=======
+>>>>>>> origin/master
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "window"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -1932,10 +2606,14 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+<<<<<<< HEAD
 - !private ["s26_ExpressibleByImageLiteralP", "draw"]
 - !private ["s26_ExpressibleByImageLiteralP", "imageOrientation"]
 - !private ["s26_ExpressibleByImageLiteralP", "scale"]
 - !private ["s26_ExpressibleByImageLiteralP", "size"]
+=======
+- !private ["s26_ExpressibleByImageLiteralP", "removeRotationForImage"]
+>>>>>>> origin/master
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "uniqueFilename"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
@@ -1952,8 +2630,11 @@ depends-member:
 - ["s14_IndexableBaseP", "init"]
 - !private ["s14_IndexableBaseP", "uniqueFilename"]
 - !private ["s14_IndexableBaseP", "write"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DataPicker"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
@@ -1962,6 +2643,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSManagedObject"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+<<<<<<< HEAD
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDatePickerMode"]
@@ -1973,6 +2655,13 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageJPEGRepresentation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageOrientation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewController"]
+=======
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDatePickerMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageJPEGRepresentation"]
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "animationDuration"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "animationImages"]
@@ -1986,15 +2675,23 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "datePickerMode"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+<<<<<<< HEAD
 - ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+=======
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "entityDescription"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imagesTaken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "inputField"]
@@ -2002,13 +2699,17 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "itemNames"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "manageContext"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "managedObjectContext"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "previewImageView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadInputViews"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeRotationForImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "saveToCoreData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "saveToDisk"]
@@ -2022,6 +2723,15 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+=======
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveToCoreData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveToDisk"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "segmentedControl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+>>>>>>> origin/master
 - ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidBeginEditing"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidEndEditing"]
@@ -2042,6 +2752,10 @@ depends-member:
 - ["s17_MutableIndexableP", "init"]
 - !private ["s17_MutableIndexableP", "write"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+<<<<<<< HEAD
+=======
+- !private ["s21_ObjectiveCBridgeableP", "addTarget"]
+>>>>>>> origin/master
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
@@ -2065,7 +2779,10 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "uniqueFilename"]
 depends-nominal:
 - !private "18AASegmentedControlAAC"
+<<<<<<< HEAD
 - !private "5Timey11AppDelegateC"
+=======
+>>>>>>> origin/master
 - "Sa"
 - "s23BidirectionalCollectionP"
 - !private "s19BinaryFloatingPointP"
@@ -2073,8 +2790,11 @@ depends-nominal:
 - !private "So7CALayerC"
 - !private "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
+<<<<<<< HEAD
 - !private "SC7CGPointV"
 - !private "SC6CGRectV"
+=======
+>>>>>>> origin/master
 - "s7CVarArgP"
 - "s10CollectionP"
 - !private "s10ComparableP"
@@ -2085,7 +2805,10 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "10Foundation4DataV"
+<<<<<<< HEAD
 - !private "10Foundation4DateV"
+=======
+>>>>>>> origin/master
 - !private "So13DateFormatterC"
 - "s9DecodableP"
 - !private "Sd"
@@ -2096,12 +2819,20 @@ depends-nominal:
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
+<<<<<<< HEAD
+=======
+- !private "s23ExpressibleByNilLiteralP"
+>>>>>>> origin/master
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "So11FileManagerC"
 - !private "s13FloatingPointP"
 - !private "So9FormatterC"
 - "s8HashableP"
+<<<<<<< HEAD
+=======
+- !private "SQ"
+>>>>>>> origin/master
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "s17MutableCollectionP"
@@ -2110,10 +2841,15 @@ depends-nominal:
 - !private "So19NSEntityDescriptionC"
 - "So26NSExtensionRequestHandlingP"
 - !private "So17NSFastEnumerationP"
+<<<<<<< HEAD
 - !private "So20NSFetchRequestResultP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - !private "So15NSManagedObjectC"
+=======
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+>>>>>>> origin/master
 - !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
@@ -2139,8 +2875,11 @@ depends-nominal:
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+<<<<<<< HEAD
 - "So13UIApplicationC"
 - !private "So21UIApplicationDelegateP"
+=======
+>>>>>>> origin/master
 - !private "So8UIButtonC"
 - !private "So7UIColorC"
 - "So18UIContentContainerP"
@@ -2155,18 +2894,26 @@ depends-nominal:
 - !private "So11UIFocusItemP"
 - !private "So6UIFontC"
 - !private "So7UIImageC"
+<<<<<<< HEAD
 - !private "SC18UIImageOrientationO"
+=======
+>>>>>>> origin/master
 - !private "So11UIImageViewC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "So10UIKeyInputP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+<<<<<<< HEAD
 - !private "So20UIScrollViewDelegateP"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - !private "So21UITableViewDataSourceP"
 - !private "So19UITableViewDelegateP"
+=======
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+>>>>>>> origin/master
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
 - !private "So11UITextFieldC"
@@ -2179,7 +2926,10 @@ depends-nominal:
 - "So16UIViewControllerC"
 - !private "So8UIWindowC"
 - !private "10Foundation3URLV"
+<<<<<<< HEAD
 - !private "5Timey14ViewControllerC"
+=======
+>>>>>>> origin/master
 - !private "So6NSDataC14WritingOptionsV"
 - "s14_ArrayProtocolP"
 - "s23_BidirectionalIndexableP"
@@ -2236,17 +2986,24 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-umbrella.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+=======
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
@@ -2265,10 +3022,13 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
@@ -2313,14 +3073,20 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRKit.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
@@ -2331,7 +3097,10 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
 - "/Users/jeanpierre/Timey/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
@@ -2339,4 +3108,8 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap"
+<<<<<<< HEAD
 interface-hash: "9c1c2aa4b96ae5749d9a28beffbb2e64"
+=======
+interface-hash: "0652f689577deec02d4b8e4cb03067f8"
+>>>>>>> origin/master

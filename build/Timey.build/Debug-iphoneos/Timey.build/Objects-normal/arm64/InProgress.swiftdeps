@@ -9,6 +9,10 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
 - !private "Data"
+<<<<<<< HEAD
+=======
+- !private "DataManager"
+>>>>>>> origin/master
 - "Date"
 - !private "FileManager"
 - "InProgress"
@@ -18,7 +22,10 @@ depends-top-level:
 - !private "print"
 depends-member:
 - !private ["Sa", "first"]
+<<<<<<< HEAD
 - !private ["Sa", "init"]
+=======
+>>>>>>> origin/master
 - !private ["Sa", "subscript"]
 - !private ["s23BidirectionalCollectionP", "first"]
 - !private ["s23BidirectionalCollectionP", "init"]
@@ -50,6 +57,10 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "urls"]
 - !private ["10Foundation4DataV", "init"]
+<<<<<<< HEAD
+=======
+- !private ["5Timey11DataManagerC", "retrieveImagesFromDisk"]
+>>>>>>> origin/master
 - !private ["s9DecodableP", "appendingPathComponent"]
 - !private ["s9DecodableP", "first"]
 - !private ["s9DecodableP", "init"]
@@ -65,7 +76,10 @@ depends-member:
 - !private ["s9EquatableP", "urls"]
 - !private ["s9EquatableP", "userDomainMask"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
+<<<<<<< HEAD
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
+=======
+>>>>>>> origin/master
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
@@ -79,10 +93,15 @@ depends-member:
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "urls"]
 - !private ["5Timey10InProgressC", "Data"]
+<<<<<<< HEAD
+=======
+- !private ["5Timey10InProgressC", "DataManager"]
+>>>>>>> origin/master
 - ["5Timey10InProgressC", "Date"]
 - !private ["5Timey10InProgressC", "FileManager"]
 - ["5Timey10InProgressC", "String"]
 - ["5Timey10InProgressC", "UIImage"]
+<<<<<<< HEAD
 - ["5Timey10InProgressC", "createdAt"]
 - ["5Timey10InProgressC", "deinit"]
 - ["5Timey10InProgressC", "firstImage"]
@@ -90,6 +109,16 @@ depends-member:
 - ["5Timey10InProgressC", "imagesNames"]
 - ["5Timey10InProgressC", "init"]
 - !private ["5Timey10InProgressC", "print"]
+=======
+- !private ["5Timey10InProgressC", "createdAt"]
+- ["5Timey10InProgressC", "deinit"]
+- !private ["5Timey10InProgressC", "imageCollection"]
+- ["5Timey10InProgressC", "images"]
+- !private ["5Timey10InProgressC", "imagesPath"]
+- ["5Timey10InProgressC", "init"]
+- !private ["5Timey10InProgressC", "print"]
+- !private ["5Timey10InProgressC", "thumbnail"]
+>>>>>>> origin/master
 - ["5Timey10InProgressC", "title"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
@@ -134,13 +163,19 @@ depends-member:
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["10Foundation3URLV", "appendingPathComponent"]
 - !private ["s14_ArrayProtocolP", "first"]
+<<<<<<< HEAD
 - !private ["s14_ArrayProtocolP", "init"]
+=======
+>>>>>>> origin/master
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s23_BidirectionalIndexableP", "first"]
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "first"]
+<<<<<<< HEAD
 - !private ["s24_DestructorSafeContainerP", "init"]
+=======
+>>>>>>> origin/master
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -184,6 +219,10 @@ depends-nominal:
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
 - !private "10Foundation4DataV"
+<<<<<<< HEAD
+=======
+- !private "5Timey11DataManagerC"
+>>>>>>> origin/master
 - !private "s9DecodableP"
 - !private "s9EncodableP"
 - !private "s9EquatableP"
@@ -270,17 +309,24 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-umbrella.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+=======
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
@@ -299,10 +345,13 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
@@ -347,14 +396,20 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRKit.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
@@ -365,7 +420,10 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
 - "/Users/jeanpierre/Timey/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
@@ -373,4 +431,8 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap"
+<<<<<<< HEAD
 interface-hash: "7e15413cf2fc36825c11804fe130e3d6"
+=======
+interface-hash: "a1d0a1f384f0657368b5a2afe5e4781c"
+>>>>>>> origin/master

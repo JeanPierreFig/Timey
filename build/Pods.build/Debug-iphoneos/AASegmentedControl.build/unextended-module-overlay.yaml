@@ -3,11 +3,19 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
+<<<<<<< HEAD
     'name': '/Users/jeanpierre/Timey copy/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
       'external-contents': '/Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/AASegmentedControl.build/unextended-module.modulemap',
+=======
+    'name': '/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/AASegmentedControl.build/unextended-module.modulemap',
+>>>>>>> origin/master
     }]
   }]
 }

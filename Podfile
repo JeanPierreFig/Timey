@@ -7,6 +7,14 @@ target 'Timey' do
 
   # Pods for Timey
  
+<<<<<<< HEAD
+=======
+pod 'AASegmentedControl'
+pod ‘TwitterKit’, ‘~> 3.0’
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+>>>>>>> origin/master
 
   
 end

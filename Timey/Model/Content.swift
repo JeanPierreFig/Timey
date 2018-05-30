@@ -12,28 +12,26 @@ import UIKit
 class Content {
     var title:String
     var createdAt:Date
-    var imagesNames:[String]!
-    var images:[UIImage]
+    var imagesPath:[String]!
     var firstImage:UIImage!
    
-    init(title:String,createdAt:Date, imagesName:[String]) {
+    init(title:String,createdAt:Date, imagesPath:[String]) {
         self.title = title
         self.createdAt = createdAt
-        self.imagesNames = imagesName
-        self.images = [UIImage]()
+        self.imagesPath = imagesPath
+       // self.images = [UIImage]()
        
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
             
-                let name = imagesName[0]
+                let name = imagesPath[0]
                 let fileURL = dir.appendingPathComponent(name)
                 do {
                     let imageData = try Data(contentsOf: fileURL)
                     self.firstImage = UIImage(data: imageData)!
                 }
-                catch{
+                catch {
                     print("error: loading image data.")
                 }
-               
             }
         }
 

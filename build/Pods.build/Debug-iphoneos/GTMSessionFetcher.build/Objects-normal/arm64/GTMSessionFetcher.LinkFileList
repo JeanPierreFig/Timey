@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcher-dummy.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcher.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcherLogging.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcherService.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionUploadFetcher.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcher_vers.o
+=======
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcher-dummy.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcher.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcherLogging.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcherService.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionUploadFetcher.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/Objects-normal/arm64/GTMSessionFetcher_vers.o
+>>>>>>> origin/master

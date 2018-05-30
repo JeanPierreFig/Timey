@@ -344,6 +344,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 @end
 
 
+<<<<<<< HEAD
 SWIFT_CLASS("_TtC5Timey13TableViewCell")
 @interface TableViewCell : UITableViewCell
 - (void)awakeFromNib;
@@ -353,6 +354,8 @@ SWIFT_CLASS("_TtC5Timey13TableViewCell")
 @end
 
 
+=======
+>>>>>>> origin/master
 SWIFT_CLASS_NAMED("Timelapse")
 @interface Timelapse : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -373,7 +376,11 @@ SWIFT_CLASS_NAMED("Timelapse")
 @class UITableView;
 
 SWIFT_CLASS("_TtC5Timey14ViewController")
+<<<<<<< HEAD
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+=======
+@interface ViewController : UIViewController <UITableViewDelegate>
+>>>>>>> origin/master
 @property (nonatomic, strong) IBOutlet UISegmentedControl * _Null_unspecified segementControl;
 @property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, strong) IBOutlet AASegmentedControl * _Null_unspecified segmentedControl;
@@ -381,8 +388,11 @@ SWIFT_CLASS("_TtC5Timey14ViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+<<<<<<< HEAD
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+=======
+>>>>>>> origin/master
 - (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)tableView:(UITableView * _Nonnull)tableView didEndDisplayingCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -392,6 +402,15 @@ SWIFT_CLASS("_TtC5Timey14ViewController")
 @end
 
 
+<<<<<<< HEAD
+=======
+@interface ViewController (SWIFT_EXTENSION(Timey)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+>>>>>>> origin/master
 SWIFT_CLASS("_TtC5Timey18videoTableViewCell")
 @interface videoTableViewCell : UITableViewCell
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified videoTitleLabel;

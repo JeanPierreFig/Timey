@@ -10,7 +10,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
+<<<<<<< HEAD
 		f4fWqFguzgJsXdPxl//KO5MaEq0=
+=======
+		kxixEKgEbRhCyS7HnJ19vv9UNOg=
+>>>>>>> origin/master
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -66,6 +70,7 @@
 		</data>
 		<key>Frameworks/AASegmentedControl.framework/AASegmentedControl</key>
 		<data>
+<<<<<<< HEAD
 		ACieKqwzyss0qdiO1pjv6GZ8SxI=
 		</data>
 		<key>Frameworks/AASegmentedControl.framework/Info.plist</key>
@@ -99,6 +104,41 @@
 		<key>Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources</key>
 		<data>
 		TJ1Plq4zXngUgwJgRaETBvAUjPg=
+=======
+		mSOHp8w1zG/ZtG7ptfvofm61tMI=
+		</data>
+		<key>Frameworks/AASegmentedControl.framework/Info.plist</key>
+		<data>
+		j8za5P8tkNWI1ZQ3kFDq8MY2cAM=
+		</data>
+		<key>Frameworks/AASegmentedControl.framework/_CodeSignature/CodeResources</key>
+		<data>
+		iBX38YOQt9CjJlBh6UUP+9gwhno=
+		</data>
+		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
+		<data>
+		cYpqzx6XJLgw8ztpxon6Xa0vK1k=
+		</data>
+		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
+		<data>
+		YQbXn+M+KjPUdLs2/fzP9eB/a+A=
+		</data>
+		<key>Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources</key>
+		<data>
+		tGEXSfkkZC/jzBQIBI3CtsAWMxs=
+		</data>
+		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
+		<data>
+		7CRaNCbvLLeXoAEt20DVb5C+FRU=
+		</data>
+		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
+		<data>
+		PzBPMg2JxW68kKM6GKBAY4xzz4U=
+		</data>
+		<key>Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources</key>
+		<data>
+		UC62jw/FjiCle3BElMuf+KAL5Lo=
+>>>>>>> origin/master
 		</data>
 		<key>Frameworks/TwitterCore.framework/Info.plist</key>
 		<data>
@@ -106,7 +146,11 @@
 		</data>
 		<key>Frameworks/TwitterCore.framework/TwitterCore</key>
 		<data>
+<<<<<<< HEAD
 		tZIJ5hfqnnNvR/Q4J7VqssSY62k=
+=======
+		44+GecDBpFwDVacShVbYy8XzF0U=
+>>>>>>> origin/master
 		</data>
 		<key>Frameworks/TwitterCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -118,7 +162,11 @@
 		</data>
 		<key>Frameworks/TwitterKit.framework/TwitterKit</key>
 		<data>
+<<<<<<< HEAD
 		uEnRZrlIjWwbviKN3qPlLoKdr7I=
+=======
+		68aJ0MLv89xjU4gPuCz97aEjKec=
+>>>>>>> origin/master
 		</data>
 		<key>Frameworks/TwitterKit.framework/TwitterKitResources.bundle/TFSScribe.momd/TFSScribe.mom</key>
 		<data>
@@ -919,6 +967,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
 		<data>
+<<<<<<< HEAD
 		E7vBjuok2eahdfTse390O0elC0k=
 		</data>
 		<key>Frameworks/nanopb.framework/_CodeSignature/CodeResources</key>
@@ -928,6 +977,17 @@
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
 		2d0iaW2muXVrDMaSa7/eyoReAFw=
+=======
+		54BEiBJSnktL4Kfww4eg0Xq62AM=
+		</data>
+		<key>Frameworks/nanopb.framework/_CodeSignature/CodeResources</key>
+		<data>
+		u4Pvu8JqDk9IfrcWsrsNSDF2g/c=
+		</data>
+		<key>Frameworks/nanopb.framework/nanopb</key>
+		<data>
+		7i8QWt4IXB27Z3bCM9my34hJUjM=
+>>>>>>> origin/master
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -1684,11 +1744,19 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			f4fWqFguzgJsXdPxl//KO5MaEq0=
 			</data>
 			<key>hash2</key>
 			<data>
 			OfQ0yASrUWa7PA5i7QwsxTx/RwaJ/RBbddbA6c4Ui2w=
+=======
+			kxixEKgEbRhCyS7HnJ19vv9UNOg=
+			</data>
+			<key>hash2</key>
+			<data>
+			SNx5HaJTOVTET8+oQnrl6Sz0Kag+PhCxceYyP4S1+lU=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -1838,99 +1906,171 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			ACieKqwzyss0qdiO1pjv6GZ8SxI=
 			</data>
 			<key>hash2</key>
 			<data>
 			mfeoJg1/XrRFqoY1xf5lEmhKo8nvbkh8WglAflqt82g=
+=======
+			mSOHp8w1zG/ZtG7ptfvofm61tMI=
+			</data>
+			<key>hash2</key>
+			<data>
+			IeXDV0uChQsjHjqE9v1j8WzGuR1ypPLYEI8vzwV6mX4=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/AASegmentedControl.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			aiM5wpqiHVysZaI1anrcDJLILo0=
 			</data>
 			<key>hash2</key>
 			<data>
 			B70xHyoJ41a0FR3LyOB9MuzNO9hI47ldWkU3JomWKAA=
+=======
+			j8za5P8tkNWI1ZQ3kFDq8MY2cAM=
+			</data>
+			<key>hash2</key>
+			<data>
+			tSeqH4SwL3D2M4oPDJGm12JENMipbeMCTeb143nVooo=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/AASegmentedControl.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			CcVIqgeL0YkefqMlNfVhKeVl1p4=
 			</data>
 			<key>hash2</key>
 			<data>
 			qcjpAZABCYMdzPl4Ehr9MWQoyqTLUtnspdm+1rTe6JY=
+=======
+			iBX38YOQt9CjJlBh6UUP+9gwhno=
+			</data>
+			<key>hash2</key>
+			<data>
+			bDcai87q4CChBoEL7WkXSnIPjyj1WwXYy10Q+zGPaAA=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			vR797AxEsz0yquI+RFlpnSqWRrU=
 			</data>
 			<key>hash2</key>
 			<data>
 			idfXy+ldGr9As5sEfB9kz6gm+KVOjy862OBNfuP3Rwc=
+=======
+			cYpqzx6XJLgw8ztpxon6Xa0vK1k=
+			</data>
+			<key>hash2</key>
+			<data>
+			pR6fuM2wQ/li51ngor56u18ANNgo38IzyWfXeflq46g=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			ColdrvaweeUojRLviqZD0+jEW1g=
 			</data>
 			<key>hash2</key>
 			<data>
 			P+XA4tvT4VimAoPzqG7Rla7NNuswwHDsSFanXyehv0M=
+=======
+			YQbXn+M+KjPUdLs2/fzP9eB/a+A=
+			</data>
+			<key>hash2</key>
+			<data>
+			/Hh/rzV+A7g8NkMwHK2hmPhTviZh+wvyWMBnJUKBasc=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			Yf9d0/Rpd0QEkGvxvYwNLxQKt3c=
 			</data>
 			<key>hash2</key>
 			<data>
 			eVJagN2INpBpJfz4xkVCDlIgakiMa0HDC8u72n2dwPM=
+=======
+			tGEXSfkkZC/jzBQIBI3CtsAWMxs=
+			</data>
+			<key>hash2</key>
+			<data>
+			1NNXan89YwLnFG+Cnyb1YsWpELrN6TfTNEyoQckvmGk=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			qLkVtorKhMRZ/RtrWfJO4kXThYA=
 			</data>
 			<key>hash2</key>
 			<data>
 			KE2otqoasZOW1oOLNYj9GzjqAat4LouQTuGBPUwoECY=
+=======
+			7CRaNCbvLLeXoAEt20DVb5C+FRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			gq1gNa/EIBysAN6YdiNpwc2Kn9y316uuQPxfp9DhQvc=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			6SxHJWCGDmlSVJfz8bcy5xlRn/o=
 			</data>
 			<key>hash2</key>
 			<data>
 			spK9FCXt/FICaHrr+6nkSIFEVmKeCVzDubG+Ld96VJM=
+=======
+			PzBPMg2JxW68kKM6GKBAY4xzz4U=
+			</data>
+			<key>hash2</key>
+			<data>
+			lAM1bhD1Fw1dUgv9BDLx45Ksl0w6JxiuKElcYRR8emk=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			TJ1Plq4zXngUgwJgRaETBvAUjPg=
 			</data>
 			<key>hash2</key>
 			<data>
 			lJUHoonTGVLLH6PRZJx0jP4hjXPOHPXELqnMREC4hmA=
+=======
+			UC62jw/FjiCle3BElMuf+KAL5Lo=
+			</data>
+			<key>hash2</key>
+			<data>
+			BdgDFyY7KbyWGHaJm+soFlxFayu/MA4X9K7a7Y88OVI=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/TwitterCore.framework/Info.plist</key>
@@ -1948,11 +2088,19 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			tZIJ5hfqnnNvR/Q4J7VqssSY62k=
 			</data>
 			<key>hash2</key>
 			<data>
 			3x+BbT45ipTpE1vAwzOxWcV5Ndx/nYfCVj91+W0Xrqs=
+=======
+			44+GecDBpFwDVacShVbYy8XzF0U=
+			</data>
+			<key>hash2</key>
+			<data>
+			PA8wOwfUavcjv7zq5nL35lbPetf32tpNDDurKHO2YzA=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/TwitterCore.framework/_CodeSignature/CodeResources</key>
@@ -1981,11 +2129,19 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			uEnRZrlIjWwbviKN3qPlLoKdr7I=
 			</data>
 			<key>hash2</key>
 			<data>
 			wCz+A7pmyxIZbQghfbOAT3bRtOHT5htVkzTsPrZZZu0=
+=======
+			68aJ0MLv89xjU4gPuCz97aEjKec=
+			</data>
+			<key>hash2</key>
+			<data>
+			t4cBg7HQ+GDGBs960EoPqRDFhP1iIzM0JwJhfn6knPM=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/TwitterKit.framework/TwitterKitResources.bundle/TFSScribe.momd/TFSScribe.mom</key>
@@ -3655,33 +3811,57 @@
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			E7vBjuok2eahdfTse390O0elC0k=
 			</data>
 			<key>hash2</key>
 			<data>
 			foNsGRZPKBOeXM3Q0uiEpIKDbjTTo9N/atogpVWJSr8=
+=======
+			54BEiBJSnktL4Kfww4eg0Xq62AM=
+			</data>
+			<key>hash2</key>
+			<data>
+			eyDMboRNrRWNYQUiBsWE/WfdZQBH2pAy/CQDc2QDSu0=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/nanopb.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			VlH4M01sOkmqZg3jVUkl3o3k8Ec=
 			</data>
 			<key>hash2</key>
 			<data>
 			TNuQeq+AsO9OCBRtHO31byPpYPRurXFMN7pWRQHl6nk=
+=======
+			u4Pvu8JqDk9IfrcWsrsNSDF2g/c=
+			</data>
+			<key>hash2</key>
+			<data>
+			CJmZzA3Kl2PNIitcw+5YgHMXc+BhZLNe1x6sYsHtruQ=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<dict>
 			<key>hash</key>
 			<data>
+<<<<<<< HEAD
 			2d0iaW2muXVrDMaSa7/eyoReAFw=
 			</data>
 			<key>hash2</key>
 			<data>
 			qxf7lOjBJ0YfRSgtc/GaQJkbAGenxs6kHQ9fAS4kMBk=
+=======
+			7i8QWt4IXB27Z3bCM9my34hJUjM=
+			</data>
+			<key>hash2</key>
+			<data>
+			XeK8brzSTtW+E8VZTnb7hvPh9Un6pVqpWvcFF2PzGPs=
+>>>>>>> origin/master
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>

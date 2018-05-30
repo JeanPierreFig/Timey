@@ -13,7 +13,6 @@
 		F71CAF632005D2FB006B9732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71CAF612005D2FB006B9732 /* Main.storyboard */; };
 		F71CAF652005D2FB006B9732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CAF642005D2FB006B9732 /* Assets.xcassets */; };
 		F71CAF682005D2FB006B9732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71CAF662005D2FB006B9732 /* LaunchScreen.storyboard */; };
-		F71CAF702005D8B5006B9732 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CAF6F2005D8B5006B9732 /* TableViewCell.swift */; };
 		F740E3D3200959B0007B4F85 /* CreateTimeLapseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740E3D2200959B0007B4F85 /* CreateTimeLapseViewController.swift */; };
 		F757C8632014222700378081 /* viewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757C8622014222700378081 /* viewControllerExtension.swift */; };
 		F757C8652016C5E500378081 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F757C8642016C5E400378081 /* AVKit.framework */; };
@@ -21,11 +20,13 @@
 		F76FE32C20BB4A1A00826F21 /* A Perfect Place - OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = F76FE32B20BB4A1A00826F21 /* A Perfect Place - OTF.otf */; };
 		F76FE32E20BB545F00826F21 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FE32D20BB545F00826F21 /* PinterestLayout.swift */; };
 		F76FE33020BB597700826F21 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FE32F20BB597700826F21 /* CoreDataHelper.swift */; };
+		F76FE33220BBAD0300826F21 /* TinyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FE33120BBAD0300826F21 /* TinyCollectionViewCell.swift */; };
+		F76FE33420BBC0B500826F21 /* ShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FE33320BBC0B500826F21 /* ShareHelper.swift */; };
+		F76FE33620BBC7CE00826F21 /* CXEImagesToVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FE33520BBC7CE00826F21 /* CXEImagesToVideo.swift */; };
 		F781B120201A4CCC00B5629D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F781B11F201A4CCC00B5629D /* UIImageExtension.swift */; };
 		F785B816201139EE00AF96BC /* stringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785B815201139EE00AF96BC /* stringExtension.swift */; };
 		F785B81D20140EF000AF96BC /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785B81C20140EF000AF96BC /* ImageCollectionViewCell.swift */; };
 		F7BC9219201A2FB70025EB52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7BC9218201A2FB70025EB52 /* GoogleService-Info.plist */; };
-		F7BC921D201A43E80025EB52 /* InprogressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC921C201A43E80025EB52 /* InprogressTableViewCell.swift */; };
 		F7D8DC56200DA4CC000D927D /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8DC55200DA4CC000D927D /* ImageCollectionViewController.swift */; };
 		F7D8DC58200DABFC000D927D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8DC57200DABFC000D927D /* CameraViewController.swift */; };
 		F7D8DC5A200DC618000D927D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8DC59200DC618000D927D /* AVFoundation.framework */; };
@@ -45,7 +46,6 @@
 		F71CAF642005D2FB006B9732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71CAF672005D2FB006B9732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71CAF692005D2FB006B9732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71CAF6F2005D8B5006B9732 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F740E3D2200959B0007B4F85 /* CreateTimeLapseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTimeLapseViewController.swift; sourceTree = "<group>"; };
 		F757C8622014222700378081 /* viewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerExtension.swift; sourceTree = "<group>"; };
 		F757C8642016C5E400378081 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
@@ -53,11 +53,13 @@
 		F76FE32B20BB4A1A00826F21 /* A Perfect Place - OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Perfect Place - OTF.otf"; sourceTree = "<group>"; };
 		F76FE32D20BB545F00826F21 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		F76FE32F20BB597700826F21 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		F76FE33120BBAD0300826F21 /* TinyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F76FE33320BBC0B500826F21 /* ShareHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareHelper.swift; sourceTree = "<group>"; };
+		F76FE33520BBC7CE00826F21 /* CXEImagesToVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXEImagesToVideo.swift; sourceTree = "<group>"; };
 		F781B11F201A4CCC00B5629D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		F785B815201139EE00AF96BC /* stringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringExtension.swift; sourceTree = "<group>"; };
 		F785B81C20140EF000AF96BC /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		F7BC9218201A2FB70025EB52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		F7BC921C201A43E80025EB52 /* InprogressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InprogressTableViewCell.swift; sourceTree = "<group>"; };
 		F7D8DC55200DA4CC000D927D /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
 		F7D8DC57200DABFC000D927D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F7D8DC59200DC618000D927D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -134,7 +136,6 @@
 				F785B81A2012878C00AF96BC /* Model */,
 				F785B81B20140E9900AF96BC /* View */,
 				F785B8192012878000AF96BC /* extension */,
-				F71CAF6F2005D8B5006B9732 /* TableViewCell.swift */,
 				F71CAF612005D2FB006B9732 /* Main.storyboard */,
 				F71CAF642005D2FB006B9732 /* Assets.xcassets */,
 				F71CAF662005D2FB006B9732 /* LaunchScreen.storyboard */,
@@ -153,7 +154,6 @@
 				F7D8DC55200DA4CC000D927D /* ImageCollectionViewController.swift */,
 				F71CAF5F2005D2FB006B9732 /* ViewController.swift */,
 				F7D8DC57200DABFC000D927D /* CameraViewController.swift */,
-				F7BC921C201A43E80025EB52 /* InprogressTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +173,8 @@
 			children = (
 				F7EFDA2C20112C8A00B97173 /* Content.swift */,
 				F76FE32F20BB597700826F21 /* CoreDataHelper.swift */,
+				F76FE33320BBC0B500826F21 /* ShareHelper.swift */,
+				F76FE33520BBC7CE00826F21 /* CXEImagesToVideo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				F785B81C20140EF000AF96BC /* ImageCollectionViewCell.swift */,
+				F76FE33120BBAD0300826F21 /* TinyCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,8 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76FE33020BB597700826F21 /* CoreDataHelper.swift in Sources */,
+				F76FE33620BBC7CE00826F21 /* CXEImagesToVideo.swift in Sources */,
 				F7D8DC56200DA4CC000D927D /* ImageCollectionViewController.swift in Sources */,
-				F71CAF702005D8B5006B9732 /* TableViewCell.swift in Sources */,
+				F76FE33220BBAD0300826F21 /* TinyCollectionViewCell.swift in Sources */,
 				F7D8DC58200DABFC000D927D /* CameraViewController.swift in Sources */,
 				F7EFDA2B20101F6500B97173 /* Model.xcdatamodeld in Sources */,
 				F740E3D3200959B0007B4F85 /* CreateTimeLapseViewController.swift in Sources */,
@@ -343,8 +347,8 @@
 				F781B120201A4CCC00B5629D /* UIImageExtension.swift in Sources */,
 				F76FE32E20BB545F00826F21 /* PinterestLayout.swift in Sources */,
 				F757C8632014222700378081 /* viewControllerExtension.swift in Sources */,
+				F76FE33420BBC0B500826F21 /* ShareHelper.swift in Sources */,
 				F7EFDA2D20112C8A00B97173 /* Content.swift in Sources */,
-				F7BC921D201A43E80025EB52 /* InprogressTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

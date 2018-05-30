@@ -2,11 +2,666 @@
 provides-top-level:
 provides-nominal:
 provides-member:
+<<<<<<< HEAD
 provides-dynamic-lookup:
 depends-top-level:
 - "UIImage"
 depends-member:
 depends-nominal:
+=======
+- ["So7UIImageC", ""]
+- ["So7UIImageC", "removeRotationForImage"]
+- ["So7UIImageC", "createGIF"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private "=="
+- !private "BooleanLiteralType"
+- !private "CFDictionary"
+- !private "CFURL"
+- !private "CGImageDestinationAddImage"
+- !private "CGImageDestinationCreateWithURL"
+- !private "CGImageDestinationFinalize"
+- !private "CGImageDestinationSetProperties"
+- !private "CGPoint"
+- !private "CGRect"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "Double"
+- "Int"
+- !private "NSTemporaryDirectory"
+- !private "NSURL"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIImage"
+- !private "UIImageOrientation"
+- "URL"
+- !private "kCGImagePropertyGIFDelayTime"
+- !private "kCGImagePropertyGIFDictionary"
+- !private "kCGImagePropertyGIFLoopCount"
+- !private "kUTTypeGIF"
+- !private "print"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "cgImage"]
+- !private ["s23BidirectionalCollectionP", "cgImage"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC6CGRectV", "init"]
+- !private ["s7CVarArgP", "CGImageDestinationAddImage"]
+- !private ["s7CVarArgP", "CGImageDestinationCreateWithURL"]
+- !private ["s7CVarArgP", "CGImageDestinationFinalize"]
+- !private ["s7CVarArgP", "CGImageDestinationSetProperties"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSTemporaryDirectory"]
+- !private ["s7CVarArgP", "NSURL"]
+- !private ["s7CVarArgP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s7CVarArgP", "UIGraphicsEndImageContext"]
+- !private ["s7CVarArgP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s7CVarArgP", "UIImageOrientation"]
+- !private ["s7CVarArgP", "appendingPathComponent"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "draw"]
+- !private ["s7CVarArgP", "imageOrientation"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCGImagePropertyGIFDelayTime"]
+- !private ["s7CVarArgP", "kCGImagePropertyGIFDictionary"]
+- !private ["s7CVarArgP", "kCGImagePropertyGIFLoopCount"]
+- !private ["s7CVarArgP", "kUTTypeGIF"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "cgImage"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGImageDestinationAddImage"]
+- !private ["s28CustomDebugStringConvertibleP", "CGImageDestinationCreateWithURL"]
+- !private ["s28CustomDebugStringConvertibleP", "CGImageDestinationFinalize"]
+- !private ["s28CustomDebugStringConvertibleP", "CGImageDestinationSetProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSTemporaryDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURL"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageOrientation"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "draw"]
+- !private ["s28CustomDebugStringConvertibleP", "imageOrientation"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCGImagePropertyGIFDelayTime"]
+- !private ["s28CustomDebugStringConvertibleP", "kCGImagePropertyGIFDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "kCGImagePropertyGIFLoopCount"]
+- !private ["s28CustomDebugStringConvertibleP", "kUTTypeGIF"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "cgImage"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CGImageDestinationAddImage"]
+- !private ["s23CustomStringConvertibleP", "CGImageDestinationCreateWithURL"]
+- !private ["s23CustomStringConvertibleP", "CGImageDestinationFinalize"]
+- !private ["s23CustomStringConvertibleP", "CGImageDestinationSetProperties"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSTemporaryDirectory"]
+- !private ["s23CustomStringConvertibleP", "NSURL"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIImageOrientation"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "draw"]
+- !private ["s23CustomStringConvertibleP", "imageOrientation"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCGImagePropertyGIFDelayTime"]
+- !private ["s23CustomStringConvertibleP", "kCGImagePropertyGIFDictionary"]
+- !private ["s23CustomStringConvertibleP", "kCGImagePropertyGIFLoopCount"]
+- !private ["s23CustomStringConvertibleP", "kUTTypeGIF"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CGImageDestinationAddImage"]
+- !private ["s9EquatableP", "CGImageDestinationCreateWithURL"]
+- !private ["s9EquatableP", "CGImageDestinationFinalize"]
+- !private ["s9EquatableP", "CGImageDestinationSetProperties"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "NSTemporaryDirectory"]
+- !private ["s9EquatableP", "NSURL"]
+- !private ["s9EquatableP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s9EquatableP", "UIGraphicsEndImageContext"]
+- !private ["s9EquatableP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s9EquatableP", "UIImageOrientation"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "cgImage"]
+- !private ["s9EquatableP", "draw"]
+- !private ["s9EquatableP", "imageOrientation"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kCGImagePropertyGIFDelayTime"]
+- !private ["s9EquatableP", "kCGImagePropertyGIFDictionary"]
+- !private ["s9EquatableP", "kCGImagePropertyGIFLoopCount"]
+- !private ["s9EquatableP", "kUTTypeGIF"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "scale"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "up"]
+- !private ["s25ExpressibleByArrayLiteralP", "cgImage"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "CGImageDestinationAddImage"]
+- !private ["s8HashableP", "CGImageDestinationCreateWithURL"]
+- !private ["s8HashableP", "CGImageDestinationFinalize"]
+- !private ["s8HashableP", "CGImageDestinationSetProperties"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "NSTemporaryDirectory"]
+- !private ["s8HashableP", "NSURL"]
+- !private ["s8HashableP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s8HashableP", "UIGraphicsEndImageContext"]
+- !private ["s8HashableP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s8HashableP", "UIImageOrientation"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "cgImage"]
+- !private ["s8HashableP", "draw"]
+- !private ["s8HashableP", "imageOrientation"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "kCGImagePropertyGIFDelayTime"]
+- !private ["s8HashableP", "kCGImagePropertyGIFDictionary"]
+- !private ["s8HashableP", "kCGImagePropertyGIFLoopCount"]
+- !private ["s8HashableP", "kUTTypeGIF"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "scale"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "up"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "cgImage"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "CGImageDestinationAddImage"]
+- !private ["So8NSCodingP", "CGImageDestinationCreateWithURL"]
+- !private ["So8NSCodingP", "CGImageDestinationFinalize"]
+- !private ["So8NSCodingP", "CGImageDestinationSetProperties"]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSTemporaryDirectory"]
+- !private ["So8NSCodingP", "NSURL"]
+- !private ["So8NSCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSCodingP", "UIGraphicsEndImageContext"]
+- !private ["So8NSCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So8NSCodingP", "UIImageOrientation"]
+- !private ["So8NSCodingP", "appendingPathComponent"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "draw"]
+- !private ["So8NSCodingP", "imageOrientation"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So8NSCodingP", "kCGImagePropertyGIFDictionary"]
+- !private ["So8NSCodingP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So8NSCodingP", "kUTTypeGIF"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "scale"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So9NSCopyingP", "appendingPathComponent"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "CGImageDestinationAddImage"]
+- !private ["So21NSItemProviderReadingP", "CGImageDestinationCreateWithURL"]
+- !private ["So21NSItemProviderReadingP", "CGImageDestinationFinalize"]
+- !private ["So21NSItemProviderReadingP", "CGImageDestinationSetProperties"]
+- !private ["So21NSItemProviderReadingP", "CGPoint"]
+- !private ["So21NSItemProviderReadingP", "CGRect"]
+- !private ["So21NSItemProviderReadingP", "Int"]
+- !private ["So21NSItemProviderReadingP", "NSTemporaryDirectory"]
+- !private ["So21NSItemProviderReadingP", "NSURL"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIImageOrientation"]
+- !private ["So21NSItemProviderReadingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderReadingP", "cgImage"]
+- !private ["So21NSItemProviderReadingP", "draw"]
+- !private ["So21NSItemProviderReadingP", "imageOrientation"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So21NSItemProviderReadingP", "kCGImagePropertyGIFDictionary"]
+- !private ["So21NSItemProviderReadingP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So21NSItemProviderReadingP", "kUTTypeGIF"]
+- !private ["So21NSItemProviderReadingP", "print"]
+- !private ["So21NSItemProviderReadingP", "scale"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "CGImageDestinationAddImage"]
+- !private ["So21NSItemProviderWritingP", "CGImageDestinationCreateWithURL"]
+- !private ["So21NSItemProviderWritingP", "CGImageDestinationFinalize"]
+- !private ["So21NSItemProviderWritingP", "CGImageDestinationSetProperties"]
+- !private ["So21NSItemProviderWritingP", "CGPoint"]
+- !private ["So21NSItemProviderWritingP", "CGRect"]
+- !private ["So21NSItemProviderWritingP", "Int"]
+- !private ["So21NSItemProviderWritingP", "NSTemporaryDirectory"]
+- !private ["So21NSItemProviderWritingP", "NSURL"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIImageOrientation"]
+- !private ["So21NSItemProviderWritingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderWritingP", "cgImage"]
+- !private ["So21NSItemProviderWritingP", "draw"]
+- !private ["So21NSItemProviderWritingP", "imageOrientation"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So21NSItemProviderWritingP", "kCGImagePropertyGIFDictionary"]
+- !private ["So21NSItemProviderWritingP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So21NSItemProviderWritingP", "kUTTypeGIF"]
+- !private ["So21NSItemProviderWritingP", "print"]
+- !private ["So21NSItemProviderWritingP", "scale"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "CFDictionary"]
+- !private ["So8NSObjectC", "CFURL"]
+- !private ["So8NSObjectC", "CGImageDestinationAddImage"]
+- !private ["So8NSObjectC", "CGImageDestinationCreateWithURL"]
+- !private ["So8NSObjectC", "CGImageDestinationFinalize"]
+- !private ["So8NSObjectC", "CGImageDestinationSetProperties"]
+- !private ["So8NSObjectC", "CGPoint"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSTemporaryDirectory"]
+- !private ["So8NSObjectC", "NSURL"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectC", "UIGraphicsEndImageContext"]
+- !private ["So8NSObjectC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImageOrientation"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "appendingPathComponent"]
+- !private ["So8NSObjectC", "cgImage"]
+- ["So8NSObjectC", "createGIF"]
+- !private ["So8NSObjectC", "draw"]
+- !private ["So8NSObjectC", "imageOrientation"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCGImagePropertyGIFDelayTime"]
+- !private ["So8NSObjectC", "kCGImagePropertyGIFDictionary"]
+- !private ["So8NSObjectC", "kCGImagePropertyGIFLoopCount"]
+- !private ["So8NSObjectC", "kUTTypeGIF"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "removeRotationForImage"]
+- !private ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So16NSObjectProtocolP", "CGImageDestinationAddImage"]
+- !private ["So16NSObjectProtocolP", "CGImageDestinationCreateWithURL"]
+- !private ["So16NSObjectProtocolP", "CGImageDestinationFinalize"]
+- !private ["So16NSObjectProtocolP", "CGImageDestinationSetProperties"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "NSTemporaryDirectory"]
+- !private ["So16NSObjectProtocolP", "NSURL"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsEndImageContext"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So16NSObjectProtocolP", "UIImageOrientation"]
+- !private ["So16NSObjectProtocolP", "appendingPathComponent"]
+- !private ["So16NSObjectProtocolP", "cgImage"]
+- !private ["So16NSObjectProtocolP", "draw"]
+- !private ["So16NSObjectProtocolP", "imageOrientation"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So16NSObjectProtocolP", "kCGImagePropertyGIFDictionary"]
+- !private ["So16NSObjectProtocolP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So16NSObjectProtocolP", "kUTTypeGIF"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "scale"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So14NSSecureCodingP", "CGImageDestinationAddImage"]
+- !private ["So14NSSecureCodingP", "CGImageDestinationCreateWithURL"]
+- !private ["So14NSSecureCodingP", "CGImageDestinationFinalize"]
+- !private ["So14NSSecureCodingP", "CGImageDestinationSetProperties"]
+- !private ["So14NSSecureCodingP", "CGPoint"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "Int"]
+- !private ["So14NSSecureCodingP", "NSTemporaryDirectory"]
+- !private ["So14NSSecureCodingP", "NSURL"]
+- !private ["So14NSSecureCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So14NSSecureCodingP", "UIGraphicsEndImageContext"]
+- !private ["So14NSSecureCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So14NSSecureCodingP", "UIImageOrientation"]
+- !private ["So14NSSecureCodingP", "appendingPathComponent"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "draw"]
+- !private ["So14NSSecureCodingP", "imageOrientation"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So14NSSecureCodingP", "kCGImagePropertyGIFDictionary"]
+- !private ["So14NSSecureCodingP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So14NSSecureCodingP", "kUTTypeGIF"]
+- !private ["So14NSSecureCodingP", "print"]
+- !private ["So14NSSecureCodingP", "scale"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So8NSStringC", "init"]
+- !private ["So5NSURLC", "appendingPathComponent"]
+- !private ["So5NSURLC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "cgImage"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "cgImage"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "up"]
+- !private ["s8SequenceP", "cgImage"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "CGImageDestinationAddImage"]
+- !private ["So29UIAccessibilityIdentificationP", "CGImageDestinationCreateWithURL"]
+- !private ["So29UIAccessibilityIdentificationP", "CGImageDestinationFinalize"]
+- !private ["So29UIAccessibilityIdentificationP", "CGImageDestinationSetProperties"]
+- !private ["So29UIAccessibilityIdentificationP", "CGPoint"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "Int"]
+- !private ["So29UIAccessibilityIdentificationP", "NSTemporaryDirectory"]
+- !private ["So29UIAccessibilityIdentificationP", "NSURL"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsEndImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImageOrientation"]
+- !private ["So29UIAccessibilityIdentificationP", "cgImage"]
+- !private ["So29UIAccessibilityIdentificationP", "draw"]
+- !private ["So29UIAccessibilityIdentificationP", "imageOrientation"]
+- !private ["So29UIAccessibilityIdentificationP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So29UIAccessibilityIdentificationP", "kCGImagePropertyGIFDictionary"]
+- !private ["So29UIAccessibilityIdentificationP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So29UIAccessibilityIdentificationP", "kUTTypeGIF"]
+- !private ["So29UIAccessibilityIdentificationP", "print"]
+- !private ["So29UIAccessibilityIdentificationP", "scale"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So7UIImageC", "CFDictionary"]
+- !private ["So7UIImageC", "CFURL"]
+- !private ["So7UIImageC", "CGImageDestinationAddImage"]
+- !private ["So7UIImageC", "CGImageDestinationCreateWithURL"]
+- !private ["So7UIImageC", "CGImageDestinationFinalize"]
+- !private ["So7UIImageC", "CGImageDestinationSetProperties"]
+- !private ["So7UIImageC", "CGPoint"]
+- !private ["So7UIImageC", "CGRect"]
+- ["So7UIImageC", "Double"]
+- ["So7UIImageC", "Int"]
+- !private ["So7UIImageC", "NSTemporaryDirectory"]
+- !private ["So7UIImageC", "NSURL"]
+- !private ["So7UIImageC", "String"]
+- !private ["So7UIImageC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So7UIImageC", "UIGraphicsEndImageContext"]
+- !private ["So7UIImageC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So7UIImageC", "UIImage"]
+- !private ["So7UIImageC", "UIImageOrientation"]
+- ["So7UIImageC", "URL"]
+- !private ["So7UIImageC", "cgImage"]
+- ["So7UIImageC", "createGIF"]
+- !private ["So7UIImageC", "draw"]
+- !private ["So7UIImageC", "imageOrientation"]
+- !private ["So7UIImageC", "kCGImagePropertyGIFDelayTime"]
+- !private ["So7UIImageC", "kCGImagePropertyGIFDictionary"]
+- !private ["So7UIImageC", "kCGImagePropertyGIFLoopCount"]
+- !private ["So7UIImageC", "kUTTypeGIF"]
+- !private ["So7UIImageC", "print"]
+- ["So7UIImageC", "removeRotationForImage"]
+- !private ["So7UIImageC", "scale"]
+- !private ["So7UIImageC", "size"]
+- !private ["SC18UIImageOrientationO", "up"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGImageDestinationAddImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGImageDestinationCreateWithURL"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGImageDestinationFinalize"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGImageDestinationSetProperties"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGPoint"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "Int"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "NSTemporaryDirectory"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "NSURL"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsEndImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIImageOrientation"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "draw"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "imageOrientation"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kCGImagePropertyGIFDelayTime"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kCGImagePropertyGIFDictionary"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kCGImagePropertyGIFLoopCount"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kUTTypeGIF"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "print"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "scale"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["s14_ArrayProtocolP", "cgImage"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "cgImage"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "cgImage"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGImageDestinationAddImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGImageDestinationCreateWithURL"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGImageDestinationFinalize"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGImageDestinationSetProperties"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGPoint"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "Int"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSTemporaryDirectory"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSURL"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsEndImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIImageOrientation"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "draw"]
+- !private ["s26_ExpressibleByImageLiteralP", "imageOrientation"]
+- !private ["s26_ExpressibleByImageLiteralP", "kCGImagePropertyGIFDelayTime"]
+- !private ["s26_ExpressibleByImageLiteralP", "kCGImagePropertyGIFDictionary"]
+- !private ["s26_ExpressibleByImageLiteralP", "kCGImagePropertyGIFLoopCount"]
+- !private ["s26_ExpressibleByImageLiteralP", "kUTTypeGIF"]
+- !private ["s26_ExpressibleByImageLiteralP", "print"]
+- !private ["s26_ExpressibleByImageLiteralP", "scale"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appendingPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "cgImage"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "cgImage"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImageDestinationAddImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImageDestinationCreateWithURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImageDestinationFinalize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImageDestinationSetProperties"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSTemporaryDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsEndImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageOrientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageOrientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCGImagePropertyGIFDelayTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCGImagePropertyGIFDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCGImagePropertyGIFLoopCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kUTTypeGIF"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["s17_MutableIndexableP", "cgImage"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "cgImage"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "cgImage"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So5NSURLC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So7UIImageC"
+- !private "SC18UIImageOrientationO"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+>>>>>>> origin/master
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -35,17 +690,24 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-umbrella.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+=======
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
@@ -64,10 +726,13 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
@@ -112,14 +777,20 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRKit.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
@@ -130,7 +801,10 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
 - "/Users/jeanpierre/Timey/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
@@ -138,4 +812,8 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap"
+<<<<<<< HEAD
 interface-hash: "77bb3099f1fd3fd657a764d594ffed06"
+=======
+interface-hash: "6e3e96551842f66e4463f329544c6107"
+>>>>>>> origin/master

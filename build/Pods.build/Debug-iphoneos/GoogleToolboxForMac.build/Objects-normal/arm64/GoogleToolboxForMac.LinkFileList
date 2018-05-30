@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GoogleToolboxForMac-dummy.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GTMNSData+zlib.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GTMNSDictionary+URLArguments.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GTMNSString+URLArguments.o
 /Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GoogleToolboxForMac_vers.o
+=======
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GoogleToolboxForMac-dummy.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GTMNSData+zlib.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GTMNSDictionary+URLArguments.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GTMNSString+URLArguments.o
+/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/Objects-normal/arm64/GoogleToolboxForMac_vers.o
+>>>>>>> origin/master

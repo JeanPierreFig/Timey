@@ -78,7 +78,7 @@
                                 </cells>
                                 <connections>
                                     <outlet property="dataSource" destination="P6E-rN-eMR" id="T8r-b7-lrb"/>
-                                    <outlet property="delegate" destination="H8C-7z-T1U" id="4DX-dq-lbk"/>
+                                    <outlet property="delegate" destination="P6E-rN-eMR" id="EDM-C9-NPj"/>
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZA-gS-vPP">
@@ -90,6 +90,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3W9-wv-xF9">
                                 <rect key="frame" x="327" y="28" width="32" height="32"/>
                                 <state key="normal" image="add"/>
+                                <connections>
+                                    <segue destination="KJ2-ej-ruo" kind="show" identifier="CamaraView" id="2cD-lY-EtR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22352941176470587" green="0.792156862745098" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,14 +113,12 @@
                     <navigationItem key="navigationItem" title="Timey" id="0JH-dv-YN2">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xaj-pY-2yY">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <segue destination="KJ2-ej-ruo" kind="presentation" modalTransitionStyle="crossDissolve" id="8Xx-xc-vLs"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="ovs-Uf-gFd" id="JJM-4Y-TKW"/>
+                        <segue destination="5pv-sz-xay" kind="show" identifier="selectedCell" id="Yqi-4F-HkO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BzG-bf-M68" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -287,7 +288,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="post" destination="5pv-sz-xay" eventType="touchUpInside" id="EWt-f5-v7z"/>
+                                    <action selector="sendTo" destination="5pv-sz-xay" eventType="touchUpInside" id="dbg-dv-0gI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WV4-In-608">
@@ -309,7 +310,7 @@
                                     <inset key="sectionInset" minX="160" minY="0.0" maxX="200" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="ImageCell" id="MzW-ha-gB9" customClass="ImageCollectionViewCell" customModule="Timey" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="ImageCell" id="MzW-ha-gB9" customClass="TinyCollectionViewCell" customModule="Timey" customModuleProvider="target">
                                         <rect key="frame" x="160" y="20" width="45" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -364,7 +365,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2m-Ga-uif">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2m-Ga-uif">
                                             <rect key="frame" x="112.5" y="261" width="150" height="35"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="35" id="WRx-gO-FgD"/>
@@ -377,20 +378,7 @@
                                                 <action selector="shareActionButton:" destination="5pv-sz-xay" eventType="touchUpInside" id="bfP-Uq-JY6"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-4q-hWu">
-                                            <rect key="frame" x="112.5" y="206" width="150" height="35"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="35" id="QkM-25-PNB"/>
-                                                <constraint firstAttribute="width" constant="150" id="pim-ry-wt2"/>
-                                            </constraints>
-                                            <state key="normal" title="Twitter">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="shareActionButton:" destination="5pv-sz-xay" eventType="touchUpInside" id="Anh-sc-s1i"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHN-gI-74g">
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHN-gI-74g">
                                             <rect key="frame" x="112.5" y="316" width="150" height="35"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="35" id="F8y-B0-yu8"/>
@@ -401,32 +389,6 @@
                                             </state>
                                             <connections>
                                                 <action selector="shareActionButton:" destination="5pv-sz-xay" eventType="touchUpInside" id="tyx-zx-xc7"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbj-fK-bdF">
-                                            <rect key="frame" x="112.5" y="370.5" width="150" height="35"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="150" id="A8u-O8-nVX"/>
-                                                <constraint firstAttribute="height" constant="35" id="dai-9b-9lX"/>
-                                            </constraints>
-                                            <state key="normal" title="post to Timey">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="shareActionButton:" destination="5pv-sz-xay" eventType="touchUpInside" id="Mt7-9R-jZh"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-hO-zeq">
-                                            <rect key="frame" x="112.5" y="427.5" width="150" height="35"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="150" id="4yV-Mm-4J4"/>
-                                                <constraint firstAttribute="height" constant="35" id="fEa-ru-ZeO"/>
-                                            </constraints>
-                                            <state key="normal" title="Save to camera roll">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="shareActionButton:" destination="5pv-sz-xay" eventType="touchUpInside" id="Tq5-V2-Krf"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNq-h1-FZG">
@@ -444,22 +406,34 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-hO-zeq">
+                                            <rect key="frame" x="112" y="359" width="150" height="35"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="150" id="4yV-Mm-4J4"/>
+                                                <constraint firstAttribute="height" constant="35" id="fEa-ru-ZeO"/>
+                                            </constraints>
+                                            <state key="normal" title="Save to camera roll">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="shareActionButton:" destination="5pv-sz-xay" eventType="touchUpInside" id="Tq5-V2-Krf"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="BHN-gI-74g" firstAttribute="centerY" secondItem="fz8-2r-ULv" secondAttribute="centerY" id="5BI-Wg-1rZ"/>
-                                        <constraint firstItem="cOq-hO-zeq" firstAttribute="centerX" secondItem="Nbj-fK-bdF" secondAttribute="centerX" id="85Y-ED-nY7"/>
                                         <constraint firstItem="g2m-Ga-uif" firstAttribute="centerX" secondItem="BHN-gI-74g" secondAttribute="centerX" id="BI6-o6-i6M"/>
                                         <constraint firstItem="hUf-Zy-PZw" firstAttribute="leading" secondItem="WNq-h1-FZG" secondAttribute="trailing" constant="107" id="DpZ-UI-cn8"/>
                                         <constraint firstItem="WNq-h1-FZG" firstAttribute="leading" secondItem="fz8-2r-ULv" secondAttribute="leading" constant="12" id="EzQ-Mv-GqC"/>
+                                        <constraint firstItem="cOq-hO-zeq" firstAttribute="height" secondItem="BHN-gI-74g" secondAttribute="height" id="HPq-5C-5W5"/>
                                         <constraint firstItem="BHN-gI-74g" firstAttribute="centerX" secondItem="fz8-2r-ULv" secondAttribute="centerX" id="SHI-cf-fGN"/>
-                                        <constraint firstItem="cOq-hO-zeq" firstAttribute="top" secondItem="Nbj-fK-bdF" secondAttribute="bottom" constant="22" id="TdH-pl-ZT3"/>
-                                        <constraint firstItem="Nbj-fK-bdF" firstAttribute="top" secondItem="BHN-gI-74g" secondAttribute="bottom" constant="19.5" id="UOf-FK-5rl"/>
                                         <constraint firstItem="BHN-gI-74g" firstAttribute="top" secondItem="g2m-Ga-uif" secondAttribute="bottom" constant="20" id="Vd6-0r-EZQ"/>
                                         <constraint firstItem="WNq-h1-FZG" firstAttribute="top" secondItem="fz8-2r-ULv" secondAttribute="top" constant="29" id="fMH-iC-Qtg"/>
-                                        <constraint firstItem="g2m-Ga-uif" firstAttribute="top" secondItem="gmX-4q-hWu" secondAttribute="bottom" constant="20" id="fuD-cN-TOu"/>
+                                        <constraint firstItem="cOq-hO-zeq" firstAttribute="width" secondItem="BHN-gI-74g" secondAttribute="width" id="hZ4-Hi-myo"/>
+                                        <constraint firstItem="cOq-hO-zeq" firstAttribute="top" secondItem="BHN-gI-74g" secondAttribute="bottom" constant="8" id="jM5-H8-uof"/>
+                                        <constraint firstItem="cOq-hO-zeq" firstAttribute="centerX" secondItem="BHN-gI-74g" secondAttribute="centerX" id="nst-l1-wkn"/>
                                         <constraint firstAttribute="trailing" secondItem="hUf-Zy-PZw" secondAttribute="trailing" constant="146" id="pOi-2h-c8A"/>
-                                        <constraint firstItem="Nbj-fK-bdF" firstAttribute="centerX" secondItem="BHN-gI-74g" secondAttribute="centerX" id="syo-Gl-63I"/>
-                                        <constraint firstItem="g2m-Ga-uif" firstAttribute="centerX" secondItem="gmX-4q-hWu" secondAttribute="centerX" id="tKY-TV-Z5T"/>
+                                        <constraint firstItem="BHN-gI-74g" firstAttribute="leading" secondItem="cOq-hO-zeq" secondAttribute="trailing" constant="-149.5" id="reL-rH-MbT"/>
                                         <constraint firstItem="hUf-Zy-PZw" firstAttribute="top" secondItem="fz8-2r-ULv" secondAttribute="top" constant="29" id="y2H-dM-NzR"/>
                                     </constraints>
                                 </view>
@@ -499,16 +473,14 @@
                         <outlet property="imagesCountLable" destination="ebC-qf-w0X" id="bZM-OA-Xqz"/>
                         <outlet property="instagram" destination="g2m-Ga-uif" id="MwM-dh-b0s"/>
                         <outlet property="postButton" destination="mh0-ql-2yy" id="XvE-I1-ftP"/>
-                        <outlet property="postToTimey" destination="Nbj-fK-bdF" id="daZ-Da-0R4"/>
                         <outlet property="saveForLater" destination="BHN-gI-74g" id="3dW-aB-p6t"/>
                         <outlet property="saveToCameraRoll" destination="cOq-hO-zeq" id="Qwc-i3-jmM"/>
-                        <outlet property="twitterButton" destination="gmX-4q-hWu" id="zsK-zC-eNg"/>
                         <segue destination="TT0-Jq-bqx" kind="presentation" identifier="SaveSegue" modalTransitionStyle="crossDissolve" id="O5r-pV-fij"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0d6-12-yv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1524" y="-1127"/>
+            <point key="canvasLocation" x="1524" y="-1127.5862068965519"/>
         </scene>
         <!--Timey-->
         <scene sceneID="dQg-XW-yIx">
@@ -608,6 +580,7 @@
         <image name="time-lapse" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8Xx-xc-vLs"/>
+        <segue reference="kIz-Tu-Vo1"/>
+        <segue reference="Yqi-4F-HkO"/>
     </inferredMetricsTieBreakers>
 </document>

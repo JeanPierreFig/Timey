@@ -14,6 +14,7 @@ import AVFoundation
 
 public let IMAGE_CELL = "Image_cell"
 public let CoreData_Entity_Name = "Timelapse"
+public let SELECTED_SEGUE = "selectedCell"
 
 class ViewController: UIViewController{
     
@@ -41,6 +42,15 @@ class ViewController: UIViewController{
         collectionData = CoreDataHelper.LoadData(manageContext: manageContext)
         collectionView.reloadData()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? ImageCollectionViewController {
+            let cell = sender as! UICollectionViewCell
+            let indexPath = collectionView.indexPath(for: cell)
+            dest.contentItem  = collectionData[(indexPath?.row)!]
+            dest.isSaved = true
+        }
+    }
 }
 
 extension ViewController: UICollectionViewDataSource,UICollectionViewDelegate {
@@ -54,6 +64,11 @@ extension ViewController: UICollectionViewDataSource,UICollectionViewDelegate {
         cell?.photo = collectionData[indexPath.row].firstImage
         cell?.title = collectionData[indexPath.row].title
         return cell!
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        self.performSegue(withIdentifier: SELECTED_SEGUE, sender: collectionView.cellForItem(at: indexPath))
     }
 }
 

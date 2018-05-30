@@ -13,4 +13,14 @@ import MobileCoreServices
 
 extension UIImage {
     
+    static func rotateImageUp(image: UIImage) -> UIImage {
+            if image.imageOrientation == UIImageOrientation.up {
+                return image
+            }
+            UIGraphicsBeginImageContextWithOptions(image.size, false, image.scale)
+            image.draw(in: CGRect(origin: CGPoint(x: 0, y: 0), size: image.size))
+            let normalizedImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+            UIGraphicsEndImageContext()
+            return normalizedImage
+    }
 }

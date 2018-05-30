@@ -1,6 +1,14 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+<<<<<<< HEAD
 options: "ab4f80382b9336a2b42ad5dcac99b794"
 build_time: [1522112797, 689788000]
 inputs:
   "/Users/jeanpierre/Timey copy/Pods/AASegmentedControl/AASegmentedControl/Classes/AASegmentedControl+Helper.swift": !dirty [1515743326, 0]
   "/Users/jeanpierre/Timey copy/Pods/AASegmentedControl/AASegmentedControl/Classes/AASegmentedControl.swift": !dirty [1516634327, 0]
+=======
+options: "1a8f0af59d4d69134ce2d3cae45c1f21"
+build_time: [1516913828, 135683000]
+inputs:
+  "/Users/jeanpierre/Timey/Pods/AASegmentedControl/AASegmentedControl/Classes/AASegmentedControl+Helper.swift": [1515743326, 0]
+  "/Users/jeanpierre/Timey/Pods/AASegmentedControl/AASegmentedControl/Classes/AASegmentedControl.swift": [1516634327, 0]
+>>>>>>> origin/master

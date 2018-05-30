@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "47297779315ee47fa303f94ad4c65597"
+build_time: [1516952140, 167892000]
+inputs:
+  "/Users/jeanpierre/Timey/Pods/AASegmentedControl/AASegmentedControl/Classes/AASegmentedControl+Helper.swift": [1515743326, 0]
+  "/Users/jeanpierre/Timey/Pods/AASegmentedControl/AASegmentedControl/Classes/AASegmentedControl.swift": [1516634327, 0]

@@ -1,5 +1,6 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+<<<<<<< HEAD
 - "cameraProtocal"
 - "CameraViewController"
 provides-nominal:
@@ -7,13 +8,25 @@ provides-nominal:
 - "5Timey20CameraViewControllerC"
 provides-member:
 - ["5Timey14cameraProtocalP", ""]
+=======
+- "CameraViewDelegate"
+- "CameraViewController"
+provides-nominal:
+- "5Timey18CameraViewDelegateP"
+- "5Timey20CameraViewControllerC"
+provides-member:
+- ["5Timey18CameraViewDelegateP", ""]
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", ""]
 provides-dynamic-lookup:
 - "backButton"
 - "cameraButton"
 - "captureImage"
 - "createButton"
+<<<<<<< HEAD
 - "didReceiveMemoryWarning"
+=======
+>>>>>>> origin/master
 - "dismiss"
 - "flipButton"
 - "lastImageTakenView"
@@ -44,9 +57,14 @@ depends-top-level:
 - "Bool"
 - "BooleanLiteralType"
 - !private "CGAffineTransform"
+<<<<<<< HEAD
 - !private "CGPoint"
 - !private "CGRect"
 - "CameraViewController"
+=======
+- "CameraViewController"
+- "CameraViewDelegate"
+>>>>>>> origin/master
 - "CastingPrecedence"
 - !private "Dictionary"
 - "Error"
@@ -55,17 +73,24 @@ depends-top-level:
 - "UIButton"
 - !private "UIColor"
 - !private "UIControlState"
+<<<<<<< HEAD
 - !private "UIGraphicsBeginImageContextWithOptions"
 - !private "UIGraphicsEndImageContext"
 - !private "UIGraphicsGetImageFromCurrentImageContext"
 - "UIImage"
 - !private "UIImageOrientation"
+=======
+- "UIImage"
+>>>>>>> origin/master
 - "UIImageView"
 - !private "UIImpactFeedbackGenerator"
 - "UIStoryboardSegue"
 - !private "UIView"
 - "UIViewController"
+<<<<<<< HEAD
 - "cameraProtocal"
+=======
+>>>>>>> origin/master
 depends-member:
 - !private ["So19AVCaptureConnectionC", "videoOrientation"]
 - !private ["So15AVCaptureDeviceC", "DeviceType"]
@@ -90,6 +115,7 @@ depends-member:
 - !private ["So29AVCapturePhotoCaptureDelegateP", "AVVideoCodecKey"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "AVVideoCodecType"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So29AVCapturePhotoCaptureDelegateP", "CGPoint"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "CGRect"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "UIColor"]
@@ -99,6 +125,11 @@ depends-member:
 - !private ["So29AVCapturePhotoCaptureDelegateP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So29AVCapturePhotoCaptureDelegateP", "UIImage"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "UIImageOrientation"]
+=======
+- !private ["So29AVCapturePhotoCaptureDelegateP", "UIColor"]
+- !private ["So29AVCapturePhotoCaptureDelegateP", "UIControlState"]
+- ["So29AVCapturePhotoCaptureDelegateP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So29AVCapturePhotoCaptureDelegateP", "UIImpactFeedbackGenerator"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "UIView"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "backButton"]
@@ -108,6 +139,10 @@ depends-member:
 - ["So29AVCapturePhotoCaptureDelegateP", "capture"]
 - ["So29AVCapturePhotoCaptureDelegateP", "captureOutput"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So29AVCapturePhotoCaptureDelegateP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So29AVCapturePhotoCaptureDelegateP", "createButton"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "createCameraOverlay"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "createSession"]
@@ -120,7 +155,10 @@ depends-member:
 - !private ["So29AVCapturePhotoCaptureDelegateP", "isSaved"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "lastImageTakenView"]
 - ["So29AVCapturePhotoCaptureDelegateP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So29AVCapturePhotoCaptureDelegateP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So29AVCapturePhotoCaptureDelegateP", "setupInputOutput"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "startSession"]
 - !private ["So29AVCapturePhotoCaptureDelegateP", "view"]
@@ -193,8 +231,11 @@ depends-member:
 - !private ["So13CAMediaTimingP", "videoGravity"]
 - !private ["SC17CGAffineTransformV", "init"]
 - !private ["SC17CGAffineTransformV", "rotated"]
+<<<<<<< HEAD
 - !private ["SC7CGPointV", "init"]
 - !private ["SC6CGRectV", "init"]
+=======
+>>>>>>> origin/master
 - !private ["SC6CGRectV", "width"]
 - !private ["s7CVarArgP", "AVCaptureDevice"]
 - !private ["s7CVarArgP", "AVCaptureDeviceInput"]
@@ -208,19 +249,26 @@ depends-member:
 - !private ["s7CVarArgP", "AVVideoCodecKey"]
 - !private ["s7CVarArgP", "AVVideoCodecType"]
 - !private ["s7CVarArgP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "CGPoint"]
 - !private ["s7CVarArgP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "DeviceType"]
 - !private ["s7CVarArgP", "DiscoverySession"]
 - !private ["s7CVarArgP", "Position"]
 - !private ["s7CVarArgP", "Preset"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["s7CVarArgP", "UIGraphicsEndImageContext"]
 - !private ["s7CVarArgP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "UIImageOrientation"]
+=======
+- ["s7CVarArgP", "UIImage"]
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "UIImpactFeedbackGenerator"]
 - !private ["s7CVarArgP", "UIView"]
 - !private ["s7CVarArgP", "addInput"]
@@ -242,6 +290,10 @@ depends-member:
 - !private ["s7CVarArgP", "captureSession"]
 - !private ["s7CVarArgP", "cgColor"]
 - !private ["s7CVarArgP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["s7CVarArgP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "connection"]
 - !private ["s7CVarArgP", "cornerRadius"]
 - !private ["s7CVarArgP", "count"]
@@ -252,15 +304,22 @@ depends-member:
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "destination"]
 - !private ["s7CVarArgP", "devices"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "draw"]
+=======
+- !private ["s7CVarArgP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "fileDataRepresentation"]
 - !private ["s7CVarArgP", "flipButton"]
 - !private ["s7CVarArgP", "frame"]
 - !private ["s7CVarArgP", "frontCamera"]
 - !private ["s7CVarArgP", "image"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "imagesTaken"]
 - !private ["s7CVarArgP", "impactOccurred"]
 - ["s7CVarArgP", "init"]
@@ -277,7 +336,10 @@ depends-member:
 - !private ["s7CVarArgP", "removeInput"]
 - !private ["s7CVarArgP", "removeOutput"]
 - !private ["s7CVarArgP", "removeRotationForImage"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "sessionPreset"]
 - !private ["s7CVarArgP", "setPreparedPhotoSettingsArray"]
 - !private ["s7CVarArgP", "setTitle"]
@@ -285,7 +347,10 @@ depends-member:
 - !private ["s7CVarArgP", "shadowColor"]
 - !private ["s7CVarArgP", "shadowOpacity"]
 - !private ["s7CVarArgP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["s7CVarArgP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["s7CVarArgP", "startRunning"]
 - !private ["s7CVarArgP", "startSession"]
 - !private ["s7CVarArgP", "subscript"]
@@ -310,18 +375,26 @@ depends-member:
 - !private ["5Timey20CameraViewControllerC", "AVVideoCodecType"]
 - ["5Timey20CameraViewControllerC", "Bool"]
 - !private ["5Timey20CameraViewControllerC", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["5Timey20CameraViewControllerC", "CGPoint"]
 - !private ["5Timey20CameraViewControllerC", "CGRect"]
+=======
+- ["5Timey20CameraViewControllerC", "CameraViewDelegate"]
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", "Error"]
 - !private ["5Timey20CameraViewControllerC", "ImageCollectionViewController"]
 - ["5Timey20CameraViewControllerC", "UIButton"]
 - !private ["5Timey20CameraViewControllerC", "UIColor"]
 - !private ["5Timey20CameraViewControllerC", "UIControlState"]
+<<<<<<< HEAD
 - !private ["5Timey20CameraViewControllerC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["5Timey20CameraViewControllerC", "UIGraphicsEndImageContext"]
 - !private ["5Timey20CameraViewControllerC", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["5Timey20CameraViewControllerC", "UIImage"]
 - !private ["5Timey20CameraViewControllerC", "UIImageOrientation"]
+=======
+- ["5Timey20CameraViewControllerC", "UIImage"]
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", "UIImageView"]
 - !private ["5Timey20CameraViewControllerC", "UIImpactFeedbackGenerator"]
 - ["5Timey20CameraViewControllerC", "UIStoryboardSegue"]
@@ -330,18 +403,28 @@ depends-member:
 - ["5Timey20CameraViewControllerC", "backCamera"]
 - ["5Timey20CameraViewControllerC", "cameraButton"]
 - ["5Timey20CameraViewControllerC", "cameraPreviewLayer"]
+<<<<<<< HEAD
 - ["5Timey20CameraViewControllerC", "cameraProtocal"]
+=======
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", "capture"]
 - ["5Timey20CameraViewControllerC", "captureImage"]
 - ["5Timey20CameraViewControllerC", "captureOutput"]
 - ["5Timey20CameraViewControllerC", "captureSession"]
+<<<<<<< HEAD
+=======
+- ["5Timey20CameraViewControllerC", "configureCameraView"]
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", "createButton"]
 - ["5Timey20CameraViewControllerC", "createCameraOverlay"]
 - ["5Timey20CameraViewControllerC", "createSession"]
 - ["5Timey20CameraViewControllerC", "currentCamera"]
 - ["5Timey20CameraViewControllerC", "deinit"]
 - ["5Timey20CameraViewControllerC", "delegate"]
+<<<<<<< HEAD
 - ["5Timey20CameraViewControllerC", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", "dismiss"]
 - ["5Timey20CameraViewControllerC", "flipButton"]
 - ["5Timey20CameraViewControllerC", "frontCamera"]
@@ -352,12 +435,22 @@ depends-member:
 - ["5Timey20CameraViewControllerC", "photoOutput"]
 - ["5Timey20CameraViewControllerC", "prefersStatusBarHidden"]
 - ["5Timey20CameraViewControllerC", "prepare"]
+<<<<<<< HEAD
 - ["5Timey20CameraViewControllerC", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - ["5Timey20CameraViewControllerC", "rotate"]
 - ["5Timey20CameraViewControllerC", "setupInputOutput"]
 - ["5Timey20CameraViewControllerC", "startSession"]
 - !private ["5Timey20CameraViewControllerC", "view"]
 - ["5Timey20CameraViewControllerC", "viewDidLoad"]
+<<<<<<< HEAD
+=======
+- ["5Timey18CameraViewDelegateP", "UIImage"]
+- ["5Timey18CameraViewDelegateP", "didAddMoreImages"]
+- !private ["5Timey18CameraViewDelegateP", "imagesTaken"]
+- !private ["5Timey18CameraViewDelegateP", "isSaved"]
+>>>>>>> origin/master
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
@@ -375,19 +468,26 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "AVVideoCodecKey"]
 - !private ["s28CustomDebugStringConvertibleP", "AVVideoCodecType"]
 - !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
 - !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "DeviceType"]
 - !private ["s28CustomDebugStringConvertibleP", "DiscoverySession"]
 - !private ["s28CustomDebugStringConvertibleP", "Position"]
 - !private ["s28CustomDebugStringConvertibleP", "Preset"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["s28CustomDebugStringConvertibleP", "UIGraphicsEndImageContext"]
 - !private ["s28CustomDebugStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImageOrientation"]
+=======
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "UIImpactFeedbackGenerator"]
 - !private ["s28CustomDebugStringConvertibleP", "UIView"]
 - !private ["s28CustomDebugStringConvertibleP", "addInput"]
@@ -409,6 +509,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "captureSession"]
 - !private ["s28CustomDebugStringConvertibleP", "cgColor"]
 - !private ["s28CustomDebugStringConvertibleP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["s28CustomDebugStringConvertibleP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "connection"]
 - !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
@@ -419,15 +523,22 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "destination"]
 - !private ["s28CustomDebugStringConvertibleP", "devices"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "draw"]
+=======
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "fileDataRepresentation"]
 - !private ["s28CustomDebugStringConvertibleP", "flipButton"]
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
 - !private ["s28CustomDebugStringConvertibleP", "frontCamera"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "imagesTaken"]
 - !private ["s28CustomDebugStringConvertibleP", "impactOccurred"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -444,7 +555,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "removeInput"]
 - !private ["s28CustomDebugStringConvertibleP", "removeOutput"]
 - !private ["s28CustomDebugStringConvertibleP", "removeRotationForImage"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "sessionPreset"]
 - !private ["s28CustomDebugStringConvertibleP", "setPreparedPhotoSettingsArray"]
 - !private ["s28CustomDebugStringConvertibleP", "setTitle"]
@@ -452,7 +566,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "shadowColor"]
 - !private ["s28CustomDebugStringConvertibleP", "shadowOpacity"]
 - !private ["s28CustomDebugStringConvertibleP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["s28CustomDebugStringConvertibleP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["s28CustomDebugStringConvertibleP", "startRunning"]
 - !private ["s28CustomDebugStringConvertibleP", "startSession"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
@@ -485,19 +602,26 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "AVVideoCodecKey"]
 - !private ["s23CustomStringConvertibleP", "AVVideoCodecType"]
 - !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "CGPoint"]
 - !private ["s23CustomStringConvertibleP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "DeviceType"]
 - !private ["s23CustomStringConvertibleP", "DiscoverySession"]
 - !private ["s23CustomStringConvertibleP", "Position"]
 - !private ["s23CustomStringConvertibleP", "Preset"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["s23CustomStringConvertibleP", "UIGraphicsEndImageContext"]
 - !private ["s23CustomStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["s23CustomStringConvertibleP", "UIImage"]
 - !private ["s23CustomStringConvertibleP", "UIImageOrientation"]
+=======
+- ["s23CustomStringConvertibleP", "UIImage"]
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "UIImpactFeedbackGenerator"]
 - !private ["s23CustomStringConvertibleP", "UIView"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
@@ -520,6 +644,10 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "captureSession"]
 - !private ["s23CustomStringConvertibleP", "cgColor"]
 - !private ["s23CustomStringConvertibleP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["s23CustomStringConvertibleP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "connection"]
 - !private ["s23CustomStringConvertibleP", "cornerRadius"]
 - !private ["s23CustomStringConvertibleP", "count"]
@@ -530,15 +658,22 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "destination"]
 - !private ["s23CustomStringConvertibleP", "devices"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "draw"]
+=======
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "fileDataRepresentation"]
 - !private ["s23CustomStringConvertibleP", "flipButton"]
 - !private ["s23CustomStringConvertibleP", "frame"]
 - !private ["s23CustomStringConvertibleP", "frontCamera"]
 - !private ["s23CustomStringConvertibleP", "image"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "imagesTaken"]
 - !private ["s23CustomStringConvertibleP", "impactOccurred"]
 - ["s23CustomStringConvertibleP", "init"]
@@ -555,7 +690,10 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "removeInput"]
 - !private ["s23CustomStringConvertibleP", "removeOutput"]
 - !private ["s23CustomStringConvertibleP", "removeRotationForImage"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "sessionPreset"]
 - !private ["s23CustomStringConvertibleP", "setPreparedPhotoSettingsArray"]
 - !private ["s23CustomStringConvertibleP", "setTitle"]
@@ -563,7 +701,10 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "shadowColor"]
 - !private ["s23CustomStringConvertibleP", "shadowOpacity"]
 - !private ["s23CustomStringConvertibleP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["s23CustomStringConvertibleP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["s23CustomStringConvertibleP", "startRunning"]
 - !private ["s23CustomStringConvertibleP", "startSession"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -603,19 +744,26 @@ depends-member:
 - !private ["s9EquatableP", "AVVideoCodecKey"]
 - !private ["s9EquatableP", "AVVideoCodecType"]
 - !private ["s9EquatableP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "CGPoint"]
 - !private ["s9EquatableP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "DeviceType"]
 - !private ["s9EquatableP", "DiscoverySession"]
 - !private ["s9EquatableP", "Position"]
 - !private ["s9EquatableP", "Preset"]
 - !private ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["s9EquatableP", "UIGraphicsEndImageContext"]
 - !private ["s9EquatableP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["s9EquatableP", "UIImage"]
 - !private ["s9EquatableP", "UIImageOrientation"]
+=======
+- ["s9EquatableP", "UIImage"]
+>>>>>>> origin/master
 - !private ["s9EquatableP", "UIImpactFeedbackGenerator"]
 - !private ["s9EquatableP", "UIView"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
@@ -639,6 +787,10 @@ depends-member:
 - !private ["s9EquatableP", "captureSession"]
 - !private ["s9EquatableP", "cgColor"]
 - !private ["s9EquatableP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["s9EquatableP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["s9EquatableP", "connection"]
 - !private ["s9EquatableP", "cornerRadius"]
 - !private ["s9EquatableP", "createButton"]
@@ -648,9 +800,13 @@ depends-member:
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "destination"]
 - !private ["s9EquatableP", "devices"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "dismiss"]
 - !private ["s9EquatableP", "draw"]
+=======
+- !private ["s9EquatableP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s9EquatableP", "fileDataRepresentation"]
 - !private ["s9EquatableP", "flipButton"]
 - !private ["s9EquatableP", "frame"]
@@ -659,7 +815,10 @@ depends-member:
 - !private ["s9EquatableP", "heavy"]
 - !private ["s9EquatableP", "high"]
 - !private ["s9EquatableP", "image"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "imagesTaken"]
 - !private ["s9EquatableP", "impactOccurred"]
 - ["s9EquatableP", "init"]
@@ -681,7 +840,10 @@ depends-member:
 - !private ["s9EquatableP", "removeRotationForImage"]
 - !private ["s9EquatableP", "resizeAspectFill"]
 - !private ["s9EquatableP", "rotated"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "sessionPreset"]
 - !private ["s9EquatableP", "setPreparedPhotoSettingsArray"]
 - !private ["s9EquatableP", "setTitle"]
@@ -689,12 +851,18 @@ depends-member:
 - !private ["s9EquatableP", "shadowColor"]
 - !private ["s9EquatableP", "shadowOpacity"]
 - !private ["s9EquatableP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "startRunning"]
 - !private ["s9EquatableP", "startSession"]
 - !private ["s9EquatableP", "transform"]
 - !private ["s9EquatableP", "unspecified"]
+<<<<<<< HEAD
 - !private ["s9EquatableP", "up"]
+=======
+>>>>>>> origin/master
 - !private ["s9EquatableP", "video"]
 - !private ["s9EquatableP", "videoGravity"]
 - !private ["s9EquatableP", "videoOrientation"]
@@ -724,19 +892,26 @@ depends-member:
 - !private ["s8HashableP", "AVVideoCodecKey"]
 - !private ["s8HashableP", "AVVideoCodecType"]
 - !private ["s8HashableP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "CGPoint"]
 - !private ["s8HashableP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "DeviceType"]
 - !private ["s8HashableP", "DiscoverySession"]
 - !private ["s8HashableP", "Position"]
 - !private ["s8HashableP", "Preset"]
 - !private ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["s8HashableP", "UIGraphicsEndImageContext"]
 - !private ["s8HashableP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["s8HashableP", "UIImage"]
 - !private ["s8HashableP", "UIImageOrientation"]
+=======
+- ["s8HashableP", "UIImage"]
+>>>>>>> origin/master
 - !private ["s8HashableP", "UIImpactFeedbackGenerator"]
 - !private ["s8HashableP", "UIView"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
@@ -760,6 +935,10 @@ depends-member:
 - !private ["s8HashableP", "captureSession"]
 - !private ["s8HashableP", "cgColor"]
 - !private ["s8HashableP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["s8HashableP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["s8HashableP", "connection"]
 - !private ["s8HashableP", "cornerRadius"]
 - !private ["s8HashableP", "createButton"]
@@ -769,9 +948,13 @@ depends-member:
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "destination"]
 - !private ["s8HashableP", "devices"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "dismiss"]
 - !private ["s8HashableP", "draw"]
+=======
+- !private ["s8HashableP", "dismiss"]
+>>>>>>> origin/master
 - !private ["s8HashableP", "fileDataRepresentation"]
 - !private ["s8HashableP", "flipButton"]
 - !private ["s8HashableP", "frame"]
@@ -780,7 +963,10 @@ depends-member:
 - !private ["s8HashableP", "heavy"]
 - !private ["s8HashableP", "high"]
 - !private ["s8HashableP", "image"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "imagesTaken"]
 - !private ["s8HashableP", "impactOccurred"]
 - ["s8HashableP", "init"]
@@ -800,7 +986,10 @@ depends-member:
 - !private ["s8HashableP", "removeOutput"]
 - !private ["s8HashableP", "removeRotationForImage"]
 - !private ["s8HashableP", "resizeAspectFill"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "sessionPreset"]
 - !private ["s8HashableP", "setPreparedPhotoSettingsArray"]
 - !private ["s8HashableP", "setTitle"]
@@ -808,12 +997,18 @@ depends-member:
 - !private ["s8HashableP", "shadowColor"]
 - !private ["s8HashableP", "shadowOpacity"]
 - !private ["s8HashableP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "startRunning"]
 - !private ["s8HashableP", "startSession"]
 - !private ["s8HashableP", "transform"]
 - !private ["s8HashableP", "unspecified"]
+<<<<<<< HEAD
 - !private ["s8HashableP", "up"]
+=======
+>>>>>>> origin/master
 - !private ["s8HashableP", "video"]
 - !private ["s8HashableP", "videoGravity"]
 - !private ["s8HashableP", "videoOrientation"]
@@ -842,6 +1037,7 @@ depends-member:
 - !private ["So8NSCodingP", "AVVideoCodecKey"]
 - !private ["So8NSCodingP", "AVVideoCodecType"]
 - !private ["So8NSCodingP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "CGPoint"]
 - !private ["So8NSCodingP", "CGRect"]
 - !private ["So8NSCodingP", "UIColor"]
@@ -851,6 +1047,11 @@ depends-member:
 - !private ["So8NSCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So8NSCodingP", "UIImage"]
 - !private ["So8NSCodingP", "UIImageOrientation"]
+=======
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIControlState"]
+- ["So8NSCodingP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "UIImpactFeedbackGenerator"]
 - !private ["So8NSCodingP", "UIView"]
 - !private ["So8NSCodingP", "animate"]
@@ -866,6 +1067,10 @@ depends-member:
 - ["So8NSCodingP", "captureOutput"]
 - !private ["So8NSCodingP", "captureSession"]
 - !private ["So8NSCodingP", "cgColor"]
+<<<<<<< HEAD
+=======
+- !private ["So8NSCodingP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "connection"]
 - !private ["So8NSCodingP", "cornerRadius"]
 - !private ["So8NSCodingP", "createButton"]
@@ -873,14 +1078,21 @@ depends-member:
 - !private ["So8NSCodingP", "createSession"]
 - !private ["So8NSCodingP", "currentCamera"]
 - !private ["So8NSCodingP", "delegate"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "dismiss"]
 - !private ["So8NSCodingP", "draw"]
+=======
+- !private ["So8NSCodingP", "dismiss"]
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "flipButton"]
 - !private ["So8NSCodingP", "frame"]
 - !private ["So8NSCodingP", "frontCamera"]
 - !private ["So8NSCodingP", "image"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "imagesTaken"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "insertSublayer"]
@@ -891,13 +1103,19 @@ depends-member:
 - !private ["So8NSCodingP", "masksToBounds"]
 - ["So8NSCodingP", "photoOutput"]
 - !private ["So8NSCodingP", "removeRotationForImage"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "setTitle"]
 - !private ["So8NSCodingP", "setupInputOutput"]
 - !private ["So8NSCodingP", "shadowColor"]
 - !private ["So8NSCodingP", "shadowOpacity"]
 - !private ["So8NSCodingP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["So8NSCodingP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["So8NSCodingP", "startSession"]
 - !private ["So8NSCodingP", "transform"]
 - !private ["So8NSCodingP", "videoGravity"]
@@ -921,6 +1139,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "AVVideoCodecKey"]
 - !private ["So26NSExtensionRequestHandlingP", "AVVideoCodecType"]
 - !private ["So26NSExtensionRequestHandlingP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So26NSExtensionRequestHandlingP", "CGPoint"]
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
 - !private ["So26NSExtensionRequestHandlingP", "UIColor"]
@@ -930,6 +1149,11 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So26NSExtensionRequestHandlingP", "UIImage"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImageOrientation"]
+=======
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIControlState"]
+- ["So26NSExtensionRequestHandlingP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "UIImpactFeedbackGenerator"]
 - !private ["So26NSExtensionRequestHandlingP", "UIView"]
 - !private ["So26NSExtensionRequestHandlingP", "backButton"]
@@ -939,12 +1163,19 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "capture"]
 - ["So26NSExtensionRequestHandlingP", "captureOutput"]
 - !private ["So26NSExtensionRequestHandlingP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So26NSExtensionRequestHandlingP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "createButton"]
 - !private ["So26NSExtensionRequestHandlingP", "createCameraOverlay"]
 - !private ["So26NSExtensionRequestHandlingP", "createSession"]
 - !private ["So26NSExtensionRequestHandlingP", "currentCamera"]
 - !private ["So26NSExtensionRequestHandlingP", "delegate"]
+<<<<<<< HEAD
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - !private ["So26NSExtensionRequestHandlingP", "flipButton"]
 - !private ["So26NSExtensionRequestHandlingP", "frontCamera"]
@@ -953,7 +1184,10 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "isSaved"]
 - !private ["So26NSExtensionRequestHandlingP", "lastImageTakenView"]
 - ["So26NSExtensionRequestHandlingP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So26NSExtensionRequestHandlingP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So26NSExtensionRequestHandlingP", "setupInputOutput"]
 - !private ["So26NSExtensionRequestHandlingP", "startSession"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
@@ -961,6 +1195,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "black"]
 - !private ["So21NSItemProviderReadingP", "cgColor"]
+<<<<<<< HEAD
 - !private ["So21NSItemProviderReadingP", "draw"]
 - !private ["So21NSItemProviderReadingP", "imageOrientation"]
 - !private ["So21NSItemProviderReadingP", "init"]
@@ -974,6 +1209,15 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "scale"]
 - !private ["So21NSItemProviderWritingP", "size"]
+=======
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "removeRotationForImage"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "removeRotationForImage"]
+>>>>>>> origin/master
 - !private ["So21NSItemProviderWritingP", "white"]
 - !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "AVCaptureDevice"]
@@ -990,8 +1234,12 @@ depends-member:
 - !private ["So8NSObjectC", "AVVideoCodecType"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So8NSObjectC", "CGPoint"]
 - !private ["So8NSObjectC", "CGRect"]
+=======
+- ["So8NSObjectC", "CameraViewDelegate"]
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "DeviceType"]
 - !private ["So8NSObjectC", "DiscoverySession"]
 - ["So8NSObjectC", "Error"]
@@ -1001,11 +1249,15 @@ depends-member:
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UIColor"]
 - !private ["So8NSObjectC", "UIControlState"]
+<<<<<<< HEAD
 - !private ["So8NSObjectC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So8NSObjectC", "UIGraphicsEndImageContext"]
 - !private ["So8NSObjectC", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So8NSObjectC", "UIImage"]
 - !private ["So8NSObjectC", "UIImageOrientation"]
+=======
+- ["So8NSObjectC", "UIImage"]
+>>>>>>> origin/master
 - ["So8NSObjectC", "UIImageView"]
 - !private ["So8NSObjectC", "UIImpactFeedbackGenerator"]
 - ["So8NSObjectC", "UIStoryboardSegue"]
@@ -1022,7 +1274,10 @@ depends-member:
 - !private ["So8NSObjectC", "borderWidth"]
 - ["So8NSObjectC", "cameraButton"]
 - ["So8NSObjectC", "cameraPreviewLayer"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "cameraProtocal"]
+=======
+>>>>>>> origin/master
 - ["So8NSObjectC", "capture"]
 - ["So8NSObjectC", "captureImage"]
 - ["So8NSObjectC", "captureOutput"]
@@ -1030,6 +1285,10 @@ depends-member:
 - ["So8NSObjectC", "captureSession"]
 - !private ["So8NSObjectC", "cgColor"]
 - !private ["So8NSObjectC", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- ["So8NSObjectC", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "connection"]
 - !private ["So8NSObjectC", "cornerRadius"]
 - ["So8NSObjectC", "createButton"]
@@ -1039,15 +1298,22 @@ depends-member:
 - ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "destination"]
 - !private ["So8NSObjectC", "devices"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "dismiss"]
 - !private ["So8NSObjectC", "draw"]
+=======
+- ["So8NSObjectC", "dismiss"]
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "fileDataRepresentation"]
 - ["So8NSObjectC", "flipButton"]
 - !private ["So8NSObjectC", "frame"]
 - ["So8NSObjectC", "frontCamera"]
 - !private ["So8NSObjectC", "image"]
+<<<<<<< HEAD
 - !private ["So8NSObjectC", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - ["So8NSObjectC", "imagesTaken"]
 - !private ["So8NSObjectC", "impactOccurred"]
 - ["So8NSObjectC", "init"]
@@ -1065,9 +1331,14 @@ depends-member:
 - ["So8NSObjectC", "prepare"]
 - !private ["So8NSObjectC", "removeInput"]
 - !private ["So8NSObjectC", "removeOutput"]
+<<<<<<< HEAD
 - ["So8NSObjectC", "removeRotationForImage"]
 - ["So8NSObjectC", "rotate"]
 - !private ["So8NSObjectC", "scale"]
+=======
+- !private ["So8NSObjectC", "removeRotationForImage"]
+- ["So8NSObjectC", "rotate"]
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "sessionPreset"]
 - !private ["So8NSObjectC", "setPreparedPhotoSettingsArray"]
 - !private ["So8NSObjectC", "setTitle"]
@@ -1075,7 +1346,10 @@ depends-member:
 - !private ["So8NSObjectC", "shadowColor"]
 - !private ["So8NSObjectC", "shadowOpacity"]
 - !private ["So8NSObjectC", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["So8NSObjectC", "size"]
+=======
+>>>>>>> origin/master
 - !private ["So8NSObjectC", "startRunning"]
 - ["So8NSObjectC", "startSession"]
 - !private ["So8NSObjectC", "transform"]
@@ -1096,19 +1370,26 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "AVVideoCodecKey"]
 - !private ["So16NSObjectProtocolP", "AVVideoCodecType"]
 - !private ["So16NSObjectProtocolP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "CGPoint"]
 - !private ["So16NSObjectProtocolP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "DeviceType"]
 - !private ["So16NSObjectProtocolP", "DiscoverySession"]
 - !private ["So16NSObjectProtocolP", "Position"]
 - !private ["So16NSObjectProtocolP", "Preset"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So16NSObjectProtocolP", "UIGraphicsEndImageContext"]
 - !private ["So16NSObjectProtocolP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So16NSObjectProtocolP", "UIImage"]
 - !private ["So16NSObjectProtocolP", "UIImageOrientation"]
+=======
+- ["So16NSObjectProtocolP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "UIImpactFeedbackGenerator"]
 - !private ["So16NSObjectProtocolP", "UIView"]
 - !private ["So16NSObjectProtocolP", "addInput"]
@@ -1129,6 +1410,10 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "captureSession"]
 - !private ["So16NSObjectProtocolP", "cgColor"]
 - !private ["So16NSObjectProtocolP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["So16NSObjectProtocolP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "connection"]
 - !private ["So16NSObjectProtocolP", "cornerRadius"]
 - !private ["So16NSObjectProtocolP", "createButton"]
@@ -1138,15 +1423,22 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "destination"]
 - !private ["So16NSObjectProtocolP", "devices"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "dismiss"]
 - !private ["So16NSObjectProtocolP", "draw"]
+=======
+- !private ["So16NSObjectProtocolP", "dismiss"]
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "fileDataRepresentation"]
 - !private ["So16NSObjectProtocolP", "flipButton"]
 - !private ["So16NSObjectProtocolP", "frame"]
 - !private ["So16NSObjectProtocolP", "frontCamera"]
 - !private ["So16NSObjectProtocolP", "image"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "imagesTaken"]
 - !private ["So16NSObjectProtocolP", "impactOccurred"]
 - ["So16NSObjectProtocolP", "init"]
@@ -1163,7 +1455,10 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "removeInput"]
 - !private ["So16NSObjectProtocolP", "removeOutput"]
 - !private ["So16NSObjectProtocolP", "removeRotationForImage"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "sessionPreset"]
 - !private ["So16NSObjectProtocolP", "setPreparedPhotoSettingsArray"]
 - !private ["So16NSObjectProtocolP", "setTitle"]
@@ -1171,7 +1466,10 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "shadowColor"]
 - !private ["So16NSObjectProtocolP", "shadowOpacity"]
 - !private ["So16NSObjectProtocolP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["So16NSObjectProtocolP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["So16NSObjectProtocolP", "startRunning"]
 - !private ["So16NSObjectProtocolP", "startSession"]
 - !private ["So16NSObjectProtocolP", "transform"]
@@ -1188,6 +1486,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "cgColor"]
 - !private ["So14NSSecureCodingP", "connection"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
+<<<<<<< HEAD
 - !private ["So14NSSecureCodingP", "draw"]
 - !private ["So14NSSecureCodingP", "frame"]
 - !private ["So14NSSecureCodingP", "imageOrientation"]
@@ -1199,6 +1498,16 @@ depends-member:
 - !private ["So14NSSecureCodingP", "shadowOpacity"]
 - !private ["So14NSSecureCodingP", "shadowRadius"]
 - !private ["So14NSSecureCodingP", "size"]
+=======
+- !private ["So14NSSecureCodingP", "frame"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "insertSublayer"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "removeRotationForImage"]
+- !private ["So14NSSecureCodingP", "shadowColor"]
+- !private ["So14NSSecureCodingP", "shadowOpacity"]
+- !private ["So14NSSecureCodingP", "shadowRadius"]
+>>>>>>> origin/master
 - !private ["So14NSSecureCodingP", "videoGravity"]
 - !private ["So14NSSecureCodingP", "white"]
 - !private ["So8NSStringC", "init"]
@@ -1225,7 +1534,10 @@ depends-member:
 - !private ["s16RawRepresentableP", "portrait"]
 - !private ["s16RawRepresentableP", "resizeAspectFill"]
 - !private ["s16RawRepresentableP", "unspecified"]
+<<<<<<< HEAD
 - !private ["s16RawRepresentableP", "up"]
+=======
+>>>>>>> origin/master
 - !private ["s16RawRepresentableP", "video"]
 - !private ["s8SequenceP", "append"]
 - !private ["s8SequenceP", "count"]
@@ -1243,6 +1555,7 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "transform"]
 - !private ["So29UIAccessibilityIdentificationP", "animate"]
+<<<<<<< HEAD
 - !private ["So29UIAccessibilityIdentificationP", "draw"]
 - !private ["So29UIAccessibilityIdentificationP", "frame"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
@@ -1253,6 +1566,15 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "scale"]
 - !private ["So29UIAccessibilityIdentificationP", "setTitle"]
 - !private ["So29UIAccessibilityIdentificationP", "size"]
+=======
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "removeRotationForImage"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+>>>>>>> origin/master
 - !private ["So29UIAccessibilityIdentificationP", "transform"]
 - !private ["So12UIAppearanceP", "animate"]
 - !private ["So12UIAppearanceP", "frame"]
@@ -1273,6 +1595,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "AVVideoCodecKey"]
 - !private ["So21UIAppearanceContainerP", "AVVideoCodecType"]
 - !private ["So21UIAppearanceContainerP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So21UIAppearanceContainerP", "CGPoint"]
 - !private ["So21UIAppearanceContainerP", "CGRect"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
@@ -1282,6 +1605,11 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So21UIAppearanceContainerP", "UIImage"]
 - !private ["So21UIAppearanceContainerP", "UIImageOrientation"]
+=======
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIControlState"]
+- ["So21UIAppearanceContainerP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "UIImpactFeedbackGenerator"]
 - !private ["So21UIAppearanceContainerP", "UIView"]
 - !private ["So21UIAppearanceContainerP", "animate"]
@@ -1292,12 +1620,19 @@ depends-member:
 - ["So21UIAppearanceContainerP", "capture"]
 - ["So21UIAppearanceContainerP", "captureOutput"]
 - !private ["So21UIAppearanceContainerP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So21UIAppearanceContainerP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "createButton"]
 - !private ["So21UIAppearanceContainerP", "createCameraOverlay"]
 - !private ["So21UIAppearanceContainerP", "createSession"]
 - !private ["So21UIAppearanceContainerP", "currentCamera"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
+<<<<<<< HEAD
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "dismiss"]
 - !private ["So21UIAppearanceContainerP", "flipButton"]
 - !private ["So21UIAppearanceContainerP", "frame"]
@@ -1310,7 +1645,10 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "lastImageTakenView"]
 - !private ["So21UIAppearanceContainerP", "layer"]
 - ["So21UIAppearanceContainerP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So21UIAppearanceContainerP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So21UIAppearanceContainerP", "setTitle"]
 - !private ["So21UIAppearanceContainerP", "setupInputOutput"]
 - !private ["So21UIAppearanceContainerP", "startSession"]
@@ -1342,6 +1680,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "AVVideoCodecKey"]
 - !private ["So18UIContentContainerP", "AVVideoCodecType"]
 - !private ["So18UIContentContainerP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So18UIContentContainerP", "CGPoint"]
 - !private ["So18UIContentContainerP", "CGRect"]
 - !private ["So18UIContentContainerP", "UIColor"]
@@ -1351,6 +1690,11 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So18UIContentContainerP", "UIImage"]
 - !private ["So18UIContentContainerP", "UIImageOrientation"]
+=======
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIControlState"]
+- ["So18UIContentContainerP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "UIImpactFeedbackGenerator"]
 - !private ["So18UIContentContainerP", "UIView"]
 - !private ["So18UIContentContainerP", "backButton"]
@@ -1360,12 +1704,19 @@ depends-member:
 - ["So18UIContentContainerP", "capture"]
 - ["So18UIContentContainerP", "captureOutput"]
 - !private ["So18UIContentContainerP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So18UIContentContainerP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "createButton"]
 - !private ["So18UIContentContainerP", "createCameraOverlay"]
 - !private ["So18UIContentContainerP", "createSession"]
 - !private ["So18UIContentContainerP", "currentCamera"]
 - !private ["So18UIContentContainerP", "delegate"]
+<<<<<<< HEAD
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "dismiss"]
 - !private ["So18UIContentContainerP", "flipButton"]
 - !private ["So18UIContentContainerP", "frontCamera"]
@@ -1374,7 +1725,10 @@ depends-member:
 - !private ["So18UIContentContainerP", "isSaved"]
 - !private ["So18UIContentContainerP", "lastImageTakenView"]
 - ["So18UIContentContainerP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So18UIContentContainerP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So18UIContentContainerP", "setupInputOutput"]
 - !private ["So18UIContentContainerP", "startSession"]
 - !private ["So18UIContentContainerP", "view"]
@@ -1414,6 +1768,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "AVVideoCodecKey"]
 - !private ["So18UIFocusEnvironmentP", "AVVideoCodecType"]
 - !private ["So18UIFocusEnvironmentP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So18UIFocusEnvironmentP", "CGPoint"]
 - !private ["So18UIFocusEnvironmentP", "CGRect"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
@@ -1423,6 +1778,11 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So18UIFocusEnvironmentP", "UIImage"]
 - !private ["So18UIFocusEnvironmentP", "UIImageOrientation"]
+=======
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIControlState"]
+- ["So18UIFocusEnvironmentP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "UIImpactFeedbackGenerator"]
 - !private ["So18UIFocusEnvironmentP", "UIView"]
 - !private ["So18UIFocusEnvironmentP", "animate"]
@@ -1433,12 +1793,19 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "capture"]
 - ["So18UIFocusEnvironmentP", "captureOutput"]
 - !private ["So18UIFocusEnvironmentP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So18UIFocusEnvironmentP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "createButton"]
 - !private ["So18UIFocusEnvironmentP", "createCameraOverlay"]
 - !private ["So18UIFocusEnvironmentP", "createSession"]
 - !private ["So18UIFocusEnvironmentP", "currentCamera"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
+<<<<<<< HEAD
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "dismiss"]
 - !private ["So18UIFocusEnvironmentP", "flipButton"]
 - !private ["So18UIFocusEnvironmentP", "frame"]
@@ -1451,7 +1818,10 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "lastImageTakenView"]
 - !private ["So18UIFocusEnvironmentP", "layer"]
 - ["So18UIFocusEnvironmentP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So18UIFocusEnvironmentP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So18UIFocusEnvironmentP", "setTitle"]
 - !private ["So18UIFocusEnvironmentP", "setupInputOutput"]
 - !private ["So18UIFocusEnvironmentP", "startSession"]
@@ -1466,22 +1836,32 @@ depends-member:
 - !private ["So11UIFocusItemP", "layer"]
 - !private ["So11UIFocusItemP", "setTitle"]
 - !private ["So11UIFocusItemP", "transform"]
+<<<<<<< HEAD
 - !private ["So7UIImageC", "draw"]
 - !private ["So7UIImageC", "imageOrientation"]
 - !private ["So7UIImageC", "init"]
 - !private ["So7UIImageC", "scale"]
 - !private ["So7UIImageC", "size"]
 - !private ["SC18UIImageOrientationO", "up"]
+=======
+- !private ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "removeRotationForImage"]
+>>>>>>> origin/master
 - !private ["So11UIImageViewC", "image"]
 - !private ["So11UIImageViewC", "transform"]
 - !private ["So25UIImpactFeedbackGeneratorC", "impactOccurred"]
 - !private ["So25UIImpactFeedbackGeneratorC", "init"]
 - !private ["SC21UIImpactFeedbackStyleO", "heavy"]
+<<<<<<< HEAD
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "draw"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "imageOrientation"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "scale"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+=======
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "removeRotationForImage"]
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDevice"]
 - !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDeviceInput"]
 - !private ["So30UIPasteConfigurationSupportingP", "AVCapturePhotoOutput"]
@@ -1494,6 +1874,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "AVVideoCodecKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "AVVideoCodecType"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
@@ -1503,6 +1884,11 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImageOrientation"]
+=======
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIControlState"]
+- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "UIImpactFeedbackGenerator"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIView"]
 - !private ["So30UIPasteConfigurationSupportingP", "animate"]
@@ -1513,12 +1899,19 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "capture"]
 - ["So30UIPasteConfigurationSupportingP", "captureOutput"]
 - !private ["So30UIPasteConfigurationSupportingP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So30UIPasteConfigurationSupportingP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "createButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "createCameraOverlay"]
 - !private ["So30UIPasteConfigurationSupportingP", "createSession"]
 - !private ["So30UIPasteConfigurationSupportingP", "currentCamera"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+<<<<<<< HEAD
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "flipButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "frame"]
@@ -1531,7 +1924,10 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "lastImageTakenView"]
 - !private ["So30UIPasteConfigurationSupportingP", "layer"]
 - ["So30UIPasteConfigurationSupportingP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So30UIPasteConfigurationSupportingP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
 - !private ["So30UIPasteConfigurationSupportingP", "setupInputOutput"]
 - !private ["So30UIPasteConfigurationSupportingP", "startSession"]
@@ -1553,18 +1949,26 @@ depends-member:
 - !private ["So11UIResponderC", "AVVideoCodecType"]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So11UIResponderC", "CGPoint"]
 - !private ["So11UIResponderC", "CGRect"]
+=======
+- ["So11UIResponderC", "CameraViewDelegate"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "Error"]
 - !private ["So11UIResponderC", "ImageCollectionViewController"]
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UIColor"]
 - !private ["So11UIResponderC", "UIControlState"]
+<<<<<<< HEAD
 - !private ["So11UIResponderC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So11UIResponderC", "UIGraphicsEndImageContext"]
 - !private ["So11UIResponderC", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So11UIResponderC", "UIImage"]
 - !private ["So11UIResponderC", "UIImageOrientation"]
+=======
+- ["So11UIResponderC", "UIImage"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "UIImageView"]
 - !private ["So11UIResponderC", "UIImpactFeedbackGenerator"]
 - ["So11UIResponderC", "UIStoryboardSegue"]
@@ -1574,17 +1978,27 @@ depends-member:
 - ["So11UIResponderC", "backCamera"]
 - ["So11UIResponderC", "cameraButton"]
 - ["So11UIResponderC", "cameraPreviewLayer"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "cameraProtocal"]
+=======
+>>>>>>> origin/master
 - ["So11UIResponderC", "capture"]
 - ["So11UIResponderC", "captureImage"]
 - ["So11UIResponderC", "captureOutput"]
 - ["So11UIResponderC", "captureSession"]
+<<<<<<< HEAD
+=======
+- ["So11UIResponderC", "configureCameraView"]
+>>>>>>> origin/master
 - ["So11UIResponderC", "createButton"]
 - ["So11UIResponderC", "createCameraOverlay"]
 - ["So11UIResponderC", "createSession"]
 - ["So11UIResponderC", "currentCamera"]
 - ["So11UIResponderC", "delegate"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - ["So11UIResponderC", "dismiss"]
 - ["So11UIResponderC", "flipButton"]
 - !private ["So11UIResponderC", "frame"]
@@ -1599,7 +2013,10 @@ depends-member:
 - ["So11UIResponderC", "photoOutput"]
 - ["So11UIResponderC", "prefersStatusBarHidden"]
 - ["So11UIResponderC", "prepare"]
+<<<<<<< HEAD
 - ["So11UIResponderC", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - ["So11UIResponderC", "rotate"]
 - !private ["So11UIResponderC", "setTitle"]
 - ["So11UIResponderC", "setupInputOutput"]
@@ -1619,6 +2036,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "AVVideoCodecKey"]
 - !private ["So30UIResponderStandardEditActionsP", "AVVideoCodecType"]
 - !private ["So30UIResponderStandardEditActionsP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
 - !private ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
@@ -1628,6 +2046,11 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So30UIResponderStandardEditActionsP", "UIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImageOrientation"]
+=======
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIControlState"]
+- ["So30UIResponderStandardEditActionsP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "UIImpactFeedbackGenerator"]
 - !private ["So30UIResponderStandardEditActionsP", "UIView"]
 - !private ["So30UIResponderStandardEditActionsP", "animate"]
@@ -1638,12 +2061,19 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "capture"]
 - ["So30UIResponderStandardEditActionsP", "captureOutput"]
 - !private ["So30UIResponderStandardEditActionsP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So30UIResponderStandardEditActionsP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "createButton"]
 - !private ["So30UIResponderStandardEditActionsP", "createCameraOverlay"]
 - !private ["So30UIResponderStandardEditActionsP", "createSession"]
 - !private ["So30UIResponderStandardEditActionsP", "currentCamera"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
+<<<<<<< HEAD
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "dismiss"]
 - !private ["So30UIResponderStandardEditActionsP", "flipButton"]
 - !private ["So30UIResponderStandardEditActionsP", "frame"]
@@ -1656,7 +2086,10 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "lastImageTakenView"]
 - !private ["So30UIResponderStandardEditActionsP", "layer"]
 - ["So30UIResponderStandardEditActionsP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So30UIResponderStandardEditActionsP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So30UIResponderStandardEditActionsP", "setTitle"]
 - !private ["So30UIResponderStandardEditActionsP", "setupInputOutput"]
 - !private ["So30UIResponderStandardEditActionsP", "startSession"]
@@ -1683,6 +2116,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "AVVideoCodecKey"]
 - !private ["So16UIStateRestoringP", "AVVideoCodecType"]
 - !private ["So16UIStateRestoringP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So16UIStateRestoringP", "CGPoint"]
 - !private ["So16UIStateRestoringP", "CGRect"]
 - !private ["So16UIStateRestoringP", "UIColor"]
@@ -1692,6 +2126,11 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So16UIStateRestoringP", "UIImage"]
 - !private ["So16UIStateRestoringP", "UIImageOrientation"]
+=======
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIControlState"]
+- ["So16UIStateRestoringP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "UIImpactFeedbackGenerator"]
 - !private ["So16UIStateRestoringP", "UIView"]
 - !private ["So16UIStateRestoringP", "backButton"]
@@ -1701,12 +2140,19 @@ depends-member:
 - ["So16UIStateRestoringP", "capture"]
 - ["So16UIStateRestoringP", "captureOutput"]
 - !private ["So16UIStateRestoringP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So16UIStateRestoringP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "createButton"]
 - !private ["So16UIStateRestoringP", "createCameraOverlay"]
 - !private ["So16UIStateRestoringP", "createSession"]
 - !private ["So16UIStateRestoringP", "currentCamera"]
 - !private ["So16UIStateRestoringP", "delegate"]
+<<<<<<< HEAD
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "dismiss"]
 - !private ["So16UIStateRestoringP", "flipButton"]
 - !private ["So16UIStateRestoringP", "frontCamera"]
@@ -1715,7 +2161,10 @@ depends-member:
 - !private ["So16UIStateRestoringP", "isSaved"]
 - !private ["So16UIStateRestoringP", "lastImageTakenView"]
 - ["So16UIStateRestoringP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So16UIStateRestoringP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So16UIStateRestoringP", "setupInputOutput"]
 - !private ["So16UIStateRestoringP", "startSession"]
 - !private ["So16UIStateRestoringP", "view"]
@@ -1734,6 +2183,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "AVVideoCodecKey"]
 - !private ["So18UITraitEnvironmentP", "AVVideoCodecType"]
 - !private ["So18UITraitEnvironmentP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So18UITraitEnvironmentP", "CGPoint"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
@@ -1743,6 +2193,11 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So18UITraitEnvironmentP", "UIImage"]
 - !private ["So18UITraitEnvironmentP", "UIImageOrientation"]
+=======
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIControlState"]
+- ["So18UITraitEnvironmentP", "UIImage"]
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "UIImpactFeedbackGenerator"]
 - !private ["So18UITraitEnvironmentP", "UIView"]
 - !private ["So18UITraitEnvironmentP", "animate"]
@@ -1753,12 +2208,19 @@ depends-member:
 - ["So18UITraitEnvironmentP", "capture"]
 - ["So18UITraitEnvironmentP", "captureOutput"]
 - !private ["So18UITraitEnvironmentP", "captureSession"]
+<<<<<<< HEAD
+=======
+- !private ["So18UITraitEnvironmentP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "createButton"]
 - !private ["So18UITraitEnvironmentP", "createCameraOverlay"]
 - !private ["So18UITraitEnvironmentP", "createSession"]
 - !private ["So18UITraitEnvironmentP", "currentCamera"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
+<<<<<<< HEAD
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "dismiss"]
 - !private ["So18UITraitEnvironmentP", "flipButton"]
 - !private ["So18UITraitEnvironmentP", "frame"]
@@ -1771,7 +2233,10 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "lastImageTakenView"]
 - !private ["So18UITraitEnvironmentP", "layer"]
 - ["So18UITraitEnvironmentP", "photoOutput"]
+<<<<<<< HEAD
 - !private ["So18UITraitEnvironmentP", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - !private ["So18UITraitEnvironmentP", "setTitle"]
 - !private ["So18UITraitEnvironmentP", "setupInputOutput"]
 - !private ["So18UITraitEnvironmentP", "startSession"]
@@ -1800,18 +2265,26 @@ depends-member:
 - !private ["So16UIViewControllerC", "AVVideoCodecType"]
 - ["So16UIViewControllerC", "Bool"]
 - !private ["So16UIViewControllerC", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["So16UIViewControllerC", "CGPoint"]
 - !private ["So16UIViewControllerC", "CGRect"]
+=======
+- ["So16UIViewControllerC", "CameraViewDelegate"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "Error"]
 - !private ["So16UIViewControllerC", "ImageCollectionViewController"]
 - ["So16UIViewControllerC", "UIButton"]
 - !private ["So16UIViewControllerC", "UIColor"]
 - !private ["So16UIViewControllerC", "UIControlState"]
+<<<<<<< HEAD
 - !private ["So16UIViewControllerC", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["So16UIViewControllerC", "UIGraphicsEndImageContext"]
 - !private ["So16UIViewControllerC", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["So16UIViewControllerC", "UIImage"]
 - !private ["So16UIViewControllerC", "UIImageOrientation"]
+=======
+- ["So16UIViewControllerC", "UIImage"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "UIImageView"]
 - !private ["So16UIViewControllerC", "UIImpactFeedbackGenerator"]
 - ["So16UIViewControllerC", "UIStoryboardSegue"]
@@ -1820,17 +2293,27 @@ depends-member:
 - ["So16UIViewControllerC", "backCamera"]
 - ["So16UIViewControllerC", "cameraButton"]
 - ["So16UIViewControllerC", "cameraPreviewLayer"]
+<<<<<<< HEAD
 - ["So16UIViewControllerC", "cameraProtocal"]
+=======
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "capture"]
 - ["So16UIViewControllerC", "captureImage"]
 - ["So16UIViewControllerC", "captureOutput"]
 - ["So16UIViewControllerC", "captureSession"]
+<<<<<<< HEAD
+=======
+- ["So16UIViewControllerC", "configureCameraView"]
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "createButton"]
 - ["So16UIViewControllerC", "createCameraOverlay"]
 - ["So16UIViewControllerC", "createSession"]
 - ["So16UIViewControllerC", "currentCamera"]
 - ["So16UIViewControllerC", "delegate"]
+<<<<<<< HEAD
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+=======
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "flipButton"]
 - ["So16UIViewControllerC", "frontCamera"]
@@ -1841,7 +2324,10 @@ depends-member:
 - ["So16UIViewControllerC", "photoOutput"]
 - ["So16UIViewControllerC", "prefersStatusBarHidden"]
 - ["So16UIViewControllerC", "prepare"]
+<<<<<<< HEAD
 - ["So16UIViewControllerC", "removeRotationForImage"]
+=======
+>>>>>>> origin/master
 - ["So16UIViewControllerC", "rotate"]
 - ["So16UIViewControllerC", "setupInputOutput"]
 - ["So16UIViewControllerC", "startSession"]
@@ -1879,11 +2365,16 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "black"]
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
+<<<<<<< HEAD
 - !private ["s26_ExpressibleByImageLiteralP", "draw"]
 - !private ["s26_ExpressibleByImageLiteralP", "imageOrientation"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "scale"]
 - !private ["s26_ExpressibleByImageLiteralP", "size"]
+=======
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "removeRotationForImage"]
+>>>>>>> origin/master
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s10_IndexableP", "append"]
@@ -1906,19 +2397,26 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AVVideoCodecKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AVVideoCodecType"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceType"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DiscoverySession"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Position"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Preset"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControlState"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsBeginImageContextWithOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsEndImageContext"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsGetImageFromCurrentImageContext"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageOrientation"]
+=======
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImpactFeedbackGenerator"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
@@ -1939,6 +2437,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "captureSession"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "commitConfiguration"]
+<<<<<<< HEAD
+=======
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureCameraView"]
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "connection"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createButton"]
@@ -1948,15 +2450,22 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "devices"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+=======
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "fileDataRepresentation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "flipButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frontCamera"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageOrientation"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imagesTaken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "impactOccurred"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -1973,7 +2482,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeInput"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeOutput"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeRotationForImage"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionPreset"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setPreparedPhotoSettingsArray"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
@@ -1981,7 +2493,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOpacity"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowRadius"]
+<<<<<<< HEAD
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+=======
+>>>>>>> origin/master
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "startSession"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
@@ -2021,10 +2536,13 @@ depends-member:
 - !private ["s20_SwiftNewtypeWrapperP", "resizeAspectFill"]
 - !private ["s20_SwiftNewtypeWrapperP", "video"]
 - !private ["s16_SwiftStringViewP", "init"]
+<<<<<<< HEAD
 - ["5Timey14cameraProtocalP", "UIImage"]
 - ["5Timey14cameraProtocalP", "didAddMoreImages"]
 - !private ["5Timey14cameraProtocalP", "imagesTaken"]
 - !private ["5Timey14cameraProtocalP", "isSaved"]
+=======
+>>>>>>> origin/master
 depends-nominal:
 - !private "So19AVCaptureConnectionC"
 - !private "So15AVCaptureDeviceC"
@@ -2048,10 +2566,17 @@ depends-nominal:
 - !private "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
 - !private "SC17CGAffineTransformV"
+<<<<<<< HEAD
 - !private "SC7CGPointV"
 - !private "SC6CGRectV"
 - "s7CVarArgP"
 - "5Timey20CameraViewControllerC"
+=======
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "5Timey20CameraViewControllerC"
+- "5Timey18CameraViewDelegateP"
+>>>>>>> origin/master
 - "s10CollectionP"
 - !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
@@ -2112,7 +2637,10 @@ depends-nominal:
 - "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
 - !private "So7UIImageC"
+<<<<<<< HEAD
 - !private "SC18UIImageOrientationO"
+=======
+>>>>>>> origin/master
 - !private "So11UIImageViewC"
 - !private "So25UIImpactFeedbackGeneratorC"
 - !private "SC21UIImpactFeedbackStyleO"
@@ -2151,7 +2679,10 @@ depends-nominal:
 - "s26_RangeReplaceableIndexableP"
 - !private "s20_SwiftNewtypeWrapperP"
 - !private "s16_SwiftStringViewP"
+<<<<<<< HEAD
 - "5Timey14cameraProtocalP"
+=======
+>>>>>>> origin/master
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -2180,17 +2711,24 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-umbrella.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+=======
+- "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
@@ -2209,10 +2747,13 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
@@ -2257,14 +2798,20 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
 - "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRKit.h"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
@@ -2275,7 +2822,10 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
 - "/Users/jeanpierre/Timey/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+<<<<<<< HEAD
 - "/Users/jeanpierre/Timey/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+=======
+>>>>>>> origin/master
 - "/Users/jeanpierre/Timey/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
@@ -2283,4 +2833,8 @@ depends-external:
 - "/Users/jeanpierre/Timey/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
 - "/Users/jeanpierre/Timey/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.private.modulemap"
+<<<<<<< HEAD
 interface-hash: "2a5c5900e6c2ad18c260eab924b4f8ba"
+=======
+interface-hash: "d5074a65b6227d24dfd7569d540d00f2"
+>>>>>>> origin/master

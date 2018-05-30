@@ -4,211 +4,371 @@
   'roots': [
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "AASegmentedControl-Swift.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Headers/AASegmentedControl-Swift.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "AASegmentedControl-umbrella.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/Target Support Files/AASegmentedControl/AASegmentedControl-umbrella.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/Target Support Files/AASegmentedControl/AASegmentedControl-umbrella.h"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Modules",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/AASegmentedControl/AASegmentedControl.framework/Modules",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/AASegmentedControl.build/module.modulemap"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/AASegmentedControl.build/module.modulemap"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "GTMSessionFetcher-Swift.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcher-umbrella.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcher.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcherLogging.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcherService.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMSessionUploadFetcher.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "GTMDebugSelectorValidation.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugSelectorValidation.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugSelectorValidation.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMDebugThreadValidation.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugThreadValidation.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugThreadValidation.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMDefines.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/GTMDefines.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/GTMDefines.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMMethodCheck.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/DebugUtils/GTMMethodCheck.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/DebugUtils/GTMMethodCheck.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMNSData+zlib.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMNSDictionary+URLArguments.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/Foundation/GTMNSDictionary+URLArguments.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/Foundation/GTMNSDictionary+URLArguments.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GTMNSString+URLArguments.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/GoogleToolboxForMac/Foundation/GTMNSString+URLArguments.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/GoogleToolboxForMac/Foundation/GTMNSString+URLArguments.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GoogleToolboxForMac-Swift.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "GoogleToolboxForMac-umbrella.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/Pods_Timey.framework/Headers",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/Pods_Timey.framework/Headers",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "Pods-Timey-umbrella.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/Target Support Files/Pods-Timey/Pods-Timey-umbrella.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/Target Support Files/Pods-Timey/Pods-Timey-umbrella.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "Pods_Timey-Swift.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/Pods_Timey.framework/Headers/Pods_Timey-Swift.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Debug-iphoneos/Pods_Timey.framework/Headers/Pods_Timey-Swift.h"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/Pods_Timey.framework/Modules",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/Pods_Timey.framework/Modules",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/Pods-Timey.build/module.modulemap"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/Pods-Timey.build/module.modulemap"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/nanopb/nanopb.framework/Headers",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/nanopb/nanopb.framework/Headers",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "nanopb-Swift.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/nanopb/nanopb.framework/Headers/nanopb-Swift.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Debug-iphoneos/nanopb/nanopb.framework/Headers/nanopb-Swift.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "nanopb-umbrella.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/Target Support Files/nanopb/nanopb-umbrella.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/Target Support Files/nanopb/nanopb-umbrella.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "pb.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/nanopb/pb.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/nanopb/pb.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "pb_common.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/nanopb/pb_common.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/nanopb/pb_common.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "pb_decode.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/nanopb/pb_decode.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/nanopb/pb_decode.h"
+>>>>>>> origin/master
         },
         {
           'type': 'file',
           'name': "pb_encode.h",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/Pods/nanopb/pb_encode.h"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/Pods/nanopb/pb_encode.h"
+>>>>>>> origin/master
         }
       ]
     },
     {
       'type': 'directory',
+<<<<<<< HEAD
       'name': "/Users/jeanpierre/Timey copy/build/Debug-iphoneos/nanopb/nanopb.framework/Modules",
+=======
+      'name': "/Users/jeanpierre/Timey/build/Debug-iphoneos/nanopb/nanopb.framework/Modules",
+>>>>>>> origin/master
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
+<<<<<<< HEAD
           'external-contents': "/Users/jeanpierre/Timey copy/build/Pods.build/Debug-iphoneos/nanopb.build/module.modulemap"
+=======
+          'external-contents': "/Users/jeanpierre/Timey/build/Pods.build/Debug-iphoneos/nanopb.build/module.modulemap"
+>>>>>>> origin/master
         }
       ]
     }
